@@ -1,0 +1,35 @@
+\documentclass[twoside,single]{lion-msc}
+
+\title{Title}
+\author{A. Uthor}
+
+\begin{document}
+
+\maketitle
+
+
+The Common Pipeline Library (CPL) is a library of commands that can do the basic reduction steps of SPHERE data. To run the CPL the commandline driven Esorex package is used. For using the CPL a configuration file is needed that tells the recipe which files are the raw data and which files are the calibration data that are needed for each step. The process of making configuration files and writing the commands is going to be automized. This can easily be done in Python so that there is less time needed to run the reduction for a different dataset. For the basic reduction the following recipes are needed.
+
+\section{Basic reduction steps}
+\subsection{Masterdark}
+The masterdark recipe combines multiple raw dark frames into one masterdark. This recipe determines from the masterdark the position of pixels that give strange results in all measurements, which are called static bad pixels. It returns both a file that contains a master dark frame, consisting of the image, badpixels, the rms and the weightmap and a file that has listed all bad pixels. This master dark frame can be used to correct for fixed-patterns noise that is caused by dark current for instance.
+
+\subsection{Detector flat}
+At this step, the variation in sensitivity of the different pixels are measured. This can be done by using the extreme useful ability of the IFS to obtain flats with the shutter of the instrument closed and one of its internal calibration sources turned on. This means that the detector can be illuminated directly, which enables us to correct better for the distortions of the detector itself. The distortions in the optical path are measured in the recipe that produces the instrument flat. The flat field is wavelength dependend, which means that there have to be taken three different detector flats, for three different wavelengths. It is possible to add a detector flat field of white light as well, which could make the calibration even better. The recipe returns the combined master flat frames for the different lamps that are used. It is possible to use a preamp too, this would give an extra outcome file with the reduced preamp data.
+
+\subsection{Instrument flat}
+This recipe measures the variation in the throughput between different micro lenses. This raw data is obtained by taking a flat with three or four of the external calibration lamps on. After the reduction, the flat field is divided by the detector flat, what has the effect of removing the detector response. This recipe returns both an instrument master flat which is the combined and reduced flat field before removing the detector response and the IFU, which is the flat field after removing the detector response. The first can only be used for calibrating other calibration data, the latter can be used to reduce science data. The IFU does not give all pixels a sensitivity value, but gives the response of each individual lenslet, so it gives for all pixels in the same spectrum a median value.
+
+\subsection{Spectra positioning}
+The spectra positioning recipe determines the exact position of the different spectra on the ccd. It associates pith wavelengths according to a lenslet model. Each pixel in this image has the value of the corresponding wavelength in micron. This model is just a good guess, the exact wavelength can be obtained by running the wavelength calibration. The seperation between the positioning of the spectra and the wavelength calibration makes the positioning of the spectra much better, which is the reason why they have split this step in two. The raw calibration data for the spectra positioning recipe is obtained by illuminating the instrument with an external white calibration light source that is uniformly scattered by use of an integrating sphere that diffuses the incoming light, but preserves the power. This data has to be of the same day as the data is taken.
+
+\subsection{Wavelength calibration}
+The wavelength calibration recipe refines the wavelength of the different pixels, by using data that is obtained by illuminating te instrument with three or four external lasers, emitting at 0.9877, 1.1237, 1.3094 and 1.5451($\mu m$). These lasers have been uniformly scattered with the same integrating sphere as mentioned in the section about the spectra positioning. This data has to be of the same week as the data is taken.\cite{Observatory2007}
+
+\subsection{Distortion map}
+The distortion map is a calibration file that gives the distortion of the lenslet grids. This distortion is a large scale distortion that is caused by a small error in the position of the lenslet grid. This map is made by comparing the expected positions of hundred point sources, with the detected positions of these point sources in the input data file with raw data. If there is no point pattern provided as input, the recipe constructs his own out of the point sources in the reduced images.
+
+%\bibliography{BRP}{}
+%\bibliographystyle{plain}
+
+\end{document}

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: lion-msc.aux
+A level-1 auxiliary file: AlexanderPRA.aux
+The style file: lion-msc.bst
+Database file #1: 4photon.bib
+Warning--can't use both author and editor fields in Greenberger1989
+You've used 27 entries,
+            1872 wiz_defined-function locations,
+            683 strings with 8173 characters,
+and the built_in function-call counts, 6690 in all, are:
+= -- 437
+> -- 386
+< -- 1
++ -- 120
+- -- 93
+* -- 656
+:= -- 915
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 304
+empty$ -- 623
+format.name$ -- 120
+if$ -- 1540
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 28
+newline$ -- 112
+num.names$ -- 27
+pop$ -- 44
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 313
+stack$ -- 0
+substring$ -- 415
+swap$ -- 113
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 55
+width$ -- 29
+write$ -- 221
+(There was 1 warning)

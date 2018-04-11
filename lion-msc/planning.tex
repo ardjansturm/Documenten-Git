@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+\setlength{\textheight}{25.6cm}
+\setlength{\textwidth}{16cm}
+\setlength{\unitlength}{1mm}
+\setlength{\topskip}{2.5truecm}
+\topmargin 260mm \advance \topmargin -\textheight 
+\divide \topmargin by 2 \advance \topmargin -1in 
+\headheight 0pt \headsep 0pt \leftmargin 210mm \advance
+\leftmargin -\textwidth 
+\divide \leftmargin by 2 \advance \leftmargin -1in 
+\oddsidemargin \leftmargin \evensidemargin \leftmargin
+\parindent=12pt
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\frenchspacing
+
+\makeatletter
+\setlength\@fptop{0\p@}
+\makeatother
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[english,dutch]{babel}
+\usepackage{listings}
+\usepackage[super]{natbib}
+\usepackage{amsmath}
+\numberwithin{figure}{section}
+
+\title{\bf{Idee\"en kringopzet}}
+\author{J.A. Sturm}
+
+\begin{document}
+
+\maketitle
+\selectlanguage{dutch}
+
+\begin{table}[ht]
+\centering
+\caption{Schedule of a normal week}
+\begin{tabular}{l|l|l|l|l|l|}
+day 		&\bf{Monday}& \bf{Tuesday}			& \bf{Wednesday}& \bf{Thursday} & \bf{Friday}\\
+\hline
+9:00-10:45	& -			& StAN 					& -				& -				& OBAS \\
+\hline
+11:00-12:45	& StAN 		& -						& HCI meeting	& meeting supervisors 14:00				& -\\
+\hline
+13:30-14:15 & -			& biweekly BRP meeting	& -				& -			& \\\hline
+14:30-17:14 & - 		& - 					& - 			& - 			& - \\
+\hline
+
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\caption{Special dates}
+\begin{tabular}{l|l|l|}
+						& \bf{Dates} 	& \bf{Description}\\\hline
+Courses					& 5-12.02.2018	& Research skills physics\\
+Presentations     		& 27.02.2018 	& project overview [5 min]\\
+						& 24.04.2018	& progress report [5 min]\\
+						& 25.06.2018	& Bachelor Talk [15 min]\\
+Exams 					& 23.03.2018	& On being a scientist 1\\
+						& 14.05.2018	& Statistics AN\\
+						& 08.06.2018	& On being a scientist 2\\
+National holidays		& 30.03.2018	& Goede Vrijdag\\
+						& 02.04.2018	& Tweede Paasdag\\
+						& 27.04.2018	& Koningsdag\\
+						& 10,11.05.2018	& Hemelvaart\\
+						& 21.05.2018	& Tweede Pinksterdag\\
+Deadlines				& 05.03.2018	& project proposal \\
+						& 31.05.2018	& first deadline to hand in Thesis\\
+						& 30.06.2018	& final deadline to hand in Thesis\\\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\caption{Outline of the project}
+\begin{tabular}{l|l|l|}
+								& \bf{Week}		& \bf{Description}	\\\hline
+set up work environment			& 6				& install Linux + needed software  \\
+								&				& fix desk + computer 				\\
+reading given papers			& 7				& \\
+data identification				& 6-8			& find science data + possible calibration data\\
+set up SPHERE pipeline			& 8-9			&\\
+description instrumentation		& mainly 10-12	&\\
+star centering non-coronografic data	& 10	& writing a routine that determines the center \\
+&&of the star in the data, which is a crucial point\\
+&& before going on.\\
+star centering coronografic data & 11			& \\
+ADI on coronografic data & 12,13		& \\
+RDI/SDI on non-coronografic data & 14-16 & \\
+analyzing the effects of used methods& 17-19 & \\
+writing Thesis					& mainly 20-22	&\\
+\end{tabular}
+\end{table}
+
+\end{document}

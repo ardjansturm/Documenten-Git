@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: appa.aux
+The style file: lion-msc.bst
+Database file #1: BRP.bib
+Repeated entry---line 114 of file BRP.bib
+ : @article{Pavlov2016
+ :                    ,
+I'm skipping whatever remains of this entry
+You've used 14 entries,
+            1872 wiz_defined-function locations,
+            517 strings with 7604 characters,
+and the built_in function-call counts, 3469 in all, are:
+= -- 177
+> -- 315
+< -- 2
++ -- 104
+- -- 87
+* -- 353
+:= -- 549
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 150
+empty$ -- 275
+format.name$ -- 101
+if$ -- 735
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 14
+newline$ -- 58
+num.names$ -- 14
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 109
+stack$ -- 0
+substring$ -- 103
+swap$ -- 52
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 24
+width$ -- 16
+write$ -- 112
+(There was 1 error message)

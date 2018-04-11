@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{Pavlov2016}
+A.~Pavlov and M.~Feldt, {\em {SPHERE Data Reduction Pipeline Manual}},
+\newblock page~0 (2016).
+
+\bibitem{Observatory2007}
+E.~S. Observatory, {\em {Very large telescope}},
+\newblock (2007).
+
+\bibitem{Ginski2016}
+C.~Ginski et~al., {\em {Direct detection of scattered light gaps in the
+  transitional disk around HD 97048 with VLT/SPHERE}},
+\newblock Astron. Astrophys. {\bf 595}, A112 (2016).
+
+\bibitem{Brandt2013}
+T.~D. Brandt et~al., {\em {New techniques for high-contrast imaging with ADI:
+  The ACORNS-ADI seeds data reduction pipeline}},
+\newblock Astrophys. J. {\bf 764} (2013).
+
+\bibitem{Claudi2008}
+R.~U. Claudi, M.~Turatto, R.~G. Gratton, J.~Antichi, M.~Bonavita, P.~Bruno,
+  E.~Cascone, V.~{De Caprio}, S.~Desidera, E.~Giro, D.~Mesa, S.~Scuderi,
+  K.~Dohlen, J.~L. Beuzit, and P.~Puget, {\em {SPHERE IFS: the spectro
+  differential imager of the VLT for exoplanets search}},
+\newblock page 70143E (2008).
+
+\bibitem{Mesa2015}
+D.~Mesa et~al., {\em {Performance of the VLT Planet Finder SPHERE II. Data
+  analysis and Results for IFS in laboratory}},
+\newblock  {\bf 121}, 1 (2015).
+
+\end{thebibliography}

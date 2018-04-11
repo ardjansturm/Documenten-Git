@@ -1,0 +1,81 @@
+\begin{thebibliography}{10}
+
+\bibitem{Doering2007}
+R.~L. Doering, M.~Meixner, S.~T. Holfeltz, J.~E. Krist, D.~R. Ardila, I.~Kamp,
+  M.~C. Clampin, and S.~H. Lubow, {\em {HD 97048's Circumstellar Environment as
+  Revealed by a {\textless}i{\textgreater}Hubble Space
+  Telescope{\textless}/i{\textgreater} ACS Coronagraphic Study of Disk
+  Candidate Stars}},
+\newblock Astron. J. {\bf 133}, 2122 (2007).
+
+\bibitem{Pavlov2016}
+A.~Pavlov and M.~Feldt, {\em {SPHERE Data Reduction Pipeline Manual}},
+\newblock page~0 (2016).
+
+\bibitem{Desidera}
+S.~Desidera, R.~Gratton, R.~Claudi, J.~Antichi, D.~Mesa, M.~Turatto, P.~Bruno,
+  E.~Cascone, V.~{De Caprio}, E.~Giro, S.~Scuderi, M.~Feldt, A.~Pavlov,
+  O.~Moeller-Nilsson, K.~Dohlen, J.~L. Beuzit, D.~Mouillet, P.~Puget, and
+  F.~Wildi, {\em {Calibration and data reduction for planet detection with
+  SPHERE-IFS}}.
+
+\bibitem{Brandt2013}
+T.~D. Brandt et~al., {\em {New techniques for high-contrast imaging with ADI:
+  The ACORNS-ADI seeds data reduction pipeline}},
+\newblock Astrophys. J. {\bf 764} (2013).
+
+\bibitem{Ginski2016}
+C.~Ginski et~al., {\em {Direct detection of scattered light gaps in the
+  transitional disk around HD 97048 with VLT/SPHERE}},
+\newblock Astron. Astrophys. {\bf 595}, A112 (2016).
+
+\bibitem{Claudi2008}
+R.~U. Claudi, M.~Turatto, R.~G. Gratton, J.~Antichi, M.~Bonavita, P.~Bruno,
+  E.~Cascone, V.~{De Caprio}, S.~Desidera, E.~Giro, D.~Mesa, S.~Scuderi,
+  K.~Dohlen, J.~L. Beuzit, and P.~Puget, {\em {SPHERE IFS: the spectro
+  differential imager of the VLT for exoplanets search}},
+\newblock page 70143E (2008).
+
+\bibitem{Maaskant2013}
+K.~M. Maaskant, M.~Honda, L.~B. F.~M. Waters, A.~G. G.~M. Tielens, C.~Dominik,
+  M.~Min, A.~Verhoeff, G.~Meeus, and M.~E. van~den Ancker, {\em {Identifying
+  gaps in flaring Herbig Ae/Be disks using spatially resolved mid-infrared
+  imaging}},
+\newblock Astron. Astrophys. {\bf 555}, A64 (2013).
+
+\bibitem{VanderPlas2017}
+G.~van~der Plas, C.~M. Wright, F.~M{\'{e}}nard, S.~Casassus, H.~Canovas,
+  C.~Pinte, S.~T. Maddison, K.~Maaskant, H.~Avenhaus, L.~Cieza, S.~Perez, and
+  C.~Ubach, {\em {Cavity and other radial substructures in the disk around HD
+  97048}},
+\newblock Astron. Astrophys. {\bf 597}, A32 (2017).
+
+\bibitem{Observatory2007}
+E.~S. Observatory, {\em {Very large telescope}},
+\newblock (2007).
+
+\bibitem{VanDenAncker1998}
+M.~E. {Van Den Ancker}, D.~{De Winter}, H.~R.~E. Tjin, and A.~Djie, {\em
+  {Hipparcos photometry of Herbig Ae/Be stars}},
+\newblock Astron. Astrophys {\bf 330}, 145 (1998).
+
+\bibitem{Racine1999}
+R.~Racine, G.~Walker, D.~Nadeau, R.~Doyon, and C.~Marois, {\em {Speckle Noise
+  and the Detection of Faint Companions}},
+\newblock Publ. Astron. Soc. Pacific {\bf 111}, 587 (1999).
+
+\bibitem{VanLeeuwen2007}
+F.~{Van Leeuwen}, {\em {Validation of the new Hipparcos reduction}},
+\newblock A{\&}A {\bf 474}, 653 (2007).
+
+\bibitem{Mesa2015}
+D.~Mesa et~al., {\em {Performance of the VLT Planet Finder SPHERE II. Data
+  analysis and Results for IFS in laboratory}},
+\newblock  {\bf 121}, 1 (2015).
+
+\bibitem{Marois2005}
+C.~Marois, D.~Lafreniere, R.~Doyon, B.~Macintosh, and D.~Nadeau, {\em {Angular
+  Differential Imaging: a Powerful High-Contrast Imaging Technique}},
+\newblock (2005).
+
+\end{thebibliography}
