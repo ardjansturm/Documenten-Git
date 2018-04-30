@@ -92,22 +92,75 @@ The main goal of this project is extracting reliable spectral information for th
 I will split this main goal into some smaller objectives: The first goal is to make a reduction pipeline for the simple calibration of the raw data. This can be partly done with the existing ESO pipeline for SPHERE. After the basic reduction will the focus change to ADI for the coronografic data and RDI of the non-coronographic data. During this reduction I will look more in detail to the instrument itself. What the main optical systems look like in the instrument. On the end I will dive more into the effects of both the coronograph and the post-processing methods on the spectrum and morphology of the disk.
 
 \chapter{Theory}
-\section{The object}
-The main object of study is HD 97048. This star belongs to the constellation Chamaeleon and has co\"ordinates 11 08 03.3106 -77 39 17.490. The distance to HD 97048 is $158^{+16}_{-14}$  \cite{VanLeeuwen2007} and the mass of the star is estimated to be $2.5\pm 0.2 M\odot$ \cite{VanDenAncker1998}. The spectral type of HD 97048 is A0Vep. A0 means that the star has an effective temperature of 10,000 K \cite{Maaskant2013}. Vep means that it belongs to the class of the main-sequence stars or dwarfs, but also that it is a star with unspecified peculiarity and emission lines present.
-\bigskip
-
-\subsection{Herbig Ae/Be stars}
+\section{Herbig Ae/Be stars}
 HD 97048 is a Herbig Ae/Be star, which means that it is a young 2-3 Myr, \cite{VanDenAncker1998}, pre-main-sequence star embedded in an envelope of both gas and dust. This type of star is in the fase of gravitational collapse towards a star and has hence no hydrogen burning in their center, what would stop the gravitational collapse. Herbig stars are divided into two groups, often called group I and group II. Group I stars have been interpreted as stars that host a brigth circumstellar disk with a large gas component. Group II stars are assumed host a much less flared protoplanetary disk, which means that the light of the star cannot reflect on the surface of the disk anymore. This means that the disk only emits light at his own temperature, which means that this type of disks are much less prominent in available data.
 \bigskip 
 
 HD 97048 has a spectral energy distribution which is classified as a group II Herbig Ae/Be star. It is well known that this star has a large circumstellar disk, which has a radius over 600 au \cite{Doering2007}. There are four different rings resolved at $46.4\pm 4.7$au, $161\pm 17$au,	$274\pm 28$au and $341\pm 35$au \cite{Ginski2016}.
+
+\section{The object}
+The main object of study is HD 97048. This star belongs to the constellation Chamaeleon and has co\"ordinates 11 08 03.3106 -77 39 17.490. The distance to HD 97048 is $158^{+16}_{-14}$  \cite{VanLeeuwen2007} and the mass of the star is estimated to be $2.5\pm 0.2 M\odot$ \cite{VanDenAncker1998}. The spectral type of HD 97048 is A0Vep. A0 means that the star has an effective temperature of 10,000 K \cite{Maaskant2013}. Vep means that it belongs to the class of the main-sequence stars or dwarfs, but also that it is a star with unspecified peculiarity and emission lines present.
+\bigskip
+
+\chapter{Instrumentation}
+
+SPHERE, (Spectro-Polarimetric High-contrast Exoplanets REsearch) is an instrument for the VLT which is optimized for high contrast imaging. The instrument is placed in the Nasmyth room of one of the VLT units, as shown in Figure \ref{Fig:overviewSPHERE}. The instrument can be split up into four systems, the common path optics and three subsystems, IRDIS, IFS and ZIMPOL\\ 
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[trim={12cm 6cm 7cm 8.8cm},clip,scale = 0.47]{overviewSPHERE}
+\caption{} 
+\label{Fig:overviewSPHERE}
+\end{figure}
+
+
+\section{SPHERE}
+instrument has 4 subsystems:\\
+\subsection{Common path}
+\subsubsection{pupil stabilizing fore optics}
+\subsubsection{adaptive optics}
+\subsubsection{coronographs}
+
+\subsection{ZIMPOL}
+\subsection{IRDIS}
+\subsection{IFS}
+
+\section{Integral Field Spectroscope}
+
+\begin{figure}[htbp]
+\centering 
+\includegraphics[trim={13cm 5cm 10cm 7cm},clip,scale = 0.47]{overviewIFS}
+\caption{} 
+\label{}
+\end{figure}
+
+\subsection{common light path}
+
+
+\subsubsection{IFU unit}
+
+\begin{figure}[htbp]
+\centering 
+\includegraphics[trim={15cm 5.5cm 10cm 9.5cm},clip,scale = 0.47]{biggre}
+\caption{} 
+\label{}
+\end{figure}
+
+\subsubsection{and prisms}
+\subsubsection{Collimator}
+\subsubsection{Camera}
+\subsubsection{calibration lamps} 
+hoihoi ik ben een leuke paragraaf
+
+fore optics = optics before even hitting an instrument
+saxo = Sphere AO for eXoplanet Observation
 
 \chapter{Methodology}
 The Common Pipeline Library (CPL) is a library of commands that can do the basic reduction steps of SPHERE data. To run the CPL the commandline driven Esorex package is used. For using the CPL a configuration file is needed that tells the recipe which files are the raw data and which files are the calibration data that are needed for each step. The process of making configuration files and writing the commands is going to be automized. This can easily be done in Python so that there is less time needed to run the reduction for a different dataset. For the basic reduction the following recipes are needed.
 
 \clearpage
 
-\section{Basic reduction steps}
+\section{IFS reduction for dummies}
 \subsection{Masterdark}
 The masterdark recipe median combines multiple raw dark frames into one master dark. This recipe determines from the master dark the position of pixels that give strange results in all measurements, which are called static bad pixels. It returns both a file that contains a master dark frame, consisting of the image, badpixels, the rms and the weightmap and a file that contains a static bad pixel map, which has the same content as the second extension in the master dark frame. This master dark is showed in figure \ref{fig:masterdark} and can be used to correct for fixed-pattern noise that is caused by dark current and bad pixels for instance. Notice that the lower right corner of the master dark is relative bright. This is true for all used master darks, but the reason for this is yet unknown.
 
@@ -216,16 +269,12 @@ The distortion map is a calibration file that gives the distortion of the lensle
 \subsection{Background calibration}
 I am still not complete sure what this does. It uses dark frames, but with much longer exposure times. Since it subtracts the masterdark, it feels like a dark with a subtile bias subtraction.
 
-\clearpage
-
 \section{Post-processing methods}
 The advanced post-processing methods that are going to be used in this project are Angular Differential Imaging (ADI), Reference star Differential Imaging (RDI) and Spectral Differential Imaging. I will explain these three methods in the next subsections.
 
-\subsection{Reference star differential imaging}
-Reference star differential imaging (RDI) is a calibration technique that uses the point spread function (PSF) of a similar star as the observed object, without a disk. The PSF from the hosting star is static, so if this could be subtracted, the contrast between the star and the disk is much bigger. It is hard to find a reference star that has been observed in the same mode, in the same period and with the same conditions. All these things can change the PSF drastically, which means that it is impossible to subtract the PSF of reference star. The reference star also has to have about the same spectrum, in order to deal properly with the luminosity difference in different wavelength bins of the different spectral types and the fact that the IFS takes data over a range of wavelengths. 
-\bigskip
+\subsection{centering}
 
-The distorted wavefront that has to be corrected by the adaptive optics of the VLT is measured in the R-band filter. De extreme adaptive optics of the VLT is very sensible and slightly magnitude dependend, which just means that the adaptive otics work better if a brighter object is observed. Consequence of this, is that the reference star to apply RDI, has to be the same order of magnitude in the R band as the observed object. A different performance of the adaptive optics, can change the PSF such that it is not suitable for reference star subtraction anymore. 
+\subsection{normalizing}
 
 \subsection{Angular differential imaging}
 ADI is a calibration technique that works almost the same as the RDI technique explained above. The big difference is that with this technique instead of a reference star, the PSF of the own star is subtracted, which means that it fulfills all the requirements mentioned in the section about RDI. Another advantage is, that no time has to be wasted to collect data from a reference star. 
@@ -236,55 +285,16 @@ ADI can be done by measuring the object over a long period of time with the inst
 \subsection{Spectral differential imaging}
 Spectral differential imaging is a calibration technique that uses the fact that the speckle noise of the star scales with wavelength. In order to subtract the PSF of the star properly, the size of the images is adjusted, such that the speckles of the star are the same size. Then we subtract the median of each individual image and rescale it back to the normal size. Due to the fact that the size of the signal does not scale with wavelength, we are left with only the signal.
 
-\chapter{Instrumentation}
+\chapter{Results}
+\section{ADI}
+\section{SDI}
+\section{Spectral analysis}
+\subsection{signal over wavelength}
+\subsection{signal over azimuthal angle}
 
-SPHERE, (Spectro-Polarimetric High-contrast Exoplanets REsearch) is an instrument for the VLT which is optimized for high contrast imaging. The instrument is placed in the Nasmyth room of one of the VLT units, as shown in Figure \ref{Fig:overviewSPHERE}. The instrument can be split up into four systems, the common path optics and three subsystems, IRDIS, IFS and ZIMPOL\\ 
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[trim={12cm 6cm 7cm 8.8cm},clip,scale = 0.47]{overviewSPHERE}
-\caption{} 
-\label{Fig:overviewSPHERE}
-\end{figure}
-
-
-\section{SPHERE}
-instrument has 4 subsystems:\\
-\subsection{common path}
-AO optics, coronograph, pupil stabilizing fore optics.
-\subsection{ZIMPOL}
-\subsection{IRDIS}
-\subsection{IFS}
-
-\section{Integral Field Spectrosope}
-\subsection{common light path}
-\begin{figure}[htbp]
-\centering 
-\includegraphics[trim={13cm 5cm 10cm 7cm},clip,scale = 0.47]{overviewIFS}
-\caption{} 
-\label{}
-\end{figure}
-
-\subsubsection{IFU unit}
-\subsubsection{Filters and prisms}
-\subsubsection{Collimator}
-\subsubsection{Camera}
-
-
-
-\begin{figure}[htbp]
-\centering 
-\includegraphics[trim={15cm 5.5cm 10cm 9.5cm},clip,scale = 0.47]{biggre}
-\caption{} 
-\label{}
-\end{figure}
-
-\subsection{calibration components}
-\subsubsection{Integration sphere}
-\subsubsection{calibration lamps}
-
-fore optics = optics before even hitting an instrument
-saxo = Sphere AO for eXoplanet Observation
+\chapter{Discussion}
+\section{Comparing SDI and ADI results}
+\section{Evaluation of SPHERE/IFS}
 
 
 
@@ -292,15 +302,22 @@ saxo = Sphere AO for eXoplanet Observation
 
 %\include{AlexanderPRA}
 
-\appendix
-\include{appa}
+%\appendix
+%\include{appa}
 
 \section*{Acknowledgements}
 This research was made possible by financial support from the Dutch Association for Scientific Research (NWO) and the Foundation for Fundamental Research of Matter (FOM).
 
-%\nocite{*}
+%\nocite{Brandt2013}*}
 \bibliographystyle{lion-msc}
 \bibliography{BRP}
+
+\clearpage
+\subsection*{Reference star differential imaging}
+Reference star differential imaging (RDI) is a calibration technique that uses the point spread function (PSF) of a similar star as the observed object, without a disk. The PSF from the hosting star is static, so if this could be subtracted, the contrast between the star and the disk is much bigger. It is hard to find a reference star that has been observed in the same mode, in the same period and with the same conditions. All these things can change the PSF drastically, which means that it is impossible to subtract the PSF of reference star. The reference star also has to have about the same spectrum, in order to deal properly with the luminosity difference in different wavelength bins of the different spectral types and the fact that the IFS takes data over a range of wavelengths. 
+\bigskip
+
+The distorted wavefront that has to be corrected by the adaptive optics of the VLT is measured in the R-band filter. De extreme adaptive optics of the VLT is very sensible and slightly magnitude dependend, which just means that the adaptive otics work better if a brighter object is observed. Consequence of this, is that the reference star to apply RDI, has to be the same order of magnitude in the R band as the observed object. A different performance of the adaptive optics, can change the PSF such that it is not suitable for reference star subtraction anymore. 
 
 \end{document}
 
