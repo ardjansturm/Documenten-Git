@@ -1,36 +1,33 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Expected achievements}{chapter.1}% 2
-\BOOKMARK [0][-]{chapter.2}{Theory}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Herbig Ae/Be stars}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{The object}{chapter.2}% 5
-\BOOKMARK [0][-]{chapter.3}{Instrumentation}{}% 6
-\BOOKMARK [1][-]{section.3.1}{SPHERE}{chapter.3}% 7
-\BOOKMARK [2][-]{subsection.3.1.1}{Common path}{section.3.1}% 8
-\BOOKMARK [2][-]{subsection.3.1.2}{ZIMPOL}{section.3.1}% 9
-\BOOKMARK [2][-]{subsection.3.1.3}{IRDIS}{section.3.1}% 10
-\BOOKMARK [2][-]{subsection.3.1.4}{IFS}{section.3.1}% 11
-\BOOKMARK [1][-]{section.3.2}{Integral Field Spectroscope}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.2.1}{common light path}{section.3.2}% 13
-\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 14
-\BOOKMARK [1][-]{section.4.1}{IFS reduction for dummies}{chapter.4}% 15
-\BOOKMARK [2][-]{subsection.4.1.1}{Masterdark}{section.4.1}% 16
-\BOOKMARK [2][-]{subsection.4.1.2}{Detector flat}{section.4.1}% 17
-\BOOKMARK [2][-]{subsection.4.1.3}{Instrument flat}{section.4.1}% 18
-\BOOKMARK [2][-]{subsection.4.1.4}{Spectra positioning}{section.4.1}% 19
-\BOOKMARK [2][-]{subsection.4.1.5}{Wavelength calibration}{section.4.1}% 20
-\BOOKMARK [2][-]{subsection.4.1.6}{Distortion map}{section.4.1}% 21
-\BOOKMARK [2][-]{subsection.4.1.7}{Background calibration}{section.4.1}% 22
-\BOOKMARK [1][-]{section.4.2}{Post-processing methods}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.2.1}{centering}{section.4.2}% 24
-\BOOKMARK [2][-]{subsection.4.2.2}{normalizing}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.3}{Angular differential imaging}{section.4.2}% 26
-\BOOKMARK [2][-]{subsection.4.2.4}{Spectral differential imaging}{section.4.2}% 27
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 28
-\BOOKMARK [1][-]{section.5.1}{ADI}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.2}{SDI}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.3}{Spectral analysis}{chapter.5}% 31
-\BOOKMARK [2][-]{subsection.5.3.1}{signal over wavelength}{section.5.3}% 32
-\BOOKMARK [2][-]{subsection.5.3.2}{signal over azimuthal angle}{section.5.3}% 33
-\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 34
-\BOOKMARK [1][-]{section.6.1}{Comparing SDI and ADI results}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.2}{Evaluation of SPHERE/IFS}{chapter.6}% 36
+\BOOKMARK [0][-]{chapter.2}{Theory}{}% 2
+\BOOKMARK [1][-]{section.2.1}{protostars}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{The object}{chapter.2}% 4
+\BOOKMARK [0][-]{chapter.3}{Instrumentation}{}% 5
+\BOOKMARK [1][-]{section.3.1}{SPHERE}{chapter.3}% 6
+\BOOKMARK [2][-]{subsection.3.1.1}{Common path}{section.3.1}% 7
+\BOOKMARK [2][-]{subsection.3.1.2}{ZIMPOL}{section.3.1}% 8
+\BOOKMARK [2][-]{subsection.3.1.3}{IRDIS}{section.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.1.4}{IFS}{section.3.1}% 10
+\BOOKMARK [1][-]{section.3.2}{Integral Field Spectroscope}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.2.1}{common light path}{section.3.2}% 12
+\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 13
+\BOOKMARK [1][-]{section.4.1}{IFS reduction for dummies}{chapter.4}% 14
+\BOOKMARK [2][-]{subsection.4.1.1}{Master dark}{section.4.1}% 15
+\BOOKMARK [2][-]{subsection.4.1.2}{Detector flat}{section.4.1}% 16
+\BOOKMARK [2][-]{subsection.4.1.3}{Instrument flat}{section.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.1.4}{Spectra positioning}{section.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.1.5}{Wavelength calibration}{section.4.1}% 19
+\BOOKMARK [1][-]{section.4.2}{Post-processing methods}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{centering}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Angular differential imaging}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.3}{Spectral differential imaging}{section.4.2}% 23
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 24
+\BOOKMARK [1][-]{section.5.1}{ADI}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{SDI}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{Spectral analysis}{chapter.5}% 27
+\BOOKMARK [2][-]{subsection.5.3.1}{signal over wavelength}{section.5.3}% 28
+\BOOKMARK [2][-]{subsection.5.3.2}{signal over azimuthal angle}{section.5.3}% 29
+\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 30
+\BOOKMARK [1][-]{section.6.1}{Comparing classical ADI with TLOCI}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.2}{Comparing SDI and ADI results}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.3}{Evaluation of SPHERE/IFS}{chapter.6}% 33

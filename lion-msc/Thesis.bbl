@@ -4,21 +4,10 @@
 E.~S. Observatory, {\em {Very large telescope}},
 \newblock (2007).
 
-\bibitem{VanLeeuwen2007}
-F.~{Van Leeuwen}, {\em {Validation of the new Hipparcos reduction}},
-\newblock A{\&}A {\bf 474}, 653 (2007).
-
 \bibitem{VanDenAncker1998}
 M.~E. {Van Den Ancker}, D.~{De Winter}, H.~R.~E. Tjin, and A.~Djie, {\em
   {Hipparcos photometry of Herbig Ae/Be stars}},
 \newblock Astron. Astrophys {\bf 330}, 145 (1998).
-
-\bibitem{Maaskant2013}
-K.~M. Maaskant, M.~Honda, L.~B. F.~M. Waters, A.~G. G.~M. Tielens, C.~Dominik,
-  M.~Min, A.~Verhoeff, G.~Meeus, and M.~E. van~den Ancker, {\em {Identifying
-  gaps in flaring Herbig Ae/Be disks using spatially resolved mid-infrared
-  imaging}},
-\newblock Astron. Astrophys. {\bf 555}, A64 (2013).
 
 \bibitem{Doering2007}
 R.~L. Doering, M.~Meixner, S.~T. Holfeltz, J.~E. Krist, D.~R. Ardila, I.~Kamp,
@@ -32,6 +21,21 @@ R.~L. Doering, M.~Meixner, S.~T. Holfeltz, J.~E. Krist, D.~R. Ardila, I.~Kamp,
 C.~Ginski et~al., {\em {Direct detection of scattered light gaps in the
   transitional disk around HD 97048 with VLT/SPHERE}},
 \newblock Astron. Astrophys. {\bf 595}, A112 (2016).
+
+\bibitem{VanLeeuwen2007}
+F.~{Van Leeuwen}, {\em {Validation of the new Hipparcos reduction}},
+\newblock A{\&}A {\bf 474}, 653 (2007).
+
+\bibitem{Maaskant2013}
+K.~M. Maaskant, M.~Honda, L.~B. F.~M. Waters, A.~G. G.~M. Tielens, C.~Dominik,
+  M.~Min, A.~Verhoeff, G.~Meeus, and M.~E. van~den Ancker, {\em {Identifying
+  gaps in flaring Herbig Ae/Be disks using spatially resolved mid-infrared
+  imaging}},
+\newblock Astron. Astrophys. {\bf 555}, A64 (2013).
+
+\bibitem{Mouillet2013}
+D.~Mouillet and J.-l. Beuzit, {\em {SPHERE user manual}},
+\newblock page~1 (2013).
 
 \bibitem{Marois2005}
 C.~Marois, D.~Lafreniere, R.~Doyon, B.~Macintosh, and D.~Nadeau, {\em {Angular

@@ -15,10 +15,10 @@
 %\newdate{date}{27}{08}{2010}
 %\date{\displaydate{date}}
 
-\studentid{s1663011}                           % check you student ID, LaTeX does not do this
+\studentid{S1663011}                           % check you student ID, LaTeX does not do this
 \abstract{Here goes a wonderful abstract.}     % limit your self to 1/2 page or 500 words
-\supervisor{Kenworthy}                         % Note that this should be a LION staff member!
-\corrector{Ruitenbeek}                      % This could be a LION staff member or your external supervisor
+\supervisor{Dr. M.A. Kenworthy}                         % Note that this should be a LION staff member!
+\corrector{Prof. dr. J.M. van Ruitenbeek}                      % This could be a LION staff member or your external supervisor
 
 %\degree{Master of Science}                     % The default option is "Bachelor of Science", change if needed
 
@@ -26,7 +26,7 @@
 %\major{Physics and Mathematics}
 
 % optional cover picture - should be jpg or pdf
-%\coverpicture{\includegraphics[width=13cm]{thesisstyle.png}}
+\coverpicture{\includegraphics[width=7cm]{Fig3a.png}}
 
 % Use this to make hyperlinks visible in the document.
 % \hypersetup{colorlinks=true}
@@ -46,6 +46,7 @@
 % \usepackage{tocloft}
 % \renewcommand{\cftchapdotsep}{\cftdotsep}
 \usepackage{subcaption}
+\usepackage{makecell,tabularx}
 
 \begin{document}
 
@@ -68,31 +69,26 @@
 % in the main part of the document use standard arabic numbers. Page counter resets to 1.
 \pagenumbering{arabic}
 \chapter{Introduction}
-One of the biggest question that exists in each human is how the world around us is formed. It intrigues children already that a pea grows to a complete plant and that their adults were once a child. The big question in astronomy is how the universe has taken his shape as it has today. How stars, planets and galaxies are formed.
+One of the biggest questions that arises in each human is how the world around us is formed. It intrigues children already that a pea grows to a complete plant and that their adults were once a child. Much research in astronomy is how the universe has taken his shape as it has today. How stars, planets and galaxies are formed. A long time it was a question if the solar system was the only place in the universe to harbor planets. Since then, many indirect methods were developed that could tell if a star hosted planets and the first exoplanet was soon confirmed.
 \bigskip
 
-One of the big questions was once if the solar system was the only planet system in the universe or if we also had exoplanets, orbitting other stars than the sun. Different indirect methods were developed that could tell us if a star has some planets hosting and the first exoplanet was soon confirmed. Science has made huge progress in the last few decades in understanding the formation of stars and planets. It is now common known that stars are formed when a big cloud of gas and dust starts to collapse. Much gas and dust that is left in the cloud is attracted by the young stars and starts to fall towards it. Conservation of angular momentum causes this accretion to orbit the star in a plane, while falling inwards, which is called the accretion disk. Planets can form in an accretion disk, when grains form pebbles, pebbles planeto\"ids and planeto\"ids planets. This is actually much more complex since there are many processes going on in a disk. Direct immaging of planets and disks has been impossible for a long time. Stars are much brighter than planets and overshine them completely. With the development of special optics called coronographs and special adaptive optics that correct for the distortion of the light in the atmosphere, we are now able to image planets directly, which can provide us information of the conditions in the protoplanetary disks, which can be really usefull to understand more of exo-planets and their formation.
+Scientists have made huge progress in the last few decades in understanding the formation of stars and planets. It is now common known that stars are formed by the collapse of a big cloud of gas and dust. The gas and dust that is left in the cloud after the birth of a star starts to fall towards it. This accretion material starts to orbit the star in a plane due to the conservation of angular momentum, forming an accretion disk. In this accretion disks, planets start to form, when grains form pebbles, pebbles planeto\"ids and planeto\"ids planets. 
 \bigskip
 
-SPHERE, one of the instruments of the Very Large Telescopes (VLT) in Chili, was build for direct imaging of planets. This instrument collects high resolution data of exo-planets and disks around stars. One mode of the subsystems of the instrument gives both light to IRDIS and IFS. IRDIS is the InfraRed Dual Imaging and Spectograph subsystem that provides classical imaging, dual bang imaging, dual-polarization imaging and long slit spectroscopy with a good resolving power. IFS is the Integral Field Spectroscope that provides a data cube of 39 monochromatic images. \cite{Observatory2007} Since IRDIS data is easier to reduce and analyze, and there exists as much IFS data as there exists IRDIS data, much of the disk data made by IFS is still unpublished. 
+The formation of these planets is actually much more complex since there are many processes going on in a disk. Direct imaging of planets and disks has been impossible for a long time, since the contrast between stars and planets is too big and the point spread function (PSF) of the star too much extended. With the development of special optics called coronographs that improve the contrast, special adaptive optics that correct for the distortion of the light in the atmosphere and special techniques to reduce the stellar PSF, we are now able to image planets and protoplanetary disks directly. This provides us detailed information of the conditions in different planetary systems and protoplanetary disk, which improves our understanding of the formation of planetary systems.
 \bigskip
 
-Since the IFS can provide a resolved spectrum of an object, it is possible to get a spectrum of a protoplanetary disk. Untill now, we do not have any information about the colour of the object that mainly will be analyzed in this project, the disk around Herbig Ae/Be star HD97048. The spectral data can lead us in the future to a better understanding of ongoing planet formation in protoplanatary disks in general, since resolved spectral data of a disk can tell us something about the grain properties in different regions of the disk. This could provide us a better feeling of the requirements for a planet to form in protoplanetary disks. 
+SPHERE, one of the instruments of the Very Large Telescopes (VLT) in Chili, was build for direct imaging of planets. This instrument collects high resolution data of exoplanets and circumstellar disk. One mode of the subsystems of the instrument gives both light to IRDIS and IFS. IRDIS is the InfraRed Dual Imaging and Spectograph subsystem that provides classical imaging, dual bang imaging, dual-polarization imaging and long slit spectroscopy with a good resolving power, IFS is the Integral Field Spectroscope that provides a data cube of 39 monochromatic images. \cite{Observatory2007} Since IRDIS data is easier to reduce and to analyze, and the field of view (FOV) of IRDIS is much bigger than the FOV of the IFS, IRDIS data is much more often analyzed than IFS data. Since there exists as much IFS data as there exists IRDIS data, much of the disk data made by IFS is still unpublished.
 \bigskip
 
-Much of the data of this object is made with a coronograph. A coronograph is a telescopic attachment that is able to modify the point spread function of the instrument such, that the direct light from a star is blocked so that light of nearby objects can be resolved. The difference of incomming flux of a planet or a disk is so much lower than the direct incomming light of the star, the instrument needs a very high contrast in order to resolve the disk or planet. This can be achieved with a coronograph.
-
-\bigskip
-Alongside the coronografic data of this object, there exists non-corono-grafic data of this object. There are no known publications of a protoplanetary disks in non-coronografic data, which makes it very useful to check if it is possible to verify in this data if it is possible to detect a disk. The non-coronographic data could then provide a better feeling of the effects of the coronograph on the spectrum and morphology of the protoplanetary disk.
-
-\section{Expected achievements}
-The main goal of this project is extracting reliable spectral information for the planet forming disk around HD97048. There are various effects at play that we want to understand in the course of the project. It appears that the disk gets better detected at longer wavelengths. One of the goals of the project is to check if this is a property of disks, or that this is only an effect of the adaptive optic performance getting better at longer wavelengths, which it generally does. By use of different post-processing techniques the starlight can be subtracted in order to detect the disk, but these techniques can effect the spectrum and the morphology of the disk. One goal of the project is to check how strong these effects are and what we can trust out of the data.
+Since the IFS can provide a resolved spectrum of an object, it is possible to get a spectrum of a protoplanetary disk. Untill now, we do not have detailed information about the colour of the object that mainly will be analyzed in this project, the disk around T-Tauri star RX J1615.3-3255 (RX J1615). Reliable spectral information of protoplanetary disks can lead us in the future to a better understanding of ongoing planet formation in protoplanatary disks in general, since resolved spectral data of a disk can tell us something about the grain properties in different regions of the disk. This could provide us a better feeling of the requirements for a planet to form in protoplanetary disks. 
 \bigskip
 
-I will split this main goal into some smaller objectives: The first goal is to make a reduction pipeline for the simple calibration of the raw data. This can be partly done with the existing ESO pipeline for SPHERE. After the basic reduction will the focus change to ADI for the coronografic data and RDI of the non-coronographic data. During this reduction I will look more in detail to the instrument itself. What the main optical systems look like in the instrument. On the end I will dive more into the effects of both the coronograph and the post-processing methods on the spectrum and morphology of the disk.
+There are many steps to make for this to achieve. One of the first steps is a good reduction of the raw data. One of the main goals of this research is hence to investigate what the best way is to reduce the raw data, what calibration data is needed and which calibration steps there have to be taken. There are various effects at play that we want to understand if we have this basic reduction done. It appears that the disk gets better detected at longer wavelengths. One of the goals of the project is to check if this is a property of disks, or that this is only an effect of the adaptive optic performance getting better at longer wavelengths, which it generally does. By use of different post-processing techniques the starlight can be subtracted in order to detect the disk, but these techniques can effect the spectrum and the morphology of the disk. One goal of the project is to check how strong these effects are and what we can trust out of the data.
+\bigskip
 
 \chapter{Theory}
-\section{Herbig Ae/Be stars}
+\section{protostars}
 HD 97048 is a Herbig Ae/Be star, which means that it is a young 2-3 Myr, \cite{VanDenAncker1998}, pre-main-sequence star embedded in an envelope of both gas and dust. This type of star is in the fase of gravitational collapse towards a star and has hence no hydrogen burning in their center, what would stop the gravitational collapse. Herbig stars are divided into two groups, often called group I and group II. Group I stars have been interpreted as stars that host a brigth circumstellar disk with a large gas component. Group II stars are assumed host a much less flared protoplanetary disk, which means that the light of the star cannot reflect on the surface of the disk anymore. This means that the disk only emits light at his own temperature, which means that this type of disks are much less prominent in available data.
 \bigskip 
 
@@ -103,19 +99,27 @@ The main object of study is HD 97048. This star belongs to the constellation Cha
 \bigskip
 
 \chapter{Instrumentation}
-
-SPHERE, (Spectro-Polarimetric High-contrast Exoplanets REsearch) is an instrument for the VLT which is optimized for high contrast imaging. The instrument is placed in the Nasmyth room of one of the VLT units, as shown in Figure \ref{Fig:overviewSPHERE}. The instrument can be split up into four systems, the common path optics and three subsystems, IRDIS, IFS and ZIMPOL\\ 
-
-\begin{figure}[htbp]
+\begin{figure}[hb]
 \centering
-\includegraphics[trim={12cm 6cm 7cm 8.8cm},clip,scale = 0.47]{overviewSPHERE}
-\caption{} 
-\label{Fig:overviewSPHERE}
+\begin{subfigure}{.6\textwidth}
+  \centering
+  \includegraphics[trim={25cm 6cm 7cm 8.8cm},clip,width = 1\linewidth]{overviewSPHERE}
+  \caption{\citep{Observatory2007}}
+  %\label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{.4\textwidth}
+  \centering
+  \includegraphics[trim={5cm 12cm 3.5cm 3.5cm},clip,width=1\linewidth]{overview_SPHERE}
+  \caption{}
+  %\label{fig:sub2}
+\end{subfigure}
+\caption{overview of SPHERE}
+\label{fig:masterdark}
 \end{figure}
 
-
 \section{SPHERE}
-instrument has 4 subsystems:\\
+SPHERE, (Spectro-Polarimetric High-contrast Exoplanets REsearch) is an instrument for the VLT which is optimized for high contrast imaging. The instrument is placed in the Nasmyth room of one of the VLT units, as shown in Figure \ref{Fig:overviewSPHERE}. The instrument can be split up into four systems, the common path optics and three subsystems, IRDIS, IFS and ZIMPOL\\ 
+
 \subsection{Common path}
 \subsubsection{pupil stabilizing fore optics}
 \subsubsection{adaptive optics}
@@ -156,13 +160,43 @@ fore optics = optics before even hitting an instrument
 saxo = Sphere AO for eXoplanet Observation
 
 \chapter{Methodology}
-The Common Pipeline Library (CPL) is a library of commands that can do the basic reduction steps of SPHERE data. To run the CPL the commandline driven Esorex package is used. For using the CPL a configuration file is needed that tells the recipe which files are the raw data and which files are the calibration data that are needed for each step. The process of making configuration files and writing the commands is going to be automized. This can easily be done in Python so that there is less time needed to run the reduction for a different dataset. For the basic reduction the following recipes are needed.
-
-\clearpage
 
 \section{IFS reduction for dummies}
-\subsection{Masterdark}
-The masterdark recipe median combines multiple raw dark frames into one master dark. This recipe determines from the master dark the position of pixels that give strange results in all measurements, which are called static bad pixels. It returns both a file that contains a master dark frame, consisting of the image, badpixels, the rms and the weightmap and a file that contains a static bad pixel map, which has the same content as the second extension in the master dark frame. This master dark is showed in figure \ref{fig:masterdark} and can be used to correct for fixed-pattern noise that is caused by dark current and bad pixels for instance. Notice that the lower right corner of the master dark is relative bright. This is true for all used master darks, but the reason for this is yet unknown.
+The Common Pipeline Library (CPL)\citep{Observatory2007} is a library of commands that is able to do the basic reduction steps of SPHERE data. Running the CPL can both by use of Esorex, which is a commandline driven package, or with EsoReflex that provides an easy and flexible way to run the different recipes of the pipeline. Esorex requires the use of a set of frames (sof) file for each recipe. This can easily be automized using Python, but since it is much work to write a code that identifies the different calibration images and mistakes can easily be made in the selection of the required data, I have used EsoReflex for the reduction and I really recommend using EsoReflex in the future. EsoReflex provides a user interface in the form of a workflow with a setup of a basic reduction pipeline in advance, which can be adapted in an easy way. It identifies all the required data that is unsorted stored in the input directory and gives a warning if something is missing. 
+\bigskip
+
+The data needed for a basic reduction is listed in table \ref{Tab:data}. Note that all the data has to be taken in the same mode, YJ or YH, as the science frames. All calibration data needs a corresponding dark frame with the same exposure time. The detectorflats however are taken with many different exposure time. In order to deal with this, two detector flats are needed per calibration lamp with different exposure times. The flat with shortest exposure time acts in the reduction as a dark and bias frame for the other one. This is possible since the flats give relative values by which the pixels have to be divide to measure uniform light, so the values are typical close to one. 
+\bigskip
+
+All individual reductions of calibration data have an own recipe in the common pipeline. A good understanding of these recipes and the corresponding calibration files is useful to get clean results in the end. 
+
+\begin{table}[ht]
+\centering
+\begin{tabularx}{\linewidth}{|>{\hsize=0.2\hsize}X
+							|>{\hsize=0.12\hsize}X
+							|>{\hsize=0.68\hsize}X|}
+\hline
+\textbf{data type} & \textbf{number} & \textbf{comments}\\\hline
+
+science frames&  &can be multiple frames stacked together as a single file with .fits extension.\\\hline
+spectral positions & 1 & exposure time of 1.6507260s$^*$	\\\hline	
+wavelength calibration & 1 & exposure time of 1.6507260s$^*$ \\\hline
+detectorflat lamp 1 & 2 & two different exposure times\\\hline
+detectorflat lamp 2 & 2 & two different exposure times\\\hline
+detectorflat lamp 3 & 2 & two different exposure times\\\hline
+detectorflat lamp 4$^{**}$ & 2 & two different exposure times\\\hline
+detectorflat lamp 5 & 2 & two different exposure times\\\hline
+instrument flat & 1 & \\\hline
+background calibration & 1 & same exposure time as the science frames\\\hline
+dark & & for all calibration frames one with corresponding exposure time\\\hline
+\end{tabularx}
+\footnotesize{$^*$ shortest exposure time possible\\ $^{**}$ only if science data is taken in YH mode}
+\caption{}
+\label{Tab:data}
+\end{table}
+
+\subsection{Master dark}
+The master dark recipe median combined multiple raw dark frames into one master dark. This recipe determines from the master dark the position of pixels that give strange results in all measurements, which are called static bad pixels. It returns both a file that contains a master dark frame, consisting of the image, bad pixels, the rms and the weightmap and a file that contains a static bad pixel map, which has the same content as the second extension in the master dark frame. An example of a master dark is showed in figure \ref{fig:masterdark}. If a background calibration file is given to the final science reduction, the background calibration file is used to correct for the dark current. The difference between these two is small. The only difference is that a normal dark is taken in N\_NS\_OPAQUE infrared IRDIS coronagraph combination mode and a background calibration in N\_NS\_CLEAR, meaning that combination of coronographs used to take the data has changed. Since darks are taken with the shutter closed, there should be no difference between these two and it is actually unclear why they even have both. \cite{Mouillet2013}
 
 \begin{figure}[hb]
 \centering
@@ -174,30 +208,27 @@ The masterdark recipe median combines multiple raw dark frames into one master d
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=1\linewidth]{masterdark}
+  \includegraphics[width=1\linewidth]{dark}
   \caption{master dark}
   %\label{fig:sub2}
 \end{subfigure}
-\caption{result of the masterdark recipe}
+\caption{result of the master dark recipe}
 \label{fig:masterdark}
 \end{figure}
 
 \subsection{Detector flat}
-At this step, the variation in sensitivity of the different pixels are measured. This can be done by using the extreme useful ability of the IFS to obtain flats with the shutter of the instrument closed and one of its internal calibration sources turned on. This means that the detector can be illuminated directly, which enables us to correct better for the distortions of the detector itself. The distortions in the optical path are measured in the recipe that produces the instrument flat, described in the next paragraph. 
+At this step, the variation in sensitivity of the different pixels on the detector was measured. This can be done by using the extreme useful ability of the IFS to obtain flats with the shutter of the instrument closed and one of its internal calibration sources turned on. This means that the detector can be illuminated directly, which enabled us to correct better for the distortions of the detector itself. The distortions in the optical path are measured in the recipe that produces the instrument flat, described in the next paragraph. 
 \bigskip
 
-Before starting the actual detector flat recipe, it is useful to make a preamp flat, which is a largescale flat field that corrects for the stripe structure caused by the pre amplifiers, as showed in figure \ref{fig:preampflat}. The best way to do this, is by putting only the broad band flat field in the recipe and switch the additional output files on. This flat can be used to improve the masterflats and can be used along the masterflats in other calibrations and the final science calibration recipe.
-\bigskip
-
-Since the IFS uses a range of wavelengths, different detector flats are needed, taken in different wavelengths to calibrate all pixels properly. The recipe returns the combined master flat frames for the different lamps that are used. The best flat to use in the rest of the recipes are the large scale flat. One of the large scale flats is shown in figure \ref{fig:largescaleflat}
+Since the IFS uses a range of wavelengths, different detector flats are needed, taken in different wavelengths to calibrate all pixels properly. The recipe returns the combined master flat frames for the different lamps that are used. The best flat to use in the rest of the recipes are the master detector flats Figure \ref{fig:masterdetectorflat}. Large scale flats are master flat frames that are smoothed with a gaussian. On this images the large scale dependences get visible, such as ghosts. Large scale flats can be used as a calibration file for the actual detector flat recipe, but since this effect is so small, it is left out in our reduction. One of the large scale flats is shown in figure \ref{fig:largescaleflat}
 
 \begin{figure}[hb]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=1\linewidth]{preampflat}
-  \caption{pre-amplier flat}
-  \label{fig:preampflat}
+  \includegraphics[width=1\linewidth]{masterdetectorflat}
+  \caption{master detector flat}
+  \label{fig:masterdetectorflat}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
@@ -205,12 +236,12 @@ Since the IFS uses a range of wavelengths, different detector flats are needed, 
   \caption{large scale flat}
   \label{fig:largescaleflat}
 \end{subfigure}
-\caption{result of the detectorflat recipe}
+\caption{result of the detector flat recipe}
 %\label{fig:masterdark}
 \end{figure}
 
 \subsection{Instrument flat}
-This raw data is obtained by taking a flat with three or four of the external calibration lamps on. After the reduction, the flat field is divided by the detector flat, what has the effect of removing the detector response. This recipe returns both an instrument master flat which is the combined and reduced flat field before removing the detector response and the IFU, which is the flat field after removing the detector response. The first can only be used for calibrating other calibration data, the latter can be used to reduce science data. The IFU does not give all pixels a sensitivity value, but gives the response of each individual lenslet, so it gives for all pixels in the same spectrum a median value. Since this causes currently a stripelike feature in the reduced science images, I left it out of the procedure. Both the IFU flat and the instrument flat are shown in figure \ref{fig:instrumentflatrecipe} 
+Instrument flats are obtained by taking a flat with three or four of the external calibration lamps on and is used to correct for the varying througput in the common path of the telescope and the instrument. After the dark subtraction, the flat field is divided by the detector flat, what has the effect of removing the detector response. This recipe returns both an instrument master flat which is the combined and reduced flat field before removing the detector response and the response of the integral field unit (IFU), which is the flat field after removing the detector response. The first can be used only for calibrating other calibration data, the latter can be used to reduce science data. The IFU flat field can be produced only if a reduced wavelength calibration is given. The production of the instrument flat is already possible with the positions of the spectrums only and is used to correct for the distortion of the lenslet grid in the wavelength calibration. The IFU flat does not give all pixels a sensitivity value, but assuming that most of the spatial distortion is due to the lenslet grid, the recipe returns the response of each individual lenslet. It gives for all pixels in the same spectrum a median value. This is why the IFU flat contains a typical stripe like feature. Both the IFU flat and the instrument flat are shown in figure \ref{fig:instrumentflatrecipe}. 
 
 \begin{figure}[hb]
 \centering
@@ -222,28 +253,28 @@ This raw data is obtained by taking a flat with three or four of the external ca
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=1\linewidth]{IFUflat}
-  \caption{IFUflat}
+  \includegraphics[width=1\linewidth]{IFU_flat}
+  \caption{IFU flat}
   %\label{fig:largescaleflat}
 \end{subfigure}
-\caption{result of the instrumentflat recipe}
+\caption{result of the instrument flat recipe}
 \label{fig:instrumentflatrecipe}
 \end{figure}
 
 \subsection{Spectra positioning}
-The spectra positioning recipe determines the exact position of the different spectra on the ccd. It associates pixels with wavelengths according to a lenslet model. Each pixel in this image has the value of the corresponding wavelength in micron. This model is just a good guess, the exact wavelength can be obtained by running the wavelength calibration. The seperation between the positioning of the spectra and the wavelength calibration makes the positioning of the spectra much better, which is the reason why they have split this step in two. The raw calibration data for the spectra positioning recipe is obtained by illuminating the instrument with an external white calibration light source that is uniformly scattered by use of an integrating sphere that diffuses the incoming light, but preserves the power. A zoomed piece of the spectra positioning file is showed in figure \ref{fig:specpos}
+The spectra positioning recipe determines the exact position of the different spectra on the ccd. It associates pixels with wavelengths according to a lenslet model. Note that this is a non-linear model, as is visible in \ref{fig:specpos}. Each pixel in this image has the value of the corresponding wavelength in micron. This model is just a good guess, the exact wavelength can be obtained by running the wavelength calibration. The seperation between the positioning of the spectra and the wavelength calibration makes the positioning of the spectra much better, which is the reason why they have split these steps in two different recipes. The raw calibration data for the spectra positioning recipe is obtained by illuminating the instrument with an external white calibration light source that is uniformly scattered by use of an integrating sphere that diffuses the incoming light, but preserves the power. A zoomed piece of the spectra positioning image is shown in figure \ref{fig:specpos}
 
 \begin{figure}[hb]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{specpos}
-  \caption{zoomed position of spectra}
+  \caption{zoomed positions of the spectra}
   \label{fig:specpos}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=1\linewidth]{wavecal}
+  \includegraphics[width=1\linewidth]{wavecalib}
   \caption{zoomed wavelength calibration}
   \label{fig:wavecal}
 \end{subfigure}
@@ -252,29 +283,12 @@ The spectra positioning recipe determines the exact position of the different sp
 \end{figure}
 
 \subsection{Wavelength calibration}
-The wavelength calibration recipe refines the wavelength of the different pixels, by using data that is obtained by illuminating te instrument with three or four external lasers, emitting at 0.9877, 1.1237, 1.3094 and 1.5451($\mu m$). These lasers have been uniformly scattered with the same integrating sphere as mentioned in the section about the spectra positioning. The recipe tries to fit a spectrum on the positions that are determined in the spectra positioning recipe. Note that if a part of the spectrum does not fit on the ccd, the recipe is unable to fit a spectrum, which is visible in figure \ref{fig:wavecal}
-
-%\cite{Observatory2007}
-
-\subsection{Distortion map}
-The distortion map is a calibration file that gives the distortion of the lenslet grids. This distortion is a large scale distortion that is caused by a small error in the position of the lenslet grid. This map is made by comparing the expected positions of hundred point sources, with the detected positions of these point sources in the input data file with raw data. If there is no point pattern provided as input, the recipe constructs his own out of the point sources in the reduced images. Since this calibration is much less important, and not noticable in the reduced data, it is currently left out.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.5\linewidth]{distortmap}
-\caption{distortion map}
-\label{fig:specpos}
-\end{figure}
-
-\subsection{Background calibration}
-I am still not complete sure what this does. It uses dark frames, but with much longer exposure times. Since it subtracts the masterdark, it feels like a dark with a subtile bias subtraction.
+The wavelength calibration recipe refines the wavelength of the different pixels, by using data that is obtained by illuminating te instrument with three or four external lasers, emitting at 0.9877, 1.1237, 1.3094 and 1.5451($\mu m$). These lasers have been uniformly scattered with the same integrating sphere as mentioned in the section about the spectra positioning. The recipe tries to fit a spectrum on the positions that are determined in the spectra positioning recipe. Note that if a part of the spectrum does not fit on the ccd, the recipe is unable to fit a spectrum, which is visible in figure \ref{fig:wavecal}. 
 
 \section{Post-processing methods}
-The advanced post-processing methods that are going to be used in this project are Angular Differential Imaging (ADI), Reference star Differential Imaging (RDI) and Spectral Differential Imaging. I will explain these three methods in the next subsections.
+After the basic science reduction, the disk around the star is still unnoticable. Post processing techniques, based on making a reference of the stellar PSF were needed 
 
 \subsection{centering}
-
-\subsection{normalizing}
 
 \subsection{Angular differential imaging}
 ADI is a calibration technique that works almost the same as the RDI technique explained above. The big difference is that with this technique instead of a reference star, the PSF of the own star is subtracted, which means that it fulfills all the requirements mentioned in the section about RDI. Another advantage is, that no time has to be wasted to collect data from a reference star. 
@@ -293,6 +307,7 @@ Spectral differential imaging is a calibration technique that uses the fact that
 \subsection{signal over azimuthal angle}
 
 \chapter{Discussion}
+\section{Comparing classical ADI with TLOCI}
 \section{Comparing SDI and ADI results}
 \section{Evaluation of SPHERE/IFS}
 
