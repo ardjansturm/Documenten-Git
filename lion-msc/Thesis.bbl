@@ -4,34 +4,35 @@
 E.~S. Observatory, {\em {Very Large Telescope SPHERE Manual}},
 \newblock (2007).
 
-\bibitem{VanDenAncker1998}
-M.~E. {Van Den Ancker}, D.~{De Winter}, H.~R.~E. Tjin, and A.~Djie, {\em
-  {Hipparcos photometry of Herbig Ae/Be stars}},
-\newblock Astron. Astrophys {\bf 330}, 145 (1998).
+\bibitem{Krautter1997}
+J.~Krautter, R.~Wichmann, J.~H. M.~M. Schmitt, J.~M. Alcala, R.~Neuhauser, and
+  L.~Terranegra, {\em {New "weak-line" T-Tauri stars in Lupus}},
+\newblock a{\&}As {\bf 123}, 329 (1997).
 
-\bibitem{Doering2007}
-R.~L. Doering, M.~Meixner, S.~T. Holfeltz, J.~E. Krist, D.~R. Ardila, I.~Kamp,
-  M.~C. Clampin, and S.~H. Lubow, {\em {HD 97048's Circumstellar Environment as
-  Revealed by a {\textless}i{\textgreater}Hubble Space
-  Telescope{\textless}/i{\textgreater} ACS Coronagraphic Study of Disk
-  Candidate Stars}},
-\newblock Astron. J. {\bf 133}, 2122 (2007).
+\bibitem{Wahhaj2010}
+Z.~Wahhaj, L.~Cieza, D.~W. Koerner, K.~R. Stapelfeldt, D.~L. Padgett, A.~Case,
+  J.~R. Keller, B.~Mer{\'{i}}n, N.~J. Evans, P.~Harvey, A.~Sargent, E.~F. van
+  Dishoeck, L.~Allen, G.~Blake, T.~Brooke, N.~Chapman, L.~Mundy, and P.~C.
+  Myers, {\em {THE SPITZER c2d SURVEY OF WEAK-LINE T TAURI STARS. III. THE
+  TRANSITION FROM PRIMORDIAL DISKS TO DEBRIS DISKS}},
+\newblock Astrophys. J. {\bf 724}, 835 (2010).
 
-\bibitem{Ginski2016}
-C.~Ginski et~al., {\em {Direct detection of scattered light gaps in the
-  transitional disk around HD 97048 with VLT/SPHERE}},
-\newblock Astron. Astrophys. {\bf 595}, A112 (2016).
+\bibitem{DeBoer2016}
+J.~de~Boer et~al., {\em {Multiple rings in the transition disk and companion
+  candidates around RXJ1615.3-3255. High contrast imaging with VLT/SPHERE}},
+\newblock (2016).
 
-\bibitem{VanLeeuwen2007}
-F.~{Van Leeuwen}, {\em {Validation of the new Hipparcos reduction}},
-\newblock A{\&}A {\bf 474}, 653 (2007).
+\bibitem{thesis2014}
+R.~Kooistra, {\em {Unraveling the Transitional Disk RX J1615.3-3255: Scattered
+  Light Observations Versus Disk Models}},
+\newblock (2014).
 
-\bibitem{Maaskant2013}
-K.~M. Maaskant, M.~Honda, L.~B. F.~M. Waters, A.~G. G.~M. Tielens, C.~Dominik,
-  M.~Min, A.~Verhoeff, G.~Meeus, and M.~E. van~den Ancker, {\em {Identifying
-  gaps in flaring Herbig Ae/Be disks using spatially resolved mid-infrared
-  imaging}},
-\newblock Astron. Astrophys. {\bf 555}, A64 (2013).
+\bibitem{Padgett}
+D.~L. Padgett, L.~Cieza, K.~R. Stapelfeldt, N.~J. Evans, D.~Koerner,
+  A.~Sargent, M.~Fukagawa, E.~F. {Van Dishoeck}, J.-C. Augereau, L.~Allen,
+  G.~Blake, T.~Brooke, N.~Chapman, P.~Harvey, A.~Porras, S.-P. Lai, L.~Mundy,
+  P.~C. Myers, W.~Spiesman, and Z.~Wahhaj, {\em {THE SPITZER c2d SURVEY OF
+  WEAK-LINE T TAURI STARS. I. INITIAL RESULTS}}.
 
 \bibitem{Claudi2008}
 R.~U. Claudi, M.~Turatto, J.~Antichi, R.~Gratton, S.~Scuderi, E.~Cascone,
@@ -55,12 +56,5 @@ D.~Mouillet and J.-l. Beuzit, {\em {SPHERE user manual}},
 C.~Marois, D.~Lafreniere, R.~Doyon, B.~Macintosh, and D.~Nadeau, {\em {Angular
   Differential Imaging: a Powerful High-Contrast Imaging Technique}},
 \newblock (2005).
-
-\bibitem{Padgett}
-D.~L. Padgett, L.~Cieza, K.~R. Stapelfeldt, N.~J. Evans, D.~Koerner,
-  A.~Sargent, M.~Fukagawa, E.~F. {Van Dishoeck}, J.-C. Augereau, L.~Allen,
-  G.~Blake, T.~Brooke, N.~Chapman, P.~Harvey, A.~Porras, S.-P. Lai, L.~Mundy,
-  P.~C. Myers, W.~Spiesman, and Z.~Wahhaj, {\em {THE SPITZER c2d SURVEY OF
-  WEAK-LINE T TAURI STARS. I. INITIAL RESULTS}}.
 
 \end{thebibliography}

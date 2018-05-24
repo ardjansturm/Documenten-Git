@@ -1,0 +1,20 @@
+\BOOKMARK [0][-]{chapter.1}{Instrumentation}{}% 1
+\BOOKMARK [1][-]{section.1.1}{SPHERE}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Common path}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{IRDIS}{section.1.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Integral Field Spectroscope}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{IFU unit}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{Detector}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.3}{Calibration devices}{section.1.2}% 8
+\BOOKMARK [0][-]{chapter.2}{Methodology}{}% 9
+\BOOKMARK [1][-]{section.2.1}{IFS reduction for dummies}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{Master dark}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.2}{Detector flat}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.3}{Instrument flat}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.4}{Spectra positioning}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.5}{Wavelength calibration}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.6}{Science reduction}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Post-processing methods}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Centering}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Angular differential imaging}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Spectral differential imaging}{section.2.2}% 20

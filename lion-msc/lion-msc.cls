@@ -216,7 +216,7 @@
     \pagestyle{empty}
     \begin{center}
         \color{lionblue}
-        \vskip 1em
+        %\vskip 0.5em
         \includegraphics[width=2.5cm]{lion-msc-logo.pdf}
         \color{lionblue}
         \noindent\rule{\textwidth}{0.4mm}
@@ -227,11 +227,12 @@
 \posttitle{
         \noindent\rule{\textwidth}{0.4mm}
         \vfill
+        \vskip 1cm
         \ifcover@picture
          \@coverpicture
         \fi
         \vfill
-        \vskip 1em
+        \vskip 1cm
     \end{center}
 
     \begin{center}
@@ -256,6 +257,8 @@
             \end{center}
         \end{minipage}
     \end{center}
+    {\let\thefootnote\relax\footnote{Front page image credit: NAOJ}}
+    %\footnote*{Front page image credit: NAOJ}
     \cleardoublepage
 }
 
