@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.27)  24 MAY 2018 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.27)  29 MAY 2018 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1055,20 +1055,7 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count189
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-(./Thesis.aux
-
-LaTeX Warning: Label `fig:reduceddata' multiply defined.
-
-
-LaTeX Warning: Label `fig:ADIcolor' multiply defined.
-
-
-LaTeX Warning: Label `fig:SDI_tot' multiply defined.
-
-
-LaTeX Warning: Label `fig:ADIcolor' multiply defined.
-
-)
+(./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -1146,13 +1133,13 @@ LaTeX Info: Redefining \nameref on input line 57.
 \openout3 = `Thesis.out'.
 
 
-<lion-msc-logo.pdf, id=148, 68.255pt x 79.29625pt>
+<lion-msc-logo.pdf, id=140, 68.255pt x 79.29625pt>
 File: lion-msc-logo.pdf Graphic file (type pdf)
  <use lion-msc-logo.pdf>
 Package pdftex.def Info: lion-msc-logo.pdf used on input line 63.
 (pdftex.def)             Requested size: 71.13188pt x 82.644pt.
 
-<frontpage.pdf, id=149, 376.40625pt x 286.06876pt>
+<frontpage.pdf, id=141, 376.40625pt x 286.06876pt>
 File: frontpage.pdf Graphic file (type pdf)
  <use frontpage.pdf>
 Package pdftex.def Info: frontpage.pdf used on input line 63.
@@ -1245,7 +1232,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 97.
-<classscheme.pdf, id=245, 597.50829pt x 845.0471pt>
+<classscheme.pdf, id=235, 597.50829pt x 845.0471pt>
 File: classscheme.pdf Graphic file (type pdf)
  <use classscheme.pdf>
 Package pdftex.def Info: classscheme.pdf used on input line 99.
@@ -1278,45 +1265,45 @@ Underfull \hbox (badness 2229) in paragraph at lines 100--100
  []
 
 [5]
-Underfull \hbox (badness 1442) in paragraph at lines 123--124
+Underfull \hbox (badness 1442) in paragraph at lines 125--126
 \OT1/ppl/m/n/12 T-Tauri star RX J1615.3-3255 (here-after RX
  []
 
-<irdisjos.pdf, id=255, 272.01515pt x 255.27933pt>
+<irdisjos.pdf, id=245, 272.01515pt x 255.27933pt>
 File: irdisjos.pdf Graphic file (type pdf)
  <use irdisjos.pdf>
-Package pdftex.def Info: irdisjos.pdf used on input line 127.
+Package pdftex.def Info: irdisjos.pdf used on input line 129.
 (pdftex.def)             Requested size: 195.0pt x 183.01022pt.
 
-Underfull \hbox (badness 1259) in paragraph at lines 128--128
+Underfull \hbox (badness 1259) in paragraph at lines 130--130
 []\OT1/ppl/b/sl/10.95 Figure 2.2: |\OT1/ppl/m/sl/10.95 Re-duc-tion of IRDIS ADI
 
  []
 
-[6 <./classscheme.pdf>] <ifsjos.pdf, id=280, 524.34279pt x 132.88031pt>
+[6 <./classscheme.pdf>] <ifsjos.pdf, id=270, 524.34279pt x 132.88031pt>
 File: ifsjos.pdf Graphic file (type pdf)
 
 <use ifsjos.pdf>
-Package pdftex.def Info: ifsjos.pdf used on input line 139.
+Package pdftex.def Info: ifsjos.pdf used on input line 141.
 (pdftex.def)             Requested size: 390.0pt x 98.8388pt.
  [7 <./irdisjos.pdf> <./ifsjos.pdf
 
 pdfTeX warning: pdflatex (file ./ifsjos.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
->] <SED.pdf, id=530, 597.50829pt x 845.0471pt>
+>] <SED.pdf, id=520, 597.50829pt x 845.0471pt>
 File: SED.pdf Graphic file (type pdf)
  <use SED.pdf>
-Package pdftex.def Info: SED.pdf used on input line 148.
+Package pdftex.def Info: SED.pdf used on input line 150.
 (pdftex.def)             Requested size: 390.0pt x 183.53262pt.
  [8 <./SED.pdf>]
 Chapter 3.
-<overviewSPHERE.png, id=570, 1371.1225pt x 770.88pt>
+<overviewSPHERE.png, id=560, 1371.1225pt x 770.88pt>
 File: overviewSPHERE.png Graphic file (type png)
  <use overviewSPHERE.png>
 Package pdftex.def Info: overviewSPHERE.png used on input line 163.
 (pdftex.def)             Requested size: 226.20071pt x 171.76155pt.
 
-<overview_SPHERE.pdf, id=573, 597.23125pt x 845.1575pt>
+<overview_SPHERE.pdf, id=563, 597.23125pt x 845.1575pt>
 File: overview_SPHERE.pdf Graphic file (type pdf)
 
 <use overview_SPHERE.pdf>
@@ -1325,7 +1312,7 @@ Package pdftex.def Info: overview_SPHERE.pdf used on input line 169.
  [9
 
  <./overviewSPHERE.png> <./overview_SPHERE.pdf>]
-[10] <aoperformance.png, id=601, 1371.1225pt x 770.88pt>
+[10] <aoperformance.png, id=591, 1371.1225pt x 770.88pt>
 File: aoperformance.png Graphic file (type png)
 
 <use aoperformance.png>
@@ -1337,19 +1324,19 @@ Overfull \hbox (3.95572pt too wide) in paragraph at lines 209--210
 tem that works
  []
 
-[12] <systemthroughput.png, id=618, 1371.1225pt x 770.88pt>
+[12] <systemthroughput.png, id=608, 1371.1225pt x 770.88pt>
 File: systemthroughput.png Graphic file (type png)
 
 <use systemthroughput.png>
 Package pdftex.def Info: systemthroughput.png used on input line 213.
 (pdftex.def)             Requested size: 390.0pt x 190.8271pt.
- <overviewIFS.png, id=620, 1371.1225pt x 770.88pt>
+ <overviewIFS.png, id=610, 1371.1225pt x 770.88pt>
 File: overviewIFS.png Graphic file (type png)
 
 <use overviewIFS.png>
 Package pdftex.def Info: overviewIFS.png used on input line 221.
 (pdftex.def)             Requested size: 234.00238pt x 140.21078pt.
- <biggre.png, id=623, 1371.1225pt x 770.88pt>
+ <biggre.png, id=613, 1371.1225pt x 770.88pt>
 File: biggre.png Graphic file (type png)
 
 <use biggre.png>
@@ -1365,20 +1352,20 @@ Underfull \hbox (badness 1953) in paragraph at lines 236--237
 \OT1/ppl/m/n/12 tor in a rect-an-gu-lar area
  []
 
-<bigregrid.png, id=635, 1371.1225pt x 770.88pt>
+<bigregrid.png, id=625, 1371.1225pt x 770.88pt>
 File: bigregrid.png Graphic file (type png)
  <use bigregrid.png>
 Package pdftex.def Info: bigregrid.png used on input line 241.
 (pdftex.def)             Requested size: 310.10774pt x 235.2721pt.
  [14 <./overviewIFS.png> <./biggre.png>] [15 <./bigregrid.png>] [16]
 Chapter 4.
-<rawframe.pdf, id=664, 734.3937pt x 600.94826pt>
+<rawframe.pdf, id=654, 734.3937pt x 600.94826pt>
 File: rawframe.pdf Graphic file (type pdf)
  <use rawframe.pdf>
 Package pdftex.def Info: rawframe.pdf used on input line 266.
 (pdftex.def)             Requested size: 187.19833pt x 153.18016pt.
 
-<reducedframe.pdf, id=665, 707.52771pt x 600.94826pt>
+<reducedframe.pdf, id=655, 707.52771pt x 600.94826pt>
 File: reducedframe.pdf Graphic file (type pdf)
  <use reducedframe.pdf>
 Package pdftex.def Info: reducedframe.pdf used on input line 272.
@@ -1439,26 +1426,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--304
 Underfull \vbox (badness 10000) detected at line 309
  []
 
-[18] <badpixelmap.pdf, id=715, 710.44487pt x 600.94826pt>
+[18] <badpixelmap.pdf, id=705, 710.44487pt x 600.94826pt>
 File: badpixelmap.pdf Graphic file (type pdf)
 
 <use badpixelmap.pdf>
 Package pdftex.def Info: badpixelmap.pdf used on input line 323.
 (pdftex.def)             Requested size: 187.19833pt x 158.34271pt.
- <dark.pdf, id=716, 718.42781pt x 600.94826pt>
+ <dark.pdf, id=706, 718.42781pt x 600.94826pt>
 File: dark.pdf Graphic file (type pdf)
 
 <use dark.pdf>
 Package pdftex.def Info: dark.pdf used on input line 329.
 (pdftex.def)             Requested size: 187.19833pt x 156.58214pt.
- <masterdetectorflat.pdf, id=717, 726.41077pt x 594.92577pt>
+ <masterdetectorflat.pdf, id=707, 726.41077pt x 594.92577pt>
 File: masterdetectorflat.pdf Graphic file (type pdf)
 
 <use masterdetectorflat.pdf>
 Package pdftex.def Info: masterdetectorflat.pdf used on input line 342.
 (pdftex.def)             Requested size: 187.19833pt x 153.30629pt.
 
-<largescaleflat.pdf, id=718, 726.41077pt x 594.92577pt>
+<largescaleflat.pdf, id=708, 726.41077pt x 594.92577pt>
 File: largescaleflat.pdf Graphic file (type pdf)
 
 <use largescaleflat.pdf>
@@ -1482,13 +1469,13 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./largescaleflat.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] <instrumentflat.pdf, id=807, 726.41077pt x 600.94826pt>
+>] <instrumentflat.pdf, id=797, 726.41077pt x 600.94826pt>
 File: instrumentflat.pdf Graphic file (type pdf)
 
 <use instrumentflat.pdf>
 Package pdftex.def Info: instrumentflat.pdf used on input line 365.
 (pdftex.def)             Requested size: 187.19833pt x 154.85823pt.
- <IFU_flat.pdf, id=808, 710.44487pt x 600.94826pt>
+ <IFU_flat.pdf, id=798, 710.44487pt x 600.94826pt>
 File: IFU_flat.pdf Graphic file (type pdf)
 
 <use IFU_flat.pdf>
@@ -1498,13 +1485,13 @@ Package pdftex.def Info: IFU_flat.pdf used on input line 371.
 
 pdfTeX warning: pdflatex (file ./IFU_flat.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
->] <specpos.pdf, id=849, 710.44487pt x 600.94826pt>
+>] <specpos.pdf, id=839, 710.44487pt x 600.94826pt>
 File: specpos.pdf Graphic file (type pdf)
  <use specpos.pdf>
 Package pdftex.def Info: specpos.pdf used on input line 385.
 (pdftex.def)             Requested size: 187.19833pt x 158.34271pt.
 
-<wavecalib.pdf, id=850, 710.44487pt x 600.94826pt>
+<wavecalib.pdf, id=840, 710.44487pt x 600.94826pt>
 File: wavecalib.pdf Graphic file (type pdf)
  <use wavecalib.pdf>
 Package pdftex.def Info: wavecalib.pdf used on input line 391.
@@ -1513,19 +1500,19 @@ Package pdftex.def Info: wavecalib.pdf used on input line 391.
 
 pdfTeX warning: pdflatex (file ./wavecalib.pdf): PDF inclusion: multiple pdfs w
 ith page group included in a single page
->] <centerframe.pdf, id=894, 707.52771pt x 600.94826pt>
+>] <centerframe.pdf, id=884, 707.52771pt x 600.94826pt>
 File: centerframe.pdf Graphic file (type pdf)
  <use centerframe.pdf>
 Package pdftex.def Info: centerframe.pdf used on input line 416.
 (pdftex.def)             Requested size: 187.19833pt x 158.99377pt.
 
-<centermodel.pdf, id=895, 707.52771pt x 600.94826pt>
+<centermodel.pdf, id=885, 707.52771pt x 600.94826pt>
 File: centermodel.pdf Graphic file (type pdf)
  <use centermodel.pdf>
 Package pdftex.def Info: centermodel.pdf used on input line 422.
 (pdftex.def)             Requested size: 187.19833pt x 158.99377pt.
 
-[23] <resultmodel.pdf, id=900, 578.16pt x 180.675pt>
+[23] <resultmodel.pdf, id=890, 578.16pt x 180.675pt>
 File: resultmodel.pdf Graphic file (type pdf)
  <use resultmodel.pdf>
 Package pdftex.def Info: resultmodel.pdf used on input line 432.
@@ -1539,7 +1526,7 @@ pdfTeX warning: pdflatex (file ./centermodel.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex (file ./resultmodel.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->] <aonorm.pdf, id=974, 433.62pt x 289.08pt>
+>] <aonorm.pdf, id=964, 433.62pt x 289.08pt>
 File: aonorm.pdf Graphic file (type pdf)
  <use aonorm.pdf>
 Package pdftex.def Info: aonorm.pdf used on input line 443.
@@ -1579,7 +1566,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 448--450
 \OT1/ppl/m/n/12 be con-sid-ered as a point
  []
 
-[25 <./aonorm.pdf>] <specklegrowth.pdf, id=1017, 433.62pt x 289.08pt>
+[25 <./aonorm.pdf>] <specklegrowth.pdf, id=1007, 433.62pt x 289.08pt>
 File: specklegrowth.pdf Graphic file (type pdf)
 
 <use specklegrowth.pdf>
@@ -1616,7 +1603,7 @@ Underfull \hbox (badness 2512) in paragraph at lines 461--463
  []
 
 [26 <./specklegrowth.pdf>]
-<allnormalization.png, id=1058, 505.89pt x 361.35pt>
+<allnormalization.png, id=1048, 505.89pt x 361.35pt>
 File: allnormalization.png Graphic file (type png)
 
 <use allnormalization.png>
@@ -1631,7 +1618,7 @@ Underfull \hbox (badness 2126) in paragraph at lines 474--477
 
 ]
 Chapter 5.
-<ADI_tot.pdf, id=1076, 643.04303pt x 618.37274pt>
+<ADI_tot.pdf, id=1066, 643.04303pt x 618.37274pt>
 File: ADI_tot.pdf Graphic file (type pdf)
  <use ADI_tot.pdf>
 Package pdftex.def Info: ADI_tot.pdf used on input line 486.
@@ -1651,7 +1638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 487--487
 
  []
 
-<totapertures.pdf, id=1077, 752.1707pt x 727.50041pt>
+<totapertures.pdf, id=1067, 752.1707pt x 727.50041pt>
 File: totapertures.pdf Graphic file (type pdf)
  <use totapertures.pdf>
 Package pdftex.def Info: totapertures.pdf used on input line 492.
@@ -1661,131 +1648,170 @@ Package pdftex.def Info: totapertures.pdf used on input line 492.
 
 pdfTeX warning: pdflatex (file ./totapertures.pdf): PDF inclusion: multiple pdf
 s with page group included in a single page
->] <ADIwavelplot.pdf, id=1142, 957.45454pt x 272.51436pt>
+>] <ADIwavelplot.pdf, id=1131, 957.45454pt x 272.51436pt>
 File: ADIwavelplot.pdf Graphic file (type pdf)
 
 <use ADIwavelplot.pdf>
-Package pdftex.def Info: ADIwavelplot.pdf used on input line 515.
+Package pdftex.def Info: ADIwavelplot.pdf used on input line 513.
 (pdftex.def)             Requested size: 390.0pt x 111.0039pt.
  [30 <./ADIwavelplot.pdf>]
-<SDI_tot.pdf, id=1200, 643.04303pt x 618.37274pt>
+<SDI_tot.pdf, id=1188, 643.04303pt x 618.37274pt>
 File: SDI_tot.pdf Graphic file (type pdf)
  <use SDI_tot.pdf>
-Package pdftex.def Info: SDI_tot.pdf used on input line 524.
+Package pdftex.def Info: SDI_tot.pdf used on input line 523.
 (pdftex.def)             Requested size: 195.0pt x 187.5136pt.
+ [31
 
-Underfull \hbox (badness 1009) in paragraph at lines 531--532
-\OT1/ppl/m/n/12 437 \OMS/zplm/m/n/12 ^^F \OT1/ppl/m/n/12 10$. A same flux cal-c
-u-la-
- []
-
-<SDIwavelplot.pdf, id=1202, 957.45454pt x 272.51436pt>
+ <./SDI_tot.pdf>] <SDIwavelplot.pdf, id=1225, 957.45454pt x 272.51436pt>
 File: SDIwavelplot.pdf Graphic file (type pdf)
- <use SDIwavelplot.pdf>
-Package pdftex.def Info: SDIwavelplot.pdf used on input line 536.
+
+<use SDIwavelplot.pdf>
+Package pdftex.def Info: SDIwavelplot.pdf used on input line 542.
 (pdftex.def)             Requested size: 390.0pt x 111.0039pt.
+ [32 <./SDIwavelplot.pdf>]
+Chapter 6.
+<coloroverangle.pdf, id=1281, 958.2174pt x 217.90346pt>
+File: coloroverangle.pdf Graphic file (type pdf)
 
-[31
+<use coloroverangle.pdf>
+Package pdftex.def Info: coloroverangle.pdf used on input line 554.
+(pdftex.def)             Requested size: 390.0pt x 88.6893pt.
+ [33
 
- <./SDIwavelplot.pdf> <./SDI_tot.pdf
+ <./coloroverangle.pdf>]
+<coloroverpos.pdf, id=1345, 959.18979pt x 216.75856pt>
+File: coloroverpos.pdf Graphic file (type pdf)
+ <use coloroverpos.pdf>
+Package pdftex.def Info: coloroverpos.pdf used on input line 570.
+(pdftex.def)             Requested size: 390.0pt x 88.13402pt.
 
-pdfTeX warning: pdflatex (file ./SDI_tot.pdf): PDF inclusion: multiple pdfs wit
-h page group included in a single page
->] <RDI_tot.pdf, id=1288, 643.04303pt x 618.37274pt>
+
+Package natbib Warning: Citation `Makarov2007' on page 34 undefined on input li
+ne 575.
+
+[34 <./coloroverpos.pdf>] [35] [36
+
+]
+Chapter 7.
+
+Package natbib Warning: Citation `Ginski2016' on page 37 undefined on input lin
+e 581.
+
+<RDI_tot.pdf, id=1409, 643.04303pt x 618.37274pt>
 File: RDI_tot.pdf Graphic file (type pdf)
  <use RDI_tot.pdf>
-Package pdftex.def Info: RDI_tot.pdf used on input line 545.
-(pdftex.def)             Requested size: 195.0pt x 187.5136pt.
+Package pdftex.def Info: RDI_tot.pdf used on input line 591.
+(pdftex.def)             Requested size: 181.34857pt x 174.38869pt.
+ [37]
+Underfull \hbox (badness 1082) in paragraph at lines 600--601
+\OT1/ppl/m/n/12 ADI and SDI im-ages. The sig-nal
+ []
 
-<RDIwavelplot.pdf, id=1289, 957.45454pt x 272.51436pt>
+<RDIwavelplot.pdf, id=1418, 957.45454pt x 272.51436pt>
 File: RDIwavelplot.pdf Graphic file (type pdf)
  <use RDIwavelplot.pdf>
-Package pdftex.def Info: RDIwavelplot.pdf used on input line 554.
+Package pdftex.def Info: RDIwavelplot.pdf used on input line 604.
 (pdftex.def)             Requested size: 390.0pt x 111.0039pt.
 
-[32
-
- <./RDIwavelplot.pdf> <./RDI_tot.pdf
+[38 <./RDIwavelplot.pdf> <./RDI_tot.pdf
 
 pdfTeX warning: pdflatex (file ./RDI_tot.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
 >]
-Chapter 6.
+Chapter 8.
+[39
 
-Underfull \vbox (badness 4846) has occurred while \output is active []
-
- [33
-
-]
-[34]
-Package mdframed Info: mdframed works in twoside mode on input line 599.
-Package mdframed Info: mdframed works in twoside mode on input line 604.
-Package mdframed Info: mdframed works in twoside mode on input line 610.
-Package mdframed Info: mdframed works in twoside mode on input line 616.
-Package mdframed Info: mdframed works in twoside mode on input line 629.
-Package mdframed Info: mdframed works in twoside mode on input line 636.
- [35
+] [40
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 644.
- [36] <workflow.png, id=1397, 321.96284pt x 842.6682pt>
+Chapter 9.
+[41]
+Package mdframed Info: mdframed works in twoside mode on input line 628.
+Package mdframed Info: mdframed works in twoside mode on input line 633.
+Package mdframed Info: mdframed works in twoside mode on input line 639.
+Package mdframed Info: mdframed works in twoside mode on input line 645.
+Package mdframed Info: mdframed works in twoside mode on input line 658.
+Package mdframed Info: mdframed works in twoside mode on input line 665.
+ [42
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 673.
+ [43] <workflow.png, id=1538, 321.96284pt x 842.6682pt>
 File: workflow.png Graphic file (type png)
 
 <use workflow.png>
-Package pdftex.def Info: workflow.png used on input line 664.
+Package pdftex.def Info: workflow.png used on input line 693.
 (pdftex.def)             Requested size: 214.88864pt x 562.3982pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
+ [44
 
- <./workflow.png>] (./Thesis.bbl [38]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 10.
- [39
-
-]) [40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 696.
- [41
+ <./workflow.png>] (./Thesis.bbl [45] [46
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 696.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 10.
+ [47]) [48]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 725.
+[49
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 725.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 696.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 696.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6B353AD4D1C45A80EB1870D0A499B2D8;2285.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 725.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 725.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 2DCEEBEB752E4FCBBC991E8EAC355D64;2114
+(rerunfilecheck)             After:  76B4AD1C55133229D32D9CCFBC773C28;2214.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 19057 strings out of 493029
- 317028 string characters out of 6136234
- 521667 words of memory out of 5000000
- 22140 multiletter control sequences out of 15000+600000
- 39465 words of font info for 101 fonts, out of 8000000 for 9000
+ 19090 strings out of 493029
+ 317447 string characters out of 6136234
+ 522883 words of memory out of 5000000
+ 22154 multiletter control sequences out of 15000+600000
+ 41248 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,65p,10395b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/f
-plmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
-atino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb>
-Output written on Thesis.pdf (47 pages, 7794613 bytes).
+pdfTeX warning (dest): name{section.6.4} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ma
+thpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fpl
+mri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
+ino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+>
+Output written on Thesis.pdf (55 pages, 7833811 bytes).
 PDF statistics:
- 1494 PDF objects out of 1728 (max. 8388607)
- 899 compressed objects within 9 object streams
- 136 named destinations out of 1000 (max. 500000)
- 546 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1642 PDF objects out of 1728 (max. 8388607)
+ 958 compressed objects within 10 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 552 words of extra memory for PDF output out of 10000 (max. 10000000)
 

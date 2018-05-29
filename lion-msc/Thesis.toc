@@ -3,7 +3,6 @@
 \contentsline {chapter}{\numberline {2}Theory}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Protoplanetary disks}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}The object}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}REFERENCE STAR??}{8}{section.2.3}
 \contentsline {chapter}{\numberline {3}Instrumentation}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}SPHERE}{9}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Common path}{10}{subsection.3.1.1}
@@ -27,14 +26,14 @@
 \contentsline {subsection}{\numberline {4.2.1}Centering}{23}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Angular differential imaging}{25}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Spectral differential imaging}{26}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Results}{29}{chapter.5}
+\contentsline {chapter}{\numberline {5}Results of post-processing methods}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}ADI}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}SDI}{31}{section.5.2}
-\contentsline {section}{\numberline {5.3}RDI}{32}{section.5.3}
-\contentsline {chapter}{\numberline {6}Discussion}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Spectral analysis}{33}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Signal over wavelength}{34}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Signal over azimuthal angle}{34}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Comparing classical ADI with TLOCI}{34}{section.6.2}
-\contentsline {section}{\numberline {6.3}Comparing SDI and ADI results}{34}{section.6.3}
-\contentsline {section}{\numberline {6.4}vervolgonderzoek}{34}{section.6.4}
+\contentsline {chapter}{\numberline {6}Spectral analysis}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Morphology changes in the disk}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Brightness changes throughout disk}{34}{section.6.2}
+\contentsline {chapter}{\numberline {7}Additional research}{37}{chapter.7}
+\contentsline {chapter}{\numberline {8}Discussion}{39}{chapter.8}
+\contentsline {section}{\numberline {8.1}Comparing classical ADI with TLOCI}{39}{section.8.1}
+\contentsline {section}{\numberline {8.2}Further research}{39}{section.8.2}
+\contentsline {chapter}{\numberline {9}Conclusion}{41}{chapter.9}

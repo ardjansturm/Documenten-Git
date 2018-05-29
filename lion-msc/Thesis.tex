@@ -120,6 +120,8 @@ The disk in Class 3 objects has dissipated, leaving the protostar with an optica
 Objects in the stage between Class 2 and Class 3 are called transition disks. These stars  have more than just a debris disk, but the disk starts to get less prominent. Some disks have a cleared region, close to the star. This part is heated the most by the star. This cleared region is often called a gap. Inside the cleared region an inner disk can be present as a remnant from the optically thick accretion disk.
 
 \section{The object}
+R band magnitude + spectral type
+
 The main object of study is the disk around T-Tauri star RX J1615.3-3255 (hereafter RX J1615). RX J1615 is a star in the scorpius constellation on the southern hemisphere, with co\"ordinates 16 15 20.231 -32 55 05.10 and a member of the Lupus star forming region. The distance to this region is previously estimated to be 185 kpc \cite{Krautter1997}. The mass of RX J1615 is previously determined to be 1.1$M_\odot$ and the age 1.4 Myr\cite{Wahhaj2010}. 
 
 
@@ -130,7 +132,7 @@ The main object of study is the disk around T-Tauri star RX J1615.3-3255 (hereaf
 \end{wrapfigure}
 
 \noindent
-It is well known that this star hosts large circumstellar disk structures.  As illustrated in Figure \ref{fig:irdisjos}, there are two different rings detected in IRDIS data (R1 and R2) at $278\pm 2$au and $196\pm 2$au, an inner disk component (I1) at $56\pm 2$au and two arcs (A1 and A2). A2 is confirmed to be a full ring, but the detections have not been deep enough to determine the origin of A1, it could either be a seperate ring or the backward facing side of R1. \citep{DeBoer2016}
+It is well known that this star hosts large circumstellar disk structures.  As illustrated in Figure \ref{fig:irdisjos}, there are two different rings detected in IRDIS data (R1 and R2) at $278\pm 2$au and $196\pm 2$au, an inner disk component (I1) at $56\pm 2$au and two arcs (A1 and A2). A2 is confirmed to be a full ring, but the detections have not been deep enough to determine the origin of A1, it could either be a seperate ring or the backward facing side of R1 \citep{DeBoer2016}. In the rest of the document these abbreviations will be used to indicate which part of the disk signal is meant.
 \bigskip
 
 A reduction of IFS T-LOCI ADI data, taken in the Y-J range, is already available of the same dataset, Figure \ref{fig:ifsjos}. Template Locally Optimized Combination of Images (T-LOCI) is an advanced way of selecting regions to make a reference to subtract the point spread function of the star from the data, but conserving the signal of the disk in the data. In this data one ring (corresponding to R1 in Figure \ref{fig:irdisjos}) and small signal of the inner disk component (I1) and the arc closest to the star (A1) are detected.
@@ -151,8 +153,6 @@ RX J1615 is also resolved with the Submillimeter Array (SMA) at 880 $\mu m$ (And
 \end{figure}
 
 The spectral energy distribution (SED) of the star as determined by different research groups is illustrated in Figure \ref{fig:SED}. This figure displayes the contribution in flux of the object over the whole spectrum. The flux of the protostar is responsible for the contribution on the lower end of the SED. This contribution look like a blackbody spectrum with a temperature of about 1900K, peaking around the H-band \citep{Padgett}. The slowly decreasing part on the high end of the SED is due to signal of the disk. The disk is mostly radiating in the infrared, due to its much lower temperature.
-
-\section{REFERENCE STAR??}
 
 \chapter{Instrumentation}
 \section{SPHERE}
@@ -257,7 +257,7 @@ The second calibration arm is mounted internal to IFS, after the IFU, such that 
 
 \chapter{Methodology}
 \section{IFS reduction for dummies}
-Data taken with an integral field spectrograph contains for each pixel a spectrum, Figure \ref{fig:rawdata}. To reduce this to a cube with a frame for each wavelength bin, Figure \ref{fig:reduceddata}, several calibrations were needed. At first the dark current had to be subtracted and all pixels had to be corrected for their sensitivity using detector flat frames. After that the different spectra had to be located and the wavelength of all pixels calibrated. 
+Data taken with an integral field spectrograph contains for each pixel a spectrum, as illustrated in Figure \ref{fig:rawdata}. To reduce this to a cube with a frame for each wavelength bin as illustrated in Figure \ref{fig:reduceddata}, several calibrations were needed. At first the dark current had to be subtracted and all pixels had to be corrected for their sensitivity using detector flat frames. After that the different spectra had to be located and the wavelength of all pixels calibrated. 
 
 \begin{figure}[hb]
 \centering
@@ -275,7 +275,7 @@ Data taken with an integral field spectrograph contains for each pixel a spectru
   \label{fig:reduceddata}
 \end{subfigure}
 \caption{the result of the basic reduction}
-\label{fig:reduceddata}
+\label{fig:datareduction}
 \end{figure}
 
 After correcting for the througput of the lenslet grid, the science reduction produced the final result with 39 spectral channels, each with a dimension of 291x291 spaxels.
@@ -477,7 +477,7 @@ Just as in the angular differential imaging, the data needs to be normalized bef
 
 The normalization factor as derived in the second way mentioned differed just a little from the one using the center frames, but this left us with good results in the end. The dips in the normalization factors line up with the expected dips in the throughput of the atmosphere due to absorbtion, Figure \ref{fig:throughputnorm}, since there is a big abundance of strong absorbtion lines of water in that part of the spectrum. The general trend is a decreasing flux over wavelength. The SED of the star peaks in the H band, as discussed in section 2.2 and illustrated in Figure \ref{fig:SED} \citep{Padgett}. This would indicate that the total incoming flux of the star should slighty increase over the range of the IFS. The fact that we see a decrease in flux instead is definitely due to wavelength dependencies in the throughput of the instrument as illustrated in Figure \ref{fig:systemthrougput}. 
 
-\chapter{Results}
+\chapter{Results of post-processing methods}
 \section{ADI}
 \begin{figure}[!b]
 \centering
@@ -497,18 +497,16 @@ The normalization factor as derived in the second way mentioned differed just a 
 %\label{fig:masterdark}
 \end{figure}
 
-One of the rings (R2 in Figure \ref{fig:irdisjos}) is well detected after the ADI reduction of the data. A fit over this ring gave an ellips with a semi minor axis of 0.61", a semi major axis of 0.92" and a full width half maximum of 0.067",rotated over $55^o$ as illustrated in Figure \ref{fig:ADIfit}. The arc just inside this ring (A2 in Figure \ref{fig:irdisjos}) is visible but the signal to noise ratio of this arc is not sufficient to do any analysis on this. There are some signs for a gap between A2 and the innermost disk structures. Due to the structures of the noise in that region, which is a byproduct of the ADI recipe, it is impossible to tell the exact radius where this gap is present.
+One of the rings (R2 in Figure \ref{fig:irdisjos}) is well detected after the ADI reduction of the data. A fit over this ring gave an ellips with a semi minor axis of 0.61", a semi major axis of 0.92" and a full width half maximum of 0.067",rotated over $55^o$ as illustrated in Figure \ref{fig:ADIfit}. The arc just inside this ring (A2) is visible but the signal to noise ratio of this arc is not sufficient to do any analysis on this. There are some signs for a gap between A2 and the innermost disk structures. Due to the structures of the noise in that region, which is a byproduct of the ADI recipe, it is impossible to tell the exact radius where this gap is present.
 \bigskip
 
 The total amount of counts of the ring in the ADI reduction is $437\pm 10$. A same flux calculation of the region in the fit on the other side of the star, selected with a different mask as displayed in Figure \ref{fig:ADIfit}, shows an estimate of the background signal of $-6\pm 9$ counts. The background signal is close to zero as expected, it being negative is a side effect of the differential imaging. 
 \bigskip
 
-As visible in Figure \ref{fig:ADItot}, the ring gets fainter when it approaches the minor axis. This is due to selfsubtraction of the ring in the ADI routine, since the ring approaches a circular shape at that point as seen from the center of rotation.
+As visible in Figure \ref{fig:ADItot}, the ring gets fainter when it approaches the minor axis of the fitted ellips. This is due to selfsubtraction of the ring in the ADI routine, since the ring approaches a circular shape at that point as seen from the center of rotation.
 \bigskip
 
 The position and shape of the disk signal in the data after the ADI reduction does not change with increasing wavelength as illustrated in Figure \ref{fig:ADIcolor}. The shape of the ring and the variations in flux does not change, just as the structures in the background. The total signal of the disk however, does increase with wavelength. This variation is worked out in detail in the discussion.
-
-
 
 \begin{figure}[htb]
 \centering
@@ -520,80 +518,108 @@ The position and shape of the disk signal in the data after the ADI reduction do
 \clearpage
 \section{SDI}
 \begin{wrapfigure}{R}{0.5\textwidth}
+\vspace{-0.5 cm}
 \centering
 \includegraphics[width=\linewidth]{SDI_tot}
 \caption{The median SDI image of all exposures over the whole Y-J wavelength range of RX J1615}
 \label{fig:SDI_tot}
+\vspace{-0.7 cm}
 \end{wrapfigure}
 
-The big ring that is visible after the ADI reduction is also visible after the SDI reduction. By using the same fit as after the ADI reduction, we measured the total flux of the ring after applying SDI on the data to be 644 $\pm 13$. This is a bit more than the total flux of the ring after applying ADI. The flux in the background, measured in the same annulus over the same area on the other side of the star, is 73 $\pm 11$. This is also more than after applying ADI, leaving slightly more signal of the disk in the SDI image after subtraction the total flux of the background.  
+The big ring (R2) that is visible after the ADI reduction is also visible after the SDI reduction. By using the same fit as after the ADI reduction, we measured the total flux of the ring after applying SDI on the data to be 644 $\pm 13$. This is a bit more than the total flux of the ring after applying ADI. The flux in the background, measured in the same annulus over the same area on the other side of the star, is 73 $\pm 11$. This is also more than after applying ADI, leaving slightly more signal of the disk in the SDI image after subtraction the total flux of the background.  
+\bigskip
 
-black hole.
+A2, the arc just inside R2, is visible as well, but its shape has changed with respect to the ADI reduction. This is probably due to the dark arc just inside A2, which is caused by a bad region of the detector, rotated over the different exposures. This bad region could cause a difference in the model for the PSF of the star after scaling the whole image according to its wavelength, as mentioned in chapter 4. The bad region is then smeared out over a larger region of the image, leaving some negative signal in that region for certain wavelengths before taking the median to build a model for the stellar PSF. This could cause that A2 is more prominent above the bad region and looks much more circular than after applying ADI. 
+\bigskip
 
-A2 and innermost structure.
+The innermost disk structure (I1) is much more prominent in the SDI data than in the ADI data. It is clearly visible that this has a ringlike shape over a range of almost $180^o$. The closed circular ring at an angular seperation of 0.15" is an artefact of the reduction method, probably due to the structure in the raw signal that is caused by the coronagraph, as displayed in Figure \ref{fig:reduceddata}. Furthermore, the SDI image does show much less structures in the background than the ADI image. This could either mean that these structures are created during the ADI procedure or that the SDI procedure needs a higher contrast signal to work properly.
+\bigskip
 
-
+From Figure \ref{fig:SDIcolor} it becomes clear that the signal of the disk increases with increasing wavelength, just as the signal after applying ADI does. The disk being positive at longer wavelengths and negative at shorter wavelengths is probably an artefact of the classical SDI routine. 
 
 \begin{figure}[htb]
 \centering
 \includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = \textwidth]{SDIwavelplot}
 \caption{Reduction of IFS SDI data. From left to right: \textbf{a:} median of the first 13 channels (0.96-1.07$\mu m$) \textbf{b:} median of 13 channels (1.08-1.21 $\mu m$) \textbf{c:} median of 13 channels (1.22-1.33 $\mu m$) \textbf{d:} median of the entire YJ range}
-\label{fig:ADIcolor}
+\label{fig:SDIcolor}
 \end{figure}
 
-\clearpage
-\section{RDI}
-\begin{wrapfigure}{R}{0.5\textwidth}
+\noindent
+Taking just the median over wavelength per pixel leaves some signal of the disk in the model of the PSF, causing some areas to be oversubtracted and other areas to be undersubtracted. This changes over wavelength since the signal of the disk in the model for the PSF in the SDI routine is rescaled corresponding to the wavelength.
+
+\chapter{Spectral analysis}
+\section{Morphology changes in the disk}
+\begin{figure}[htb]
+\centering
+\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = \textwidth]{coloroverangle}
+\caption{The relative flux over azimuthal angle in three different wavelength bins \textbf{a:} 13 channels (0.96-1.07$\mu m$) \textbf{b:} 13 channels (1.08-1.21 $\mu m$) \textbf{c:} 13 channels (1.22-1.33 $\mu m$) \textbf{d:} signal of the whole spectrum}
+\label{fig:coloroverangle}
+\end{figure}
+
+The morphology of the disk is dependent of the reduction method that is chosen. In the ADI image as illustrated in \ref{fig:ADItot} is a clear dip in the signal visible at the point where the ring approaches the center of rotation. To quantify this change in flux in that region, we measured the flux in an apperture that is dragged over the whole ring. The apperture is circular with a radius of 0.067", as wide as the FWHM of the ring. This analysis is shown in Figure \ref{fig:coloroverangle}. This figure illustrates that the ring in the ADI image approaches zero at an azimuthal angle of about $50^o$ in the different wavelength bins. The signal in the SDI image is much more constant throughout the ring. Since the total effective flux of R2 in the SDI image is a bit higher than in the ADI image, we can conclude that part of the signal in the ADI image is selfsubtracted. This is due to the fact that the ring approaches a circular shape, which means that it shows up on the same location in each exposure. The model for the stellar PSF contains hence this part of the signal, which means that the disk signal is subtracted from the image.
+\bigskip
+
+The innermost disk structure is much better visible in the SDI image. This is due to the way ADI works. On small radii from the center of rotation, the signal has not moved enough over the detector if the field rotates with $4^o$ per exposure and the signal is distorted. This is why the structure of the disk is unclear in the ADI image. Since this structure is not that wide, it does not show up much in the model during the SDI prodecedure, which means that it looks much cleaner in the final SDI image.
+\bigskip
+
+\section{Brightness changes throughout disk}
+As already visible in Figure \ref{fig:coloroverangle} and worked out further in Figure \ref{fig:coloroverpos} the signal does change over wavelength. In this figure, the flux in three different regions is plotted against the wavelength. There is a linear trend visible in both the ADI data and the SDI data. The signal in the SDI image fluctuates much over wavelength in the first region between $-10^o$ and $30^o$. This is probably due to edge effects and the unexpected negative values at shorter wavelengths, as shown in Figure \ref{fig:SDIcolor}. 
+
+\begin{figure}[htb]
+\centering
+\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = \textwidth]{coloroverpos}
+\caption{The relative flux of the signal over wavelength in four different regions:\textbf{a:} azimuthal angle between $-10^o$ and $30^o$  \textbf{b:} azimuthal angle between $30^o$ and $70^o$ \textbf{c:} azimuthal angle between $70^o$ and $110^o$ \textbf{d:} signal of the whole ring.}
+\label{fig:coloroverpos}
+\end{figure}
+
+It is unclear if we could trust this data. The guide star is faint (R = 11.21 mag) \citep{Makarov2007}, which means that the strehl ratio in the R-band was very poor ($SR_R$ < 3\%\citep{DeBoer2016}). A poor Strehl-ratio means that the performance of SAXO is not optimal, meaning that structures can be smoothed out. Since the performance of SAXO gets better for longer wavelengths and signal is present close to R2, it is impossible to say if the increase in signal over wavelength is partly astrophysical or just an increased SAXO performance. Some signal could be washed out of the disk signal due to the low resolution. If the wavelength dependence is astrophysical, it could be caused by variations in the grain size or the chemistry throughout the disk. A good analysis of A2 and the innermost region could indicate if this change in surface brightness is astrophysical, since the surface brightness of these structures should change as well if the mechanism behind this is the increase in performance of SAXO at longer wavelengths. Radiative transfer models could be used to find an answer whether we are looking at a true astrophysical change in surface brightness with increasing wavelength or a result of the bad strehl ratio, but that is behind the scope of this project.
+\bigskip
+
+Calculating the exact error on the data points is difficult, since it is hard to determine how much of the signal is smoothed out due to the poor Strehl-ratio and how much selfsubtraction is going on during the different procedures. What we know is that the signal 
+
+\chapter{Additional research}
+After we got good results on this dataset we ran the same procedure over a dataset of HD97048, which contains many disk structures as well \citep{Ginski2016}. The signal to noise ratio for this dataset was not sufficient to detect any disk structures in both classical ADI and SDI with SPHERE/IFS.
+\bigskip
+
+After analyzing the effects on the data of the ADI and SDI procedure and investigating what we can trust out of the data, we tried also classical Reference star Differential Imaging to see what the effects of this methods are on the data. The star TYC\_7408\_0054\_1 is used as a reference model to subtract the stellar PSF from the total signal. This star is located at 18 50 44.4873 -31 47 47.332, so close to RX J1615, has spectral type K8Ve, which is close to K5D, the spectral type of RX J1615 and has an R-band magnitude of 10.745, which is close to 11.21, the R-band magnitude of RX J1615. These three parameters together with the fact that there is data of this star available that is taken in the same night as the RX J1615 dataset, make this star to be a good choice for a reference star. The throughput of the atmosphere varies over direction and time, which makes the date of the dataset and the direction of the star relevant. 
+The AO system performs better at lower R-band magnitudes, which means that the R-band magnitude of the reference star has to be from the same order as RX J1615 and the spectral type has to be the same to use its PSF as a model that can be subtracted from the reduced RX J1615 dataset.
+\bigskip
+
+\begin{wrapfigure}{R}{0.465\textwidth}
+\vspace{-5mm}
 \centering
 \includegraphics[width=\linewidth]{RDI_tot}
 \caption{The median RDI image of all exposures over the whole Y-J wavelength range of RX J1615}
-\label{fig:SDI_tot}
+\label{fig:RDI_tot}
+\vspace{-7mm}
 \end{wrapfigure}
 
-Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. Hier komt dan een shitload text. 
+R2 is detected in the RDI image as well, as illustrated in Figure \ref{fig:RDI_tot} and has a total flux of $10943 \pm 255$ and a total flux in the background of $8881 \pm 220$. This means that this is much higher than the signal in the ADI and SDI image. For a good comparison however, is a better normalization needed between the PSF of the reference star and RX J1615. This normalization was not sufficient, since the background has such a high value, even in the regions where no disk signal is present in the ADI and SDI data.
+\bigskip
+
+Figure \ref{fig:RDIcolor} illustrates that the signal of the disk increases at longer wavelengths, just as noticed from the ADI and SDI images. The signal in the RDI image seems much more prominent at low azimuthal angles as well. This could however also be an edge effect or a result of the insufficient normalization. Additional research is needed before this could be compared in a correct way with the ADI and SDI image.
 
 \begin{figure}[htb]
 \centering
 \includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = \textwidth]{RDIwavelplot}
 \caption{Reduction of IFS RDI data. From left to right: \textbf{a:} median of the first 13 channels (0.96-1.07$\mu m$) \textbf{b:} median of 13 channels (1.08-1.21 $\mu m$) \textbf{c:} median of 13 channels (1.22-1.33 $\mu m$) \textbf{d:} median of the entire YJ range}
-\label{fig:ADIcolor}
+\label{fig:RDIcolor}
 \end{figure}
 
-
-
 \chapter{Discussion}
-\section{Spectral analysis}
-kunnen mss wat zeggen bij increasing wavelength als blijkt dat kleinere arc constant blijft?
-
-iets over de totale flux over het schijfie. SDI iets hoger, want geen dip/minder selfsubtraction.
-
-Errors
-
-
-We detect a similar wavelength dependence of the R2 surface brightness when we compare the three wavelength regimes of the IFS in Figure 3. If this wavelength dependence is truely astrophysical, it could be indicative of spatial/radial variations in the chemistry or grain size distribution throughout the disk. However, the low Strehl ratio and FWHM of the ZIMPOL data described in Sec- tion 2 can also be responsible for washing out a structure which is not resolved in the radial direction, smoothing out the unre- solved structure so much that we can no longer distinguish R2 from the surface brightness of its surroundings. The simultane- ous measurements at the three IFS wavelength regimes suffer from the same systematic effect: the Strehl ratio increases for longer wavelength. Since disk signal is present both directly inside and outside
-of R2, we cannot determine if the low resolution of the R? image has washed out the disk signal. Convolving a radiative transfer model with the PSFs of the different observations will be the best way to answer whether we are looking at a true astrophysi- cal change with wavelength of the surface brightness or rather at systematic effects due to the difference in Strehl ratio and FWHM. However, creating a realistic radiative transfer model lies outside the scope of this paper and is left for future work.
-6.
-
-
-\subsection{Signal over wavelength}
-\subsection{Signal over azimuthal angle}
-
 \section{Comparing classical ADI with TLOCI}
-\section{Comparing SDI and ADI results}
+Comparing the reduced image of the classical ADI as done during this research which is illustrated in Figure \ref{fig:ADIcolor} and the T-LOCI ADI reduction provided in earlier research which are illustrated in Figure \ref{fig:ADIcolor} and Figure \ref{fig:ifsjos} does not give big differences. The morphology of the clear resolved ring and the structures in the background are the same in both images and A2 is also as good detected in the classical ADI image as in the T-LOCI reduction. This means that the median of the different exposures, as created during the ADI procedure, is already a good reference for the stellar PSF and does not contain much disk signal. The reason why the more advanced reduction method T-LOCI does not make the signal of the disk beter detectable in this case is probably the amount of field rotation in the dataset. This is with $69^o$ over 16 exposures very good, meaning that there is a minimum amount of selfsubtraction going on in the dataset. This makes that the classical method used already a good model for the stellar PSF, taking all the excess signal out of the data, but leaving as much signal of the disk as possible in the final image.  
+
+\section{Further research}
+PCA
+better RDI reduction
+error on the wavelength dependent flux over the azimuthal angle.
+
+\chapter{Conclusion}
 
 
 
-A big disadvantage of this method, is that it has often to deal with self-subtraction, meaning that the signal of the disk is subtracted by another part of the signal of the disk, leaving us with no detected signal.  
 
-
-
-A second order of problems consists in the fact that the im-
-age could not be uniformely illuminated because of an out of focus ghost on the telescope simulator optics. To solve this prob- lem,we performed a bidimensional fit on the original image. The image resulting from this procedure is an inclined plane func- tion that is subtracted to the original image.While this problem arises from the telescope simulator, we cannot exclude that a similar problem could arise for the on-sky data. (MESA)
-
-
-
-After we got good results on this dataset we ran the same procedure over a dataset of HD97048, but the signal to noise ratio for this dataset was not sufficient to detect any disk structures in both ADI and SDI.
-\section{vervolgonderzoek}
 
 \clearpage
 \huge{Appendix 1: Sof files}
