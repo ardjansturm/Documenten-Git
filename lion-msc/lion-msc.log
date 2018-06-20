@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.27)  17 MAY 2018 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.27)  1 JUN 2018 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,18 +489,14 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-dutch/dutch.ldf
-Language: dutch 2005/03/30 v3.8i Dutch support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count103
 \U@D=\dimen122
 )
-Package babel Info: Making " an active character on input line 132.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -577,10 +573,6 @@ LaTeX Info: Redefining \today on input line 736.
 
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-USenglish.def
 File: dt-USenglish.def 2013/09/10
-)
-(/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-dutch.def
-File: dt-dutch.def 2015/03/20
-LaTeX Info: Redefining \datedutch on input line 64.
 )
 \dt@a=\toks24
 \dt@b=\toks25
@@ -1070,10 +1062,10 @@ Package rerunfilecheck Info: File `lion-msc.out' has not changed.
 (rerunfilecheck)             Checksum: 673167D0258EF3152EAE923F3AE3C80D;1363.
  ) 
 Here is how much of TeX's memory you used:
- 10596 strings out of 493029
- 150272 string characters out of 6136234
- 273621 words of memory out of 5000000
- 13788 multiletter control sequences out of 15000+600000
+ 10544 strings out of 493029
+ 149341 string characters out of 6136234
+ 272144 words of memory out of 5000000
+ 13743 multiletter control sequences out of 15000+600000
  46467 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,12n,45p,1939b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1092,7 +1084,7 @@ dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb>
-Output written on lion-msc.pdf (33 pages, 865290 bytes).
+Output written on lion-msc.pdf (33 pages, 865281 bytes).
 PDF statistics:
  411 PDF objects out of 1000 (max. 8388607)
  347 compressed objects within 4 object streams

@@ -1,39 +1,41 @@
 \select@language {USenglish}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Theory}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Protoplanetary disks}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}The object}{6}{section.2.2}
-\contentsline {chapter}{\numberline {3}Instrumentation}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}SPHERE}{9}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Common path}{10}{subsection.3.1.1}
-\contentsline {subsubsection}{pupil stabilizing fore optics}{10}{section*.7}
-\contentsline {subsubsection}{adaptive optics}{11}{section*.8}
-\contentsline {subsubsection}{coronographs}{12}{section*.10}
-\contentsline {subsection}{\numberline {3.1.2}IRDIS}{12}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Integral Field spectrograph}{13}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}IFU unit}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Detector}{14}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Calibration devices}{15}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Methodology}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}IFS reduction for dummies}{17}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Master dark}{19}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Detector flat}{20}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Instrument flat}{21}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Positioning spectra}{22}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Wavelength calibration}{23}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Science reduction}{23}{subsection.4.1.6}
-\contentsline {section}{\numberline {4.2}Post-processing methods}{23}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Centering}{23}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Angular differential imaging}{25}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Spectral differential imaging}{26}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Protoplanetary disks}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}The object}{4}{section.2.2}
+\contentsline {chapter}{\numberline {3}Instrumentation}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}SPHERE}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Common path}{8}{subsection.3.1.1}
+\contentsline {subsubsection}{pupil stabilizing fore optics}{8}{section*.7}
+\contentsline {subsubsection}{adaptive optics}{9}{section*.8}
+\contentsline {subsubsection}{coronagraphs}{10}{section*.10}
+\contentsline {subsection}{\numberline {3.1.2}IRDIS}{11}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Integral Field spectrograph}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}IFU unit}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Detector}{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Calibration devices}{14}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Methodology}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}IFS reduction for dummies}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Master dark}{17}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Detector flat}{18}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Instrument flat}{19}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Positioning spectra}{20}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Wavelength calibration}{21}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Science reduction}{21}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Post-processing methods}{21}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Centering}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Angular differential imaging}{23}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Spectral differential imaging}{24}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Reference star differential imaging}{26}{subsection.4.2.4}
 \contentsline {chapter}{\numberline {5}Results of post-processing methods}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}ADI}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}SDI}{31}{section.5.2}
-\contentsline {chapter}{\numberline {6}Spectral analysis}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Morphology changes in the disk}{33}{section.6.1}
-\contentsline {section}{\numberline {6.2}Brightness changes throughout disk}{34}{section.6.2}
-\contentsline {chapter}{\numberline {7}Additional research}{37}{chapter.7}
-\contentsline {chapter}{\numberline {8}Discussion}{39}{chapter.8}
-\contentsline {section}{\numberline {8.1}Comparing classical ADI with TLOCI}{39}{section.8.1}
-\contentsline {section}{\numberline {8.2}Further research}{39}{section.8.2}
-\contentsline {chapter}{\numberline {9}Conclusion}{41}{chapter.9}
+\contentsline {section}{\numberline {5.3}RDI}{32}{section.5.3}
+\contentsline {chapter}{\numberline {6}Spectral analysis}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Morphology changes in the disk}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Brightness changes throughout disk}{36}{section.6.2}
+\contentsline {chapter}{\numberline {7}Additional research}{39}{chapter.7}
+\contentsline {chapter}{\numberline {8}Discussion}{41}{chapter.8}
+\contentsline {section}{\numberline {8.1}Comparing classical ADI with TLOCI}{41}{section.8.1}
+\contentsline {section}{\numberline {8.2}Further research}{41}{section.8.2}
+\contentsline {chapter}{\numberline {9}Conclusion}{43}{chapter.9}

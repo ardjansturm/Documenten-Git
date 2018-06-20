@@ -206,10 +206,10 @@ FUNCTION {format.names}
   #1 'nameptr :=
   s num.names$ 'numnames :=
   numnames #20 >
-  s numnames "{ll}" format.name$ "others" = numnames #1 > and
+  s numnames "{ll}" format.name$ "others" = numnames #6 > and
   or 'etal :=
   etal
-    { #1 #1 + 'namesleft := }
+    { #1 #6 + 'namesleft := }
     { numnames 'namesleft := }
   if$
     { namesleft #0 > }

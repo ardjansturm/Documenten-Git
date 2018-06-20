@@ -141,7 +141,7 @@
 \RequirePackage[margin=0cm,font={small,sl},labelfont={bf,sl},tableposition=top,singlelinecheck=false,hypcap]{caption}
 
 % Use US english (default) hyphenation rules and provide dutch as an option
-\RequirePackage[dutch,USenglish]{babel}
+\RequirePackage[USenglish]{babel}
 
 % For standard formatting of dates I use the datetime package
 % It is important to load this package AFTER the babel package
@@ -257,7 +257,7 @@
             \end{center}
         \end{minipage}
     \end{center}
-    {\let\thefootnote\relax\footnote{Front page image credit: NAOJ}}
+    %{\let\thefootnote\relax\footnote{Front page image credit: NAOJ}}
     %\footnote*{Front page image credit: NAOJ}
     \cleardoublepage
 }
@@ -288,12 +288,12 @@
 \postdate{
     \end{center}
     \begin{center}
-            \vskip 1 em
+            \vskip 1em
             \color{black} \large \textbf{Abstract}
     \end{center}
-    \vskip 1em
+    \vskip -1cm
     \normalsize \@abstract
-    \vfill
+    %\vfill
 }
 
 % Changed the alignment of the abstract. The centering is plain ugly
@@ -304,8 +304,8 @@
     \vskip 1 em
     \color{black} \large \textbf{Abstract} \\
                 \vskip 1em
-                \normalsize \@abstract
     \end{center}
+    \normalsize \@abstract
     \vfill
 }
 % == end   : title page using titling package

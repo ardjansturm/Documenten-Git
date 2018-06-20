@@ -1,60 +1,217 @@
 \begin{thebibliography}{10}
 
-\bibitem{Observatory2007}
-E.~S. Observatory, {\em {Very Large Telescope SPHERE Manual}},
-\newblock (2007).
+\bibitem{Mayor1995}
+M.~{Mayor} and D.~{Queloz}, {\em {A Jupiter-mass companion to a solar-type
+  star}},
+\newblock Nature {\bf 378}, 355 (1995).
 
-\bibitem{Krautter1997}
-J.~Krautter, R.~Wichmann, J.~H. M.~M. Schmitt, J.~M. Alcala, R.~Neuhauser, and
-  L.~Terranegra, {\em {New "weak-line" T-Tauri stars in Lupus}},
-\newblock a{\&}As {\bf 123}, 329 (1997).
+\bibitem{Armitage2010}
+P.~J. {Armitage},
+\newblock {\em {Astrophysics of Planet Formation}},
+\newblock 2010.
+
+\bibitem{Beuzit2008}
+J.-L. {Beuzit}, M.~{Feldt}, K.~{Dohlen}, D.~{Mouillet}, P.~{Puget}, F.~{Wildi},
+  et~al.,
+\newblock {\em {SPHERE: a 'Planet Finder' instrument for the VLT}},
+\newblock in {\em Ground-based and Airborne Instrumentation for Astronomy II},
+  volume 7014 of {\em Proceedings of the SPIE}, 2008.
+
+\bibitem{Dohlen2008}
+K.~{Dohlen}, M.~{Langlois}, M.~{Saisse}, L.~{Hill}, A.~{Origne}, M.~{Jacquet},
+  C.~{Fabron}, J.-C. {Blanc}, M.~{Llored}, M.~{Carle}, C.~{Moutou}, A.~{Vigan},
+  A.~{Boccaletti}, M.~{Carbillet}, D.~{Mouillet}, and J.-L. {Beuzit},
+\newblock {\em {The infra-red dual imaging and spectrograph for SPHERE: design
+  and performance}},
+\newblock in {\em Ground-based and Airborne Instrumentation for Astronomy II},
+  volume 7014 of {\em Proceedings of the SPIE}, page 70143L, 2008.
+
+\bibitem{Claudi2006}
+R.~U. {Claudi}, M.~{Turatto}, J.~{Antichi}, R.~{Gratton}, S.~{Scuderi},
+  E.~{Cascone}, D.~{Mesa}, S.~{Desidera}, A.~{Baruffolo}, A.~{Berton},
+  P.~{Bagnara}, E.~{Giro}, P.~{Bruno}, D.~{Fantinel}, J.-L. {Beuzit},
+  P.~{Puget}, and K.~{Dohlen},
+\newblock {\em {The integral field spectrograph of SPHERE: the planet finder
+  for VLT}},
+\newblock in {\em Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series}, volume 6269 of {\em Proceedings of the SPIE}, page
+  62692Y, 2006.
+
+\bibitem{Lada1987}
+C.~J. {Lada},
+\newblock {\em {Star formation - From OB associations to protostars}},
+\newblock in {\em Star Forming Regions}, edited by M.~{Peimbert} and
+  J.~{Jugaku}, volume 115 of {\em IAU Symposium}, pages 1--17, 1987.
+
+\bibitem{Gaia2018}
+{Gaia Collaboration}, A.~G.~A. {Brown}, A.~{Vallenari}, T.~{Prusti}, J.~H.~J.
+  {de Bruijne}, C.~{Babusiaux}, and C.~A.~L. {Bailer-Jones}, {\em {Gaia Data
+  Release 2. Summary of the contents and survey properties}},
+\newblock ArXiv e-prints  (2018).
 
 \bibitem{Wahhaj2010}
-Z.~Wahhaj, L.~Cieza, D.~W. Koerner, K.~R. Stapelfeldt, D.~L. Padgett, A.~Case,
-  J.~R. Keller, B.~Mer{\'{i}}n, N.~J. Evans, P.~Harvey, A.~Sargent, E.~F. van
-  Dishoeck, L.~Allen, G.~Blake, T.~Brooke, N.~Chapman, L.~Mundy, and P.~C.
-  Myers, {\em {THE SPITZER c2d SURVEY OF WEAK-LINE T TAURI STARS. III. THE
-  TRANSITION FROM PRIMORDIAL DISKS TO DEBRIS DISKS}},
-\newblock Astrophys. J. {\bf 724}, 835 (2010).
+Z.~{Wahhaj}, L.~{Cieza}, D.~W. {Koerner}, K.~R. {Stapelfeldt}, D.~L. {Padgett},
+  A.~{Case}, J.~R. {Keller}, B.~{Mer{\'{\i}}n}, N.~J. {Evans}, II, P.~{Harvey},
+  A.~{Sargent}, E.~F. {van Dishoeck}, L.~{Allen}, G.~{Blake}, T.~{Brooke},
+  N.~{Chapman}, L.~{Mundy}, and P.~C. {Myers}, {\em {The Spitzer c2d Survey of
+  Weak-line T Tauri Stars. III. The Transition from Primordial Disks to Debris
+  Disks}},
+\newblock Astrophysical Journal {\bf 724}, 835 (2010).
+
+\bibitem{Krautter1997}
+J.~{Krautter}, R.~{Wichmann}, J.~H.~M.~M. {Schmitt}, J.~M. {Alcala},
+  R.~{Neuhauser}, and L.~{Terranegra}, {\em {New ``weak-line''--T Tauri stars
+  in Lupus}},
+\newblock Astronomy and Astrophysics, Supplement {\bf 123}, 329 (1997).
 
 \bibitem{DeBoer2016}
-J.~de~Boer et~al., {\em {Multiple rings in the transition disk and companion
-  candidates around RXJ1615.3-3255. High contrast imaging with VLT/SPHERE}},
-\newblock (2016).
+J.~{de Boer}, G.~{Salter}, M.~{Benisty}, A.~{Vigan}, A.~{Boccaletti},
+  P.~{Pinilla}, et~al., {\em {Multiple rings in the transition disk and
+  companion candidates around RX J1615.3-3255. High contrast imaging with
+  VLT/SPHERE}},
+\newblock Astronomy and Astrophysics {\bf 595}, A114 (2016).
 
-\bibitem{thesis2014}
-R.~Kooistra, {\em {Unraveling the Transitional Disk RX J1615.3-3255: Scattered
-  Light Observations Versus Disk Models}},
-\newblock (2014).
+\bibitem{Marois2010}
+C.~{Marois}, B.~{Macintosh}, and J.-P. {V{\'e}ran},
+\newblock {\em {Exoplanet imaging with LOCI processing: photometry and
+  astrometry with the new SOSIE pipeline}},
+\newblock in {\em Adaptive Optics Systems II}, volume 7736 of {\em Proceedings
+  of the SPIE}, page 77361J, 2010.
 
-\bibitem{Padgett}
-D.~L. Padgett, L.~Cieza, K.~R. Stapelfeldt, N.~J. Evans, D.~Koerner,
-  A.~Sargent, M.~Fukagawa, E.~F. {Van Dishoeck}, J.-C. Augereau, L.~Allen,
-  G.~Blake, T.~Brooke, N.~Chapman, P.~Harvey, A.~Porras, S.-P. Lai, L.~Mundy,
-  P.~C. Myers, W.~Spiesman, and Z.~Wahhaj, {\em {THE SPITZER c2d SURVEY OF
-  WEAK-LINE T TAURI STARS. I. INITIAL RESULTS}}.
+\bibitem{Andrews2011}
+S.~M. {Andrews}, D.~J. {Wilner}, C.~{Espaillat}, A.~M. {Hughes}, C.~P.
+  {Dullemond}, M.~K. {McClure}, C.~{Qi}, and J.~M. {Brown}, {\em {Resolved
+  Images of Large Cavities in Protoplanetary Transition Disks}},
+\newblock Astrophysical Journal {\bf 732}, 42 (2011).
 
-\bibitem{Claudi2008}
-R.~U. Claudi, M.~Turatto, J.~Antichi, R.~Gratton, S.~Scuderi, E.~Cascone,
-  D.~Mesa, S.~Desidera, A.~Baruffolo, A.~Berton, P.~Bagnara, E.~Giro, P.~Bruno,
-  D.~Fantinel, J.-L. Beuzit, P.~Puget, and K.~Dohlen, {\em {The Integral Field
-  Spectrograph of SPHERE: the Planet Finder for VLT}},
-\newblock (2008).
+\bibitem{VanderMarel2015}
+N.~{van der Marel}, E.~F. {van Dishoeck}, S.~{Bruderer}, L.~{P{\'e}rez}, and
+  A.~{Isella}, {\em {Gas density drops inside dust cavities of transitional
+  disks around young stars observed with ALMA}},
+\newblock Astronomy and Astrophysics {\bf 579}, A106 (2015).
 
-\bibitem{Desidera}
-S.~Desidera, R.~Gratton, R.~Claudi, J.~Antichi, D.~Mesa, M.~Turatto, P.~Bruno,
-  E.~Cascone, V.~{De Caprio}, E.~Giro, S.~Scuderi, M.~Feldt, A.~Pavlov,
-  O.~Moeller-Nilsson, K.~Dohlen, J.~L. Beuzit, D.~Mouillet, P.~Puget, and
-  F.~Wildi, {\em {Calibration and data reduction for planet detection with
-  SPHERE-IFS}}.
+\bibitem{Padgett2008}
+D.~L. {Padgett}, L.~M. {Rebull}, K.~R. {Stapelfeldt}, N.~L. {Chapman}, S.-P.
+  {Lai}, L.~G. {Mundy}, et~al., {\em {The Spitzer c2d Survey of Large, Nearby,
+  Interstellar Clouds. VII. Ophiuchus Observed with MIPS}},
+\newblock Astrophysical Journal {\bf 672}, 1013 (2008).
+
+\bibitem{Makarov2007}
+V.~V. {Makarov}, {\em {The Lupus Association of Pre-Main-Sequence Stars: Clues
+  to Star Formation Scattered in Space and Time}},
+\newblock Astrophysical Journal {\bf 658}, 480 (2007).
+
+\bibitem{Lommen2010}
+D.~J.~P. {Lommen}, E.~F. {van Dishoeck}, C.~M. {Wright}, S.~T. {Maddison},
+  M.~{Min}, D.~J. {Wilner}, D.~M. {Salter}, H.~J. {van Langevelde}, T.~L.
+  {Bourke}, R.~F.~J. {van der Burg}, and G.~A. {Blake}, {\em {Grain growth
+  across protoplanetary discs: 10 {$\mu$}m silicate feature versus millimetre
+  slope}},
+\newblock Astronomy and Astrophysics {\bf 515}, A77 (2010).
+
+\bibitem{Observatory2007}
+S.~consortium,
+\newblock {\em {Very Large Telescope SPHERE Manual}},
+\newblock 2007.
+
+\bibitem{Thalmann2008}
+C.~{Thalmann}, H.~M. {Schmid}, A.~{Boccaletti}, D.~{Mouillet}, K.~{Dohlen},
+  R.~{Roelfsema}, M.~{Carbillet}, D.~{Gisler}, J.-L. {Beuzit}, M.~{Feldt},
+  R.~{Gratton}, F.~{Joos}, C.~U. {Keller}, J.~{Kragt}, II, J.~H. {Pragt},
+  P.~{Puget}, F.~{Rigal}, F.~{Snik}, R.~{Waters}, and F.~{Wildi},
+\newblock {\em {SPHERE ZIMPOL: overview and performance simulation}},
+\newblock in {\em Ground-based and Airborne Instrumentation for Astronomy II},
+  volume 7014 of {\em Proceedings of the SPIE}, page 70143F, 2008.
+
+\bibitem{Sauvage2010}
+J.-F. {Sauvage}, T.~{Fusco}, C.~{Petit}, S.~{Meimon}, E.~{Fedrigo}, M.~{Suarez
+  Valles}, M.~{Kasper}, N.~{Hubin}, J.-L. {Beuzit}, J.~{Charton},
+  A.~{Costille}, P.~{Rabou}, ., D.~{Mouillet}, P.~{Baudoz}, T.~{Buey},
+  A.~{Sevin}, F.~{Wildi}, and K.~{Dohlen},
+\newblock {\em {SAXO, the eXtreme Adaptive Optics System of SPHERE: overview
+  and calibration procedure}},
+\newblock in {\em Adaptive Optics Systems II}, volume 7736 of {\em Proceedings
+  of the SPIE}, page 77360F, 2010.
+
+\bibitem{Maire2016}
+A.-L. {Maire}, M.~{Langlois}, K.~{Dohlen}, A.-M. {Lagrange}, R.~{Gratton},
+  G.~{Chauvin}, S.~{Desidera}, J.~H. {Girard}, J.~{Milli}, A.~{Vigan},
+  G.~{Zins}, P.~{Delorme}, J.-L. {Beuzit}, R.~U. {Claudi}, M.~{Feldt},
+  D.~{Mouillet}, P.~{Puget}, M.~{Turatto}, and F.~{Wildi},
+\newblock {\em {SPHERE IRDIS and IFS astrometric strategy and calibration}},
+\newblock in {\em Ground-based and Airborne Instrumentation for Astronomy VI},
+  volume 9908 of {\em Proceedings of the SPIE}, page 990834, 2016.
+
+\bibitem{Hugot2012}
+E.~{Hugot}, M.~{Ferrari}, K.~{El Hadi}, A.~{Costille}, K.~{Dohlen}, P.~{Rabou},
+  P.~{Puget}, and J.~L. {Beuzit}, {\em {Active optics methods for exoplanet
+  direct imaging. Stress polishing of supersmooth aspherics for VLT-SPHERE
+  planet finder}},
+\newblock Astronomy and Astrophysics {\bf 538}, A139 (2012).
+
+\bibitem{Fusco2014}
+T.~{Fusco}, J.-F. {Sauvage}, C.~{Petit}, A.~{Costille}, K.~{Dohlen},
+  D.~{Mouillet}, et~al.,
+\newblock {\em {Final performance and lesson-learned of SAXO, the VLT-SPHERE
+  extreme AO: from early design to on-sky results}},
+\newblock in {\em Adaptive Optics Systems IV}, volume 9148 of {\em Proceedings
+  of the SPIE}, page 91481U, 2014.
+
+\bibitem{Anugu2013}
+N.~Anugu and J.~P. Lancelot, {\em {Study of atmospheric turbulence with Shack
+  Hartmann wavefront sensor}},
+\newblock J. Opt. {\bf 42}, 128 (2013).
 
 \bibitem{Mouillet2013}
-D.~Mouillet and J.-l. Beuzit, {\em {SPHERE user manual}},
-\newblock page~1 (2013).
+S.~consortium,
+\newblock {\em {SPHERE user manual}},
+\newblock 2013.
 
-\bibitem{Marois2005}
-C.~Marois, D.~Lafreniere, R.~Doyon, B.~Macintosh, and D.~Nadeau, {\em {Angular
-  Differential Imaging: a Powerful High-Contrast Imaging Technique}},
-\newblock (2005).
+\bibitem{Sivaramakrishnan2001}
+A.~{Sivaramakrishnan}, C.~D. {Koresko}, R.~B. {Makidon}, T.~{Berkefeld}, and
+  M.~J. {Kuchner}, {\em {Ground-based Coronagraphy with High-order Adaptive
+  Optics}},
+\newblock Astrophysical Journal {\bf 552}, 397 (2001).
+
+\bibitem{Antichi2009}
+J.~{Antichi}, K.~{Dohlen}, R.~G. {Gratton}, D.~{Mesa}, R.~U. {Claudi},
+  E.~{Giro}, A.~{Boccaletti}, D.~{Mouillet}, P.~{Puget}, and J.-L. {Beuzit},
+  {\em {BIGRE: A Low Cross-Talk Integral Field Unit Tailored for Extrasolar
+  Planets Imaging Spectroscopy}},
+\newblock Astrophysical Journal {\bf 695}, 1042 (2009).
+
+\bibitem{Desidera2008}
+S.~{Desidera}, R.~{Gratton}, R.~{Claudi}, J.~{Antichi}, D.~{Mesa},
+  M.~{Turatto}, P.~{Bruno}, E.~{Cascone}, V.~{De Caprio}, E.~{Giro},
+  S.~{Scuderi}, M.~{Feldt}, A.~{Pavlov}, O.~{Moeller-Nilsson}, K.~{Dohlen},
+  J.~L. {Beuzit}, D.~{Mouillet}, P.~{Puget}, and F.~{Wildi},
+\newblock {\em {Calibration and data reduction for planet detection with
+  SPHERE-IFS}},
+\newblock in {\em Ground-based and Airborne Instrumentation for Astronomy II},
+  volume 7014 of {\em Proceedings of the SPIE}, page 70143M, 2008.
+
+\bibitem{Marois2006}
+C.~{Marois}, D.~{Lafreni{\`e}re}, R.~{Doyon}, B.~{Macintosh}, and D.~{Nadeau},
+  {\em {Angular Differential Imaging: A Powerful High-Contrast Imaging
+  Technique}},
+\newblock Astrophysical Journal {\bf 641}, 556 (2006).
+
+\bibitem{Gaia2016}
+{Gaia Collaboration}, A.~G.~A. {Brown}, A.~{Vallenari}, T.~{Prusti}, J.~H.~J.
+  {de Bruijne}, F.~{Mignard}, et~al., {\em {Gaia Data Release 1. Summary of the
+  astrometric, photometric, and survey properties}},
+\newblock Astronomy and Astrophysics {\bf 595}, A2 (2016).
+
+\bibitem{Torres2006}
+C.~A.~O. {Torres}, G.~R. {Quast}, L.~{da Silva}, R.~{de La Reza}, C.~H.~F.
+  {Melo}, and M.~{Sterzik}, {\em {Search for associations containing young
+  stars (SACY). I. Sample and searching method}},
+\newblock Astronomy and Astrophysics {\bf 460}, 695 (2006).
+
+\bibitem{Ginski2016}
+C.~{Ginski}, T.~{Stolker}, P.~{Pinilla}, C.~{Dominik}, A.~{Boccaletti}, J.~{de
+  Boer}, et~al., {\em {Direct detection of scattered light gaps in the
+  transitional disk around HD 97048 with VLT/SPHERE}},
+\newblock Astronomy and Astrophysics {\bf 595}, A112 (2016).
 
 \end{thebibliography}
