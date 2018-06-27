@@ -313,14 +313,14 @@
 % == start : pagesize commands
 % note: a4 = 297x210 mm, letter = 280x216 mm
 
-% \setlength{\textwidth}{160mm}   % used to be 160
+\setlength{\textwidth}{160mm}   % used to be 160
 % \setlength{\textheight}{240mm}  % used to be 240
 
 % Now we need to set margins and headers to center the page on the paper.
 % This can be done with a little help of the calc package.
 
-% \setlength{\oddsidemargin}{(\paperwidth-\textwidth)/2-1in}
-% \setlength{\evensidemargin}{(\paperwidth-\textwidth)/2-1in}
+\setlength{\oddsidemargin}{(\paperwidth-\textwidth)/2-1in-5mm}
+\setlength{\evensidemargin}{(\paperwidth-\textwidth)/2-1in+5mm}
 
 % \setlength{\topmargin}{(\paperheight-\textheight-\headheight-\headsep-\footskip)/2-1in}
 % == end   : pagesize commands
