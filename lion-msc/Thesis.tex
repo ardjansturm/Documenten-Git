@@ -16,7 +16,7 @@
 %\date{\displaydate{date}}
 
 \studentid{S1663011}                           % check you student ID, LaTeX does not do this
-\abstract{\noindent\textit{Context.} Much SPHERE/IFS data of circumstellar disks is yet unpublished, since this data is always collected in parallel with IRDIS, which is much easier to reduce and analyze.\\
+\abstract{\noindent\textit{Context.} Much data from the integral field spectroscope (IFS) of SPHERE, the high contrast imager of the VLT, of circumstellar disks is yet unpublished, since this data is always collected in parallel with IRDIS, which is much easier to reduce and analyze.\\
 \textit{Aims.} We search for a good and reliable way to reduce raw IFS data and study the effects of different post-processing methods on the morphology of protoplanetary disks.\\
 \textit{Methods.} We used the common pipeline of ESO to reduce spatially resolved spectral IFS data (YJ band) of RXJ1615.3-3255 and applied classical ADI, classical SDI and classical RDI on the data.\\
 \textit{Results.} We detected a ring, an arc and an inner disk component in both the ADI and SDI image, the ring is detected in the RDI image as well. We conclude that we can trust the SDI data the best around the minor axis of the ring since ADI and RDI have to deal with self-subtraction and over subtraction in that region, the other parts of the ring can be trusted the best in the ADI and RDI data. The disk signal appears to be red, but further research is needed to conclude whether this effect is astrophysical or not. \\
@@ -80,7 +80,7 @@
 % in the main part of the document use standard arabic numbers. Page counter resets to 1.
 \pagenumbering{arabic}
 \chapter{Introduction}
-One of the biggest questions that arises in every single human mind is how the world around us is formed. Even young children find it intriguing that a pea grows to a complete plant and that their parents were once children. Much research in astronomy is about how the universe has taken his shape it has today. How do galaxies, stars and ultimately planets form? It has been a question for a long time, scientists have been asking the question if the solar system was the only place in the universe where planets exist. Since then, many indirect methods have been developed that could tell if a star hosted planets and the first exoplanet was soon confirmed \cite{Mayor1995}.
+One of the biggest questions that arises in every single human mind is how the world around us is formed. Even young children find it intriguing that a pea grows to a complete plant and that their parents were once children. Much research in astronomy is about how the universe has taken his shape it has today. How do galaxies, stars and ultimately planets form? It has been a question for a long time, scientists have been asking the question if the solar system was the only place in the universe where planets exist. Since then, many indirect methods have been developed that could tell if a star hosts planets and the first exoplanet was soon confirmed \cite{Mayor1995}.
 \bigskip
 
 Scientists have made huge progress in the last few decades in understanding the formation of stars and planets. It is now common knowledge that stars are formed by the collapse of a cloud of gas and dust. The gas and dust that is left in the cloud after the birth of a star starts to fall inwards and starts to orbit the star in a plane due to conservation of angular momentum, forming an accretion disk. In this accretion disk planets start to form when grains stick together to form pebbles, pebbles form planetessimals and planetessimals form planets. Another possibility is that the disk gets gravitationally unstable, the disk starts to fragment and gas giant planets are formed \cite{Armitage2010}.
@@ -89,7 +89,7 @@ Scientists have made huge progress in the last few decades in understanding the 
 Direct imaging of planets and disks has been impossible for a long time, since the contrast between stars and planets is too big and the point spread function (PSF) of the star too much extended. With the development of special optics called coronagraphs that improve the contrast, special adaptive optics system that corrects for the distortion of the light in the atmosphere and special techniques to reduce the stellar PSF, we are now able to image planets and protoplanetary disks directly. This provides detailed information of the conditions in different planetary systems and protoplanetary disks, which improves the understanding of the formation of planetary systems.
 \bigskip
 
-SPHERE (Spectro-Polarimetric High-contrast Exoplanets REsearch \citep{Beuzit2008}), one of the instruments of the Very Large Telescopes (VLT) in Chile, was build for direct imaging of planets. This instrument collects, amongst other things, high resolution data of exoplanets and circumstellar disks. One mode of the subsystems of the instrument gives light in parallel to both IRDIS and IFS. IRDIS (InfraRed Dual Imaging and Spectograph \cite{Dohlen2008}) is a subsystem that provides classical imaging, dual band imaging, dual-polarization imaging and long slit spectroscopy with a good resolving power. IFS (Integral Field spectrograph \citep{Claudi2006}) is a subsystem that provides a spatially resolved spectrum over the Y-J or Y-H range. Since IRDIS data is easier to reduce and to analyze, and the field of view (FOV) of IRDIS is much bigger than the FOV of the IFS, IRDIS data is much more often analyzed than IFS data. Thus much of the disk data taken by IFS is still unpublished.
+SPHERE (Spectro-Polarimetric High-contrast Exoplanets REsearch \citep{Beuzit2008}), one of the instruments of the Very Large Telescopes (VLT) in Chile, was build for direct imaging of planets. This instrument collects, amongst other things, high resolution data of exoplanets and circumstellar disks. One mode of the subsystems of the instrument gives light in parallel to both IRDIS (Infra-Red Dual-beam Imager and Spectrograph \cite{Dohlen2008}) and IFS (Integral Field Spectrograph \citep{Claudi2006}). IRDIS is a subsystem that provides classical imaging, dual band imaging, dual-polarization imaging and long slit spectroscopy with a good resolving power. IFS is a subsystem that provides a spatially resolved spectrum over the Y-J or Y-H range. Since IRDIS data is easier to reduce and to analyze, and the field of view (FOV) of IRDIS is much bigger than the FOV of the IFS, IRDIS data is much more often analyzed than IFS data. Thus much of the disk data taken by IFS is still unpublished.
 \bigskip
 
 Since the IFS provides a spatially resolved spectrum of an object, it is possible to get a spectrum of a protoplanetary disk. Until now, we do not have detailed information about the color of the object that mainly will be analyzed in this project, the T-Tauri star RX J1615.3-3255. Reliable spectral information of protoplanetary disks can lead to a better understanding of ongoing planet formation in protoplanetary disks in general, since resolved spectral data of a disk can tell something about the local grain properties throughout the disk.
@@ -140,9 +140,10 @@ two arcs (A1 and A2). A2 is confirmed to be a full ring, but the detections have
 \bigskip
 
 A reduction of IFS T-LOCI ADI data, taken in the Y-J range, is available of the same dataset, which is illustrated in Figure \ref{fig:ifsjos}. T-LOCI (Template Locally Optimized Combination of Images \citep{Marois2010}) is an advanced way of selecting regions to make a reference to subtract the point spread function of the star from the data, but conserving the signal of the disk in the data. In this data one ring (R2), the inner disk component (I1) and the arc closest to the star (A2) are detected. The disk appears red in this image, but this could be an effect of the adaptive optics that performs better at longer wavelengths. No systematic analysis of the effects of different reduction methods have been done. It would be interesting to see if there are differences in performance between a classical ADI reduction and the T-LOCI reduction.
+\bigskip
 
-\begin{figure}[ht]
-\includegraphics[width = \textwidth]{ifsjos}
+\begin{figure}[!b]
+\includegraphics[width = 1.05\textwidth]{ifsjos}
 \caption{Reduction of IFS ADI data. From left to right: \textbf{a:} median of the first 13 channels (0.96-1.07$\mu m$) \textbf{b:} median of 13 channels (1.08-1.21 $\mu m$) \textbf{c:} median of 13 channels (1.22-1.33 $\mu m$) \textbf{d:} median of the entire YJ range. Figure adapted from \citep{DeBoer2016}}
 \label{fig:ifsjos}
 \end{figure}
@@ -184,20 +185,21 @@ SPHERE is an instrument for the VLT which is optimized for high contrast imaging
 \subsection{Common path}
 The common path (CPI) is the main system of SPHERE that powers all the cryostats and motors, corrects the light for many distortions and connects all the sub-systems to the light path. SAXO (Sphere Adaptive optics for eXoplanet Observation \citep{Sauvage2010}) plays an important role in the correction of the incoming light in CPI. Part of CPI are the coronagraphs that can be included in the light path to improve the contrast between the central star and surrounding structures.
 
-\subsubsection{pupil stabilizing fore optics}
-SPHERE has a derotater that is able to stabilize the field and the pupil on the detector. This stabilization is needed because of the rotation of the earth around its axis. The rotation of the earth causes a rotation of the field due to a change in parallactic angle and altitude of the object and a rotation of the telescope pupil with respect to the instrument due to the change in altitude of the object that is observed. In pupil stabilized mode, the field rotation is directly proportional to the change in parallactic angle of the object over time. The pupil has an offset with respect to the true north of -135.99$^o$, which means that all the data taken with SPHERE has to be rotated with that angle in order to make sure that north is pointing up. The field of view of the IFS is for technical reasons rotated with respect to the IRDIS field of view by 100.48$\pm$0.10 $^o$. The data in our dataset has hence to be rotated with a total offset of -35.51$^o$ in order to make sure that north is pointing up\cite{Maire2016}.
+\subsubsection{Pupil stabilizing fore optics}
+SPHERE has a derotater that is able to stabilize the field and the pupil on the detector. This stabilization is needed because of the rotation of the earth around its axis. The rotation of the earth causes a rotation of the field with respect to the telescope due to a change in parallactic angle of the object and a rotation of the telescope pupil with respect to the instrument due to the change in altitude of the object that is observed. In pupil stabilized mode, the field rotation is directly proportional to the change in parallactic angle of the object over time. The pupil-offset with respect to the true north is -135.99$^o$ , which means that all the data taken with SPHERE has to be rotated with that angle in order to make sure that north is pointing up. The field of view of the IFS is for technical reasons rotated with respect to the IRDIS field of view by 100.48$\pm$0.10 $^o$. The data in our dataset has hence to be rotated with a total offset of -35.51$^o$ to make sure that north is pointing up\cite{Maire2016}.
 \bigskip
 
-After entering the instrument, the light path is protected against many possible noise sources. The vibrations in the Nasmyth platform that are caused by seismic activity or other reasons are damped by use of servo-controlled pods and the whole instrument is protected against changes in temperature and dust by a protective cover. The light is then propagated in the complete spectral range from 0.450 $\mu m$ to 2.320 $\mu m$ to the first dichroic beamsplitter that splits the light. The visible part of the spectrum is used for ZIMPOL, the near infrared (NIR) part of the spectrum for both IRDIS and IFS. If ZIMPOL is not used, all visible light goes to the wavefront sensor that is used by SAXO to correct for the aberrations of the light in the atmosphere. After the first dichroic beamsplitter, the light is guided through an atmospheric dispersion corrector (ADC) that corrects for dispersion effects in the atmosphere that are caused by the change in altitude of the object over time.
+After entering the instrument, the light path is protected against many possible noise sources. The vibrations in the Nasmyth platform that are caused by seismic activity or other reasons are damped by use of servo-controlled pods and the whole instrument is protected against changes in temperature and dust by a protective cover. The light is then propagated in the complete spectral range from 0.450 $\mu m$ to 2.320 $\mu m$ to the first dichroic beamsplitter that splits the light. The visible part of the spectrum is used for ZIMPOL, the near infrared (NIR) part of the spectrum for both IRDIS and IFS. All visible light goes to the wavefront sensor to measure the aberrations of the light in the atmosphere, but can also be split to be used by ZIMPOL. After the first dichroic beamsplitter, the light is guided through an atmospheric dispersion corrector (ADC) that corrects for dispersion effects in the atmosphere that are caused by the change in altitude of the object over time.
 \bigskip
 
-\subsubsection{adaptive optics}
-SAXO is the adaptive optics module of SPHERE. It is composed of different components, each correcting a part of the distortion of the light. The bundled information of these components is sent to the deformable mirror (DM), that corrects for phase perturbations of up to a frequency of 1.2 kHz by use of the 41x41 actuators that deform the mirror \citep{Hugot2012}. The phase perturbations are measured by different components.
+\subsubsection{Adaptive Optics}
+SAXO is the adaptive optics module of SPHERE. It is composed of different components, each correcting a part of the distortion of the light. Corrections for the high-order aberrations are sent to the deformable mirror (DM), that corrects for phase perturbations of up to a frequency of 1.2 kHz by use of the 41x41 actuators that deform the mirror \citep{Hugot2012}. Tip-tilt aberrations of the image plane are sent to the Image Tip Tilt Mirror (ITTM) and tip-tilt of the pupil plane is sent to the Pupil Tip Tilt Mirror (PTTM). The phase perturbations are measured by different components.
 \bigskip
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[trim={7cm 4.5cm 19cm 10cm},clip,width = 1\textwidth]{aoperformance}
+\vspace{-5mm}
+\hspace{-7mm}\includegraphics[trim={8cm 4.5cm 19cm 10cm},clip,width = 1.05\textwidth]{aoperformance}
 \caption{Theoretical and measured (purple circles) SPHERE-SAXO Strehl ratio as a function of R magnitude for good seeing conditions and different wavelength ranges from V to K. Figure adapted from \citep{Fusco2014}}
 \label{fig:aoperformance}
 \end{figure}
@@ -214,8 +216,8 @@ The turbulence is measured by a wavefront sensor that transposes the phase shift
 
 The incoming wavefront of the object is accurately corrected in a radius of about 20 $\lambda/D$ in the image plane. Further out, the PSF is still corrected, but not enough to suppress the stellar halo. The correction of the AO is dependent on the magnitude in the R-band (618nm-674nm \citep{Mouillet2013}), since the Shack-Hartmann sensor measures the perturbations of the wavefront in the range of the R filter. The more light is provided to the sensor, the more accurately the distortions of the wavefront can be measured, which drastically changes the overall performance of the AO system and hence the quality of the data. The performance of the AO as a function of R magnitude is illustrated in Figure \ref{fig:aoperformance}, where the performance is expressed in terms of Strehl ratio. Strehl ratio is roughly defined as the ratio between the peak of the measured PSF divided by the peak of an ideal PSF.
 
-\subsubsection{coronagraphs}
-A coronagraph is a device that increases the contrast between the star in the center and the background. SPHERE has several coronagraphs for different conditions the instrument can work in. All coronagraphs consist of three components. At the beginning of the light path an apodizer changes the beam profile and thus improves the dynamic range of the image. Further downstream in the focus of the secondary mirror, a focal plane mask absorbs most of the light from the center of the beam, which means that after reimaging the excess light of the center is concentrated around the edged of the telescope pupil. This excess light is absorbed by a lyot stop that blocks most of the light on the edges of the beam, but allows light from surrounding sources to pass. Different combinations of these three elements have different results on the final image and for all conditions there is a combination that works, think of the wavelength range that is used at that moment, seeing and needed inner working angle. An elaborate explanation of the working of the coronagraphs in SPHERE is illustrated in Figure \ref{fig:coronagraph}.
+\subsubsection{Coronagraphs}
+A coronagraph is a device that increases the contrast between the star in the center and the background. SPHERE has several coronagraphs for different conditions the instrument can work in. The coronagraph consist of three components. At the beginning of the light path an apodizer changes the beam profile and thus improves the dynamic range of the image. Further downstream in the focus of the secondary mirror, a focal plane mask absorbs most of the light from the center of the beam, which means that after reimaging the excess light of the center is concentrated around the edged of the telescope pupil. This excess light is absorbed by a lyot stop that blocks most of the light on the edges of the beam, but allows light from surrounding sources to pass. Different sizes of these three elements have different results on the final image and for all conditions there is a combination that works, think of the wavelength range that is used, seeing and needed inner working angle. An elaborate explanation of the working of the coronagraphs in SPHERE is illustrated in Figure \ref{fig:coronagraph}.
 
 \subsection{IRDIS}
 \begin{figure}[!b]
@@ -248,7 +250,7 @@ IRDIS has a field of view of 11"x12.5" and has several modes in which data can b
 \label{fig:overviewIFS}
 \end{figure}
 
-The integral field spectrograph is a subsystem of SPHERE that is able to collect data over a wavelength range from 0.95 $\mu m$ up to 1.346 $\mu m$ or 1.677 $\mu m$,  depending on the NIR dichroic beam splitter (Y-J or Y-H) that is used. The spectral resolution of the IFS is on average R = 55.1 in Y-J mode and R = 34.5 in Y-H mode. The IFS has a total field of view of 1.73"x1.73", which is much smaller than IRDIS's, but enough to be able to detect structures of protoplanetary disks close to the star.
+The integral field spectrograph is a subsystem of SPHERE that takes data over a wavelength range from 0.95 $\mu m$ up to 1.346 $\mu m$ or 1.677 $\mu m$,  depending on the NIR dichroic beam splitter (Y-J or Y-H) that is used. The spectral resolution of the IFS is on average R = 55.1 in Y-J mode and R = 34.5 in Y-H mode. The IFS has a total field of view of 1.73"x1.73", which is much smaller than IRDIS's, but enough to be able to detect structures of protoplanetary disks close to the star.
 \clearpage 
 
 \subsection{IFU unit}
@@ -274,13 +276,13 @@ The IFS is able to obtain spectral information by use of BIGRE \cite{Antichi2009
 \vspace{-0.5cm}
 \end{figure}
 
-The detector of the IFS is 2048x2048 pixels big, each pixel corresponding to (7.46 mas)$^2$. The incoming light of the IFS is filtered by an additional filter that has a sharp cut-off at the desired wavelength, which allows the detector to be a standard infrared detector. It is technically possible to block longer wavelengths by use of the cut-off wavelength at which an HgCdTe detector is no longer sensitive, but this would make the instrument unnecassary complex and would increase the readout noise drastically from ~10 $e^-$ to ~25 $e^-$ \citep{Claudi2006}. This cut-off allows cooling only the detector, keeping the optics at room temperature. The contribution of the thermal background to the noise is nigligible since all radiation at wavelengths longer than 1.35 $\mu m$ is blocked. The detector is cooled with liquid Nitrogen, which reduces the thermal noise of the detector\citep{Claudi2006}. The detector is static and does not need to be rotatable since the rotation of the field and the pupil are corrected in the derotator. 
+The detector of the IFS is 2048x2048 pixels big, each pixel corresponding to (7.46 mas)$^2$. The incoming light of the IFS is filtered by an additional filter that has a sharp cut-off at the desired wavelength, which allows the detector to be a standard infrared detector. It is technically possible to block longer wavelengths by use of the cut-off wavelength at which an HgCdTe detector is no longer sensitive, but this would make the instrument unnecassary complex and would increase the readout noise drastically from ~10 $e^-$ to ~25 $e^-$ \citep{Claudi2006}. This cut-off allows cooling of only the detector, keeping the optics at room temperature. The contribution of the thermal background to the noise is nigligible since all radiation at wavelengths longer than 1.35 $\mu m$ is blocked. The detector is cooled with liquid Nitrogen, which reduces the thermal noise of the detector\citep{Claudi2006}. The detector is static and does not need to be rotatable since the rotation of the field and the pupil are corrected by the derotator. 
 
 \subsection{Calibration devices}
 The IFS has two calibration arms to provide a proper calibration of the instrument. The first arm is mounted in the common path and consists of a few calibration lamps. These lamps can be used to measure the throughput of the lenslet grid and the different optical components of the IFS. Four additional lasers with wavelengths of respectively 0.9877, 1.1237, 1.3094 and 1.5451($\mu m$) are also provided on this calibration arm for the wavelength calibration. Each of the lasers is focused on a different part in the spectra on the detector by the IFU. Interpolation between these points gives an accurate model for the wavelength solution for each pixel, which can be used to reduce the data.
 \bigskip
 
-The second calibration arm is mounted internal to IFS, after the IFU, such that flats can be taken that measure the sensitivity of the whole detector. This is not possible with the external calibration lamps, since the detector has bigger dimensions than the FOV of the lenslet grid. Decoupling the noise of the IFU and the detector makes the calibration slightly better and this allows to take calibration frames in parallel with IRDIS taking calibration frames, making the calibration process for both subsystems much faster. The internal calibration arm consists of five calibration lamps: four narrowband lamps, centered around 1.0, 1.2, 1.3 and 1.5 $\mu m$, with a full width half maximum (FWHM) of about 0.01-0.04 $\mu m$ and one broadband white lamp\citep{Desidera2008}. An integrating sphere is also provided that spreads the light of the different lamps evenly over the whole detector. An elaborated description of the different calibration steps is given in the methodology chapter.
+The second calibration arm is mounted internal to IFS, after the IFU, such that flats can be taken that measure the sensitivity of the detector only. This is not possible with the external calibration lamps, since the IFU cannot be remove. Decoupling the noise of the IFU and the detector makes the calibration slightly better and this allows to take calibration frames in parallel with IRDIS taking calibration frames, making the calibration process for both subsystems much faster. The internal calibration arm consists of five calibration lamps: four narrowband lamps, centered around 1.0, 1.2, 1.3 and 1.5 $\mu m$, with a full width half maximum (FWHM) of about 0.01-0.04 $\mu m$ and one broadband white lamp\citep{Desidera2008}. An integrating sphere is also provided that spreads the light of the different lamps evenly over the whole detector. An elaborated description of the different calibration steps is given in the methodology chapter.
 
 \chapter{Methodology}
 \section{IFS reduction for dummies}
@@ -289,10 +291,10 @@ The second calibration arm is mounted internal to IFS, after the IFU, such that 
 \begin{subfigure}{.48\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{rawframe}
-  \caption{zoom of one of the raw science frames}
+  \caption{zoom of one of the raw science frames\\}
   \label{fig:rawdata}
 \end{subfigure}\hfill
-\begin{subfigure}{.48\textwidth}
+\begin{subfigure}{.47\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{reducedframe}
   %\hspace{7 mm}
@@ -305,30 +307,30 @@ The second calibration arm is mounted internal to IFS, after the IFU, such that 
 Data taken with an integral field spectrograph contains a spectrum for each pixel, called a spaxel. A raw data file is illustrated in Figure \ref{fig:rawdata}. To reduce this to a cube with a frame for each spectral channel as illustrated in Figure \ref{fig:reduceddata}, several calibrations are needed. At first the dark current has to be subtracted and pixel-to-pixel sensitivity of the detector has to be normalized using detector flat frames. After that the different spectra have to be located and the wavelength of all pixels calibrated, whereafter the science reduction produces the resulting datacube that consists of 39 spectral channels, each with a dimension of 291x291 pixels.
 \bigskip
 
-The Common Pipeline Library (CPL)\citep{Observatory2007} is a library of commands that is able to do the basic reduction steps of SPHERE data. Running the CPL can be done by use of Esorex, which is a commandline driven package, or EsoReflex. Esorex requires the use of a set of frames (sof) file for each recipe. This can easily be automatized, but since it is much work to write a code that identifies the different calibration data and mistakes can easily be made in the selection of the required data, we used EsoReflex for the reduction, which provides an easy and flexible way to run the different recipes of the pipeline. EsoReflex provides a user interface in the form of a workflow with a setup of a basic reduction pipeline in advance, which can be adapted in an easy way. It identifies all the required data that is unsorted stored in the input directory and gives a warning if something is missing. The workchart of EsoReflex that is used to reduce the data is added as an appendix.
+The Common Pipeline Library (CPL)\citep{Observatory2007} is a library of commands that is able to do the basic reduction steps of SPHERE data. Running the CPL can be done by use of Esorex, which is a commandline driven package, or EsoReflex. Esorex requires the use of a set of frames (sof) file for each recipe. This can easily be automatized, but since it is much work to write a code that identifies the different calibration data and mistakes can easily be made in the selection of the required data, we used EsoReflex for the reduction, which provides an easy and flexible way to run the different recipes of the pipeline. EsoReflex provides a user interface in the form of a workflow with a setup of a basic reduction pipeline in advance, which can be adapted in an easy way. It identifies all the required data in the input directory and gives a warning if something is missing. The workchart of EsoReflex that is used to reduce the data is added as an appendix.
 \bigskip
 
-The data needed for a basic reduction is listed in table \ref{Tab:data}. Note that all the data has to be taken in the same mode as the science frames. All calibration data needs a corresponding dark frame with the same exposure time. The detector flats however are taken with many different exposure times. In order to deal with this, two detector flats are needed per calibration lamp with different exposure times. The flat with shortest exposure time acts in the reduction as a dark and bias frame for the other one. This is possible since the flats give relative values by which the pixels have to be divided to measure uniform light, which means that the values are also typically close to one. 
+The data needed for a basic reduction is listed in table \ref{Tab:data}. Note that all the data has to be taken in the same mode (IRDIFS or IRDIFS\_EXT) as the science frames. Data can be discriminated by use of some header keywords, listed in the table. The detector flats of the different calibration lamps can be distinguished by use of the keyword 'ESO INS2 CAL'. All calibration data needs a corresponding dark frame with the same exposure time. The detector flats however are taken with many different exposure times. In order to deal with this, two detector flats are needed per calibration lamp with different exposure times. The flat with shortest exposure time acts in the reduction as a dark and bias frame for the other one. 
 \bigskip
 
-All individual reductions of calibration data have an own recipe in the common pipeline. A good understanding of these recipes and the corresponding calibration files is useful to get clean results in the end. The floatchart that summarizes the steps we took to reduce the data is appended together with the corresponding sof files.
+All individual reductions of calibration data have an own recipe in the common pipeline. Understanding of these recipes and the corresponding calibration files is needed to get clean results in the end. The floatchart that summarizes the steps we took to reduce the data is appended together with the corresponding sof files.
 
-\begin{longtable}{| p{.20\textwidth} | p{.12\textwidth} | p{.58\textwidth }|}
+\begin{longtable}{| p{.13\textwidth} | p{.11\textwidth} |p{.19\textwidth}|p{.19\textwidth}| p{.24\textwidth }|}
 \hline
-\textbf{data type} & \textbf{number} & \textbf{comments}\\\hline
-science frames&  &can be multiple frames stacked together as a single file with .fits extension.\\\hline
-spectral positions & 1 & exposure time of 1.6507260s$^*$	\\\hline	
-wavelength calibration & 1 & exposure time of 1.6507260s$^*$ \\\hline
-detector flat lamp 1 & 2 & two different exposure times\\\hline
-detector flat lamp 2 & 2 & two different exposure times\\\hline
-detector flat lamp 3 & 2 & two different exposure times\\\hline
-detector flat lamp 4$^{**}$ & 2 & two different exposure times\\\hline
-detector flat lamp 5 & 2 & two different exposure times\\\hline
-instrument flat & 1 & \\\hline
-background calibration & 1 & same exposure time as the science frames\\\hline
-dark & & for all calibration frames one with corresponding exposure time\\\hline
+\textbf{data type} & \textbf{required number of files} &\textbf{DPR.TYPE}&\textbf{ESO INS2 CAL} & \textbf{comments}\\\hline
+science frames&  & object &-& can be multiple frames stacked together as a single file\\\hline
+spectral positions & 1 & specpos,lamp &-& exposure time of 1.6507260s$^*$	\\\hline	
+wavelength calibration & 1 & wave,lamp &-& exposure time of 1.6507260s$^*$ \\\hline
+detector flat lamp 1 & 2 & flat,lamp & HL1 & each with a different exposure time\\\hline
+detector flat lamp 2 & 2 & flat,lamp & HL2 & each with a different exposure time\\\hline
+detector flat lamp 3 & 2 & flat,lamp & HL3 & each with a different exposure time\\\hline
+detector flat lamp 4$^{**}$ & 2 & flat,lamp & HL4 & each with a different exposure time\\\hline
+detector flat lamp 5 & 2 & flat,lamp & BBL & each with a different exposure time\\\hline
+instrument flat & 1 & flat,lamp & OFF &- \\\hline
+background calibration & 1 & dark,background &-& same exposure time as the science frames\\\hline
+dark & & dark &-& for all calibration frames one with corresponding exposure time\\\hline
 \caption*{\\$^*$ shortest exposure time possible\\ $^{**}$ only if science data is taken in YH mode}\\% needs to go inside longtable environment
-\caption{Data needed for the reduction of a science frame}%
+\caption{Data needed for the reduction of a science frame, together with two discriminating header keywords to find the different data files}%
 \label{Tab:data}
 \end{longtable}%
 
@@ -336,10 +338,11 @@ dark & & for all calibration frames one with corresponding exposure time\\\hline
 The master dark recipe median combines multiple raw dark frames into one master dark. From the master dark, this recipe determines the position of pixels that give strange results in all measurements, which are called static bad pixels. It returns both a file that contains a master dark frame, consisting of the image, bad pixels, the rms and the weightmap and a file that contains a static bad pixel map, which has the same content as the second extension in the master dark frame. An example of a master dark image is illustrated in Figure \ref{fig:masterdark}. 
 \bigskip
 
-If a background calibration file is provided to the final science reduction, the background calibration file is used to correct for the dark current. The difference between these two is small. The only difference is that a normal dark is taken in N\_NS\_OPAQUE infrared IRDIS coronagraph combination mode and a background calibration in N\_NS\_CLEAR, meaning that the combination of coronagraphs used to take the data has changed\cite{Mouillet2013}.
+If a background calibration file is provided to the final science reduction, the background calibration file is used to correct for the dark current. The difference between these two is small. The only difference is that a normal dark is taken in N\_NS\_OPAQUE infrared IRDIS coronagraph combination mode and a background calibration in N\_NS\_CLEAR \cite{Mouillet2013}.
 
 \begin{figure}[!t]
 \centering
+\vspace{-5mm}
 \begin{subfigure}{.48\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{badpixelmap}
@@ -354,14 +357,14 @@ If a background calibration file is provided to the final science reduction, the
 \end{subfigure}
 \caption{result of the master dark recipe}
 \label{fig:masterdark}
+\vspace{-5mm}
 \end{figure}
 
 \subsection{Detector flat}
-At this step, the variation in sensitivity of the different pixels on the detector is measured. This can be done by using the extremely useful ability of the IFS to obtain flats with the shutter of the instrument closed and one of its internal calibration sources turned on. This means that the detector can be illuminated directly, which enables us to correct for the distortions of the detector itself. The distortions in the optical path are measured in the recipe that produces the instrument flat, described in the next paragraph. 
-\bigskip
 
 \begin{figure}[!b]
 \centering
+\vspace{-5mm}
 \begin{subfigure}{.48\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{masterdetectorflat}
@@ -374,11 +377,14 @@ At this step, the variation in sensitivity of the different pixels on the detect
   \caption{large scale flat}
   \label{fig:largescaleflat}
 \end{subfigure}
+\vspace{-5mm}
 \caption{result of the detector flat recipe}
 %\label{fig:masterdark}
 \end{figure}
+At this step, the variation in sensitivity of the different pixels on the detector is measured. This can be done by using the extremely useful ability of the IFS to obtain flats with the shutter of the instrument closed and one of its internal calibration sources turned on. This means that the detector can be illuminated directly, which enables us to correct for the distortions of the detector itself. The distortions in the optical path are measured in the recipe that produces the instrument flat, described in the next paragraph. 
+\bigskip
 
-Since the IFS uses a range of wavelengths, different detector flats are needed to calibrate all pixels properly. The recipe returns the master flat frames for the different lamps that are used. The best flat to use in the rest of the recipes are the master detector flats Figure \ref{fig:masterdetectorflat}. Large scale flats are master flat frames that are smoothed with a gaussian. On this images the large scale structures in pixel-to-pixel variation in the signal response of the detector get visible, such as ghosts. Large scale flats and pre-amplifier flats can be used as a calibration file for the actual detector flat recipe, but if they are not provided, they are created from the raw data. One of the large scale flats is illustrated in Figure \ref{fig:largescaleflat}
+Since the IFS uses a range of wavelengths, different detector flats are needed to calibrate all pixels properly. The recipe returns the master flat frames for the different lamps that are used. Large scale flats are master flat frames that are smoothed with a gaussian. On these images the large scale structures in the signal response of the detector get visible, such as ghosts. The best flat to use in the rest of the recipes are the master detector flats Figure \ref{fig:masterdetectorflat}. Large scale flats and pre-amplifier flats can be used as a calibration file for the actual detector flat recipe, but if they are not provided, they are created from the raw data. One of the large scale flats is illustrated in Figure \ref{fig:largescaleflat}
 
 \subsection{Instrument flat}
 \begin{figure}[!b]
@@ -419,25 +425,25 @@ Instrument flats are obtained by taking a flat with three or four of the externa
 %\label{fig:masterdark}
 \end{figure}
 
-The spectra positioning recipe determines the exact position of the different spectra on the detector with an accuracy of about 4 $\mu m$, which corresponds to 0.2 pixels on the detector \citep{Desidera2008}. This is enough to build a map with the location of the spectra, associating each pixel to an individual lenslet. It associates pixels with wavelengths according to a lenslet model. Note that this is a non-linear model, as is noticeable in \ref{fig:specpos}. Each pixel in this image has the value of the corresponding wavelength in micron. This model is just a good guess, the exact wavelength can be obtained by running the wavelength calibration. The seperation between the positioning of the spectra and the wavelength calibration makes the positioning of the spectra much better, which is the reason why they have split these steps in two different recipes. The raw calibration data for the spectra positioning recipe is obtained by illuminating the instrument with an external white calibration light source. A zoomed piece of the spectra positioning image is shown in Figure \ref{fig:specpos}
+The spectra positioning recipe determines the exact position of the different spectra on the detector with an accuracy of about 4 $\mu m$, which corresponds to 0.2 pixels on the detector \citep{Desidera2008}. This is enough to build a map with the location of the spectra, associating each pixel to an individual lenslet. It associates pixels with wavelengths according to a lenslet model. Note that this is a non-linear model, as is noticeable in Figure \ref{fig:specpos}. Each pixel in this image has the value of the corresponding wavelength in micron. This model is just a good guess, the exact wavelength can be obtained by running the wavelength calibration. The seperation over two recipe of the positioning of the spectra and the wavelength calibration makes the positioning of the spectra much better. The raw calibration data for the spectra positioning recipe is obtained by illuminating the instrument with an external white calibration light source. A zoomed piece of the spectra positioning image is shown in Figure \ref{fig:specpos}
 
 \subsection{Wavelength calibration}
-The wavelength calibration recipe refines the wavelength of the different pixels, by using data that is obtained by illuminating the instrument with three or four external lasers, emitting at 0.9877, 1.1237, 1.3094 and 1.5451($\mu m$). The recipe tries to fit a spectrum on the positions that are determined in the spectra positioning recipe. Note that if a part of the spectrum does not fit on the detector, the recipe is unable to fit a spectrum, as illustrated in Figure \ref{fig:wavecal}.
+The wavelength calibration recipe refines the wavelength of the different pixels, by using data that is obtained by illuminating the instrument with three or four external lasers, emitting at 0.9877, 1.1237, 1.3094 and 1.5451$\mu m$ (the latter is only for IRDIFS\_EXT mode).  The recipe tries to fit a spectrum on the positions that are determined in the spectra positioning recipe. Note that if a part of the spectrum does not fit on the detector, the recipe is unable to fit a spectrum, as illustrated in Figure \ref{fig:wavecal}.
 
 \subsection{Science reduction}
-In the science reduction recipe the science frames are finally calibrated. This recipe needs all the output of the different calibration recipes as input alongside the raw science frames, in order to reduce the data properly and asign pixels of the detector to pixels of the result in the end: a 39x291x291 datacube.
+The science reduction recipe calibrates the science frames. This recipe needs all the output of the different calibration recipes as input alongside the raw science frames, in order to reduce the data properly and asign pixels of the detector to wavelength. This recipe produces in the end the final result: a 39x291x291 datacube.
 
 \section{Post-processing methods}
-After the basic science reduction, the disk around the star is still not visible to the naked eye, because of the bright stellar PSF that dominates the image. Post processing techniques, based on subtracting a model of the stellar PSF from the data were needed to recover the disk signal the best. Three different methods are used to make a model for the stellar PSF: angular differential imaging (ADI), spectral differential imaging (SDI) and reference star differential imaging (RDI). But before constructing a model for the PSF, the data needs to be centered correctly.
+After the basic science reduction, the disk around the star is still not visible to the naked eye, because of the bright star that dominates the image. Post processing techniques, based on subtracting a model of the PSF from the data were needed to recover the disk signal the best. Three different methods are used to make a model for the PSF: angular differential imaging (ADI), spectral differential imaging (SDI) and reference star differential imaging (RDI). But before constructing a model for the PSF, the data needs to be centered correctly.
 
 \subsection{Centering}
-The telescope is calibrated such that the star is about in the center of the image, but there is always a slight offset. Center frames can be used to determine the center of the images on a level of up to tenths of a pixel. These center frames are science frames containing four artificial satellite spots, created by the adaptive optics system, with the center of the star exactly in the middle of the four satellite spots, as illustrated in Figure \ref{fig:centerframe}. These center frames are usually taken before, during and after the science run to be able to correct for small changes of the position during the run.
+The telescope is calibrated such that the star is in the center of the image, but there is always a slight offset. Center frames can be used to determine the position of the center of the star in the data on a level of up to tenths of a pixel. These center frames are science frames containing four artificial satellite spots, created by the adaptive optics system, with the center of the star exactly in the middle of the four satellite spots, as illustrated in Figure \ref{fig:centerframe}. These center frames are usually taken before, during and after the science run to be able to correct for small changes of the position during the run.
 \begin{figure}[!t]
 \centering
 \begin{subfigure}{.48\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{centerframe}
-  \caption{one of the 39 wavelength slices of a reduced center exposure\\}
+  \caption{one of the 39 wavelength slices of a reduced center frame}
   \label{fig:centerframe}
 \end{subfigure}\hfill
 \begin{subfigure}{.48\textwidth}
@@ -452,10 +458,11 @@ The telescope is calibrated such that the star is about in the center of the ima
 
 \begin{figure}[!b]
 \centering
-\vspace{-0.4cm}
-\includegraphics[width = \textwidth]{resultmodel}
-\caption{\textbf{A:} one of the raw satellite spots, \textbf{B:} model of the satellite spot,\\ \textbf{C:} residual after subtracting the model of the data} 
+\vspace{-0.5cm}
+\includegraphics[trim={2cm 0cm 0cm 0cm},clip,width = 1.1\textwidth]{resultmodel}
+\caption{\textbf{A:} one of the raw satellite spots, \textbf{B:} model of the satellite spot, \textbf{C:} residual after subtracting the model of the data} 
 \label{fig:resultmodel}
+\vspace{-0.3cm}
 \end{figure}
 \bigskip
 Center frames are reduced in the same way as normal science frames, using the same dark and flat frames. The image is first smoothed with a gaussian with a standard deviation of 25 that filters all the high frequency noise out and leaves a clean image of the four satellite spots. After that a single gaussian is fitted over each of the four satellite spots and a model is created for the combined satellite spots. The position of the center can be determined from the positions of the fitted gaussians. 
@@ -476,38 +483,42 @@ ADI is a post-processing method that constructs a model for the stellar PSF by u
 
 \begin{wrapfigure}{R}{0.6\textwidth}
 \centering
-\includegraphics[width = 0.56\textwidth]{aonorm}
+\vspace{-7mm}
+\includegraphics[width = 0.63\textwidth]{aonorm}
 \caption{Relative flux of the different datacubes over time. This is used to normalize the data between different exposures.}
 \label{fig:aonorm}
+\vspace{-5mm}
 \end{wrapfigure}
 
 Since the data was taken with more than an hour between the first and last exposure, the flux of the object on the detector changes. This is due to changes of conditions in the sky during the night and in the performance of the AO system. To correct for this, the median amount of flux in an annulus that grows linearly in size with wavelength is measured. This annulus has an inner radius that is located in each frame just outside the outer ring of flux that is created by the coronagraph. Since the PSF scales with $ \propto\lambda/D$, the radii of the annulus has to change for different wavelengths, to measure the flux in the same region of the PSF. The measured flux over wavelength is illustrated in Figure \ref{fig:aonorm}. With this relative flux the PSF of the star in different exposures can be normalized so that it is correctly subtracted in each frame in the procedure. After the subtraction and before combination of the different frames, the normalization is reversed, so that the disk signal is not amplified in certain frames.
 
 \subsection{Spectral differential imaging}
-\begin{figure}[h]
-\centering 
-\includegraphics[trim={0cm 1cm 0cm 3cm},clip,width = \textwidth]{sdiexplanation}
+\begin{figure}[!t]
+\centering
+\vspace{-7mm}
+\includegraphics[trim={0cm 1cm 0cm 3cm},clip,width = 1\textwidth]{sdiexplanation}
 \caption{Explanation of the SDI procedure. Data of different wavelength channels have a different PSF size, while the disk signal is fixed. Median combination of the different spectral channels, after scaling all the images such that the PSFs are the same size in each channel, gives a model for the stellar PSF with the least amount of disk signal in it. This model is subtracted from the data, after which the images are rescaled to their initial size, which results in an image of the disk with high SNR after median combination of the different channels.} 
 \label{fig:sdiexplanation}
+\vspace{-3mm}
 \end{figure}
 
-SDI is a post-processing method that constructs a model for the PSF of the star by use of the wavelength dependency of the PSF. The PSF of a star scales with $ \propto\lambda/D$, which means that the resolution and hence the scale of the PSF is directly proportional to the wavelength. We expect therefore that the PSF of the star increases linearly with wavelength. The signal of the disk however does not. This means that this should leave us with a model for the PSF, after taking a median over all 39 spectral channels, that {\parfillskip0pt\par}
+SDI is a post-processing method that constructs a model for the PSF of the star by use of the wavelength dependency of the PSF. The PSF of a star scales with $ \propto\lambda/D$, which means that the resolution and hence the scale of the PSF is directly proportional to the wavelength. We expect therefore that the PSF of the star increases linearly with wavelength. The signal of the disk however does not. This means that this should leave us with a model for the PSF, after taking a median over all 39 spectral channels, that does contain the least amount of disk signal. A detailed explanation is also given in Figure \ref{fig:sdiexplanation}.
+\bigskip
 
+In order to check if the scale of the PSF is directly proportional to the wavelength, we measured the distance between the different artificially created satellite spots in the 
+{\parfillskip0pt\par}
 
 \begin{wrapfigure}{!bR}{0.6\textwidth}
 \centering
-%\vspace*{-0.5cm}
-\includegraphics[width = 0.58\textwidth]{specklegrowth}
+\vspace{-0.5cm}
+\includegraphics[width = 0.63\textwidth]{specklegrowth}
 \caption{Relative growth in the size of the PSF of the star versus wavelength. Note that the data follows almost exactly the expected slope.}
 \label{fig:specklegrowth}
-\vspace*{-0.5cm}
+\vspace{-1.5cm}
 \end{wrapfigure}
 
 \noindent
-does contain the least amount of disk signal. A detailed explanation is also given in Figure \ref{fig:sdiexplanation}.
-\bigskip
-
-In order to check if the scale of the PSF is directly proportional to the wavelength, we measured the distance between the different artificially created satellite spots in the center image, using the same model as in the frame centering procedure. The result of this measurement and the expected slope are plotted in Figure \ref{fig:specklegrowth}. This result indicates that the size of the PSF is indeed directly proportional to the wavelength, which means that the throughput of the instrument does not spatially distort different wavelengths and that the wavelength calibration and positioning of the spectra is done correctly.
+center image, using the same model as in the frame centering procedure. The result of this measurement and the expected slope are plotted in Figure \ref{fig:specklegrowth}. This result indicates that the size of the PSF is indeed directly proportional to the wavelength, which means that the throughput of the instrument does not spatially distort different wavelengths and that the wavelength calibration and positioning of the spectra is done correctly.
 \bigskip
 
 Just as in the angular differential imaging, the data needs to be normalized before we take the median in order to get a good model of the PSF in each spectral channel. Since the throughput of the atmosphere, the instrument and the common path of the telescope is wavelength dependent, we had to normalize the flux in the different spectral channels. Our first try was to average the amplitude of the four fitted gaussians over the satellite spots in the center frames. Secondly, we tried to measure the flux in a fixed annulus around the center, after scaling the different spectral channels so that the PSFs lined up. The different scaling factors are illustrated in Figure \ref{fig:throughputnorm}.
@@ -515,10 +526,11 @@ Just as in the angular differential imaging, the data needs to be normalized bef
 
 \begin{wrapfigure}{R}{0.6\textwidth}
 \centering
-\includegraphics[width = 0.57\textwidth]{allnormalization}
+\vspace{-12mm}
+\includegraphics[width = 0.66\textwidth]{allnormalization}
 \caption{The normalization factors used to normalize the data between different spectral channels. In green the expected correction due to water absorption in the atmosphere.}
 \label{fig:throughputnorm}
-\vspace{-5mm}
+\vspace{-2mm}
 \end{wrapfigure}
 The normalization factor as derived in the second way mentioned, differed slightly from the one using the center frames, especially at shorter wavelengths. This normalization left us with smaller subtraction residuals. The dips in the normalization factors line up with the expected dips in the throughput of the atmosphere due to absorbtion, since there is a big abundance of strong absorbtion lines of water in that part of the spectrum. The general trend is a decreasing flux over wavelength. The SED of the star peaks in the H band, as discussed in section 2.2 and illustrated in Figure \ref{fig:SED} \citep{Padgett2008}. This would indicate that the total incoming flux of the star should slighty increase over the range of the IFS. The fact that we see a decrease in flux instead is definitely due to wavelength dependencies in the throughput of the instrument as illustrated in Figure \ref{fig:systemthrougput}.
 \bigskip
@@ -531,7 +543,8 @@ RDI is a post-processing method that uses the PSF of a reference star that is co
 
 \begin{wrapfigure}{R}{0.6\textwidth}
 \centering
-\includegraphics[width = 0.57\textwidth]{normfac}
+\vspace{-7mm}
+\includegraphics[width = 0.61\textwidth]{normfac}
 \caption{The normalization factor against the range of the used annulus, that are used to scale the PSF of the reference star, before subtraction it from the data.}
 \label{fig:rdinorm}
 \vspace{-5mm}
@@ -564,7 +577,7 @@ The position and shape of the disk signal in the data after the ADI reduction do
 
 \begin{figure}[htb]
 \centering
-\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = \textwidth]{ADIwavelplot}
+\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = 1.01\textwidth]{ADIwavelplot}
 \caption{Reduction of IFS ADI data. From left to right: \textbf{a:} median of 13 channels (0.96-1.07$\mu m$) \textbf{b:} median of 13 channels (1.08-1.21 $\mu m$) \textbf{c:} median of 13 channels (1.22-1.33 $\mu m$) \textbf{d:} median of the entire YJ range}
 \label{fig:ADIcolor}
 \end{figure}
@@ -589,24 +602,24 @@ A2, the arc just inside R2, is visible as well, but its shape has changed with r
 The innermost disk structure (I1) is much more prominent in the SDI data than in the ADI data. It is clearly visible that this has a ringlike shape over a range of almost $180^o$. The closed circular ring at an angular separation of 0.15" is an artefact of the reduction method, probably due to the structure in the raw signal that is caused by the coronagraph, as displayed in Figure \ref{fig:reduceddata}. Furthermore, the SDI image does show much less large scale structures in the background than the ADI image. This could either mean that these structures are created during the ADI procedure, but cancelled more efficiently in the SDI data, or that this is astrophysical data which is picked up in the ADI data, rather not in the SDI data.
 \bigskip
 
-From Figure \ref{fig:SDIcolor} it becomes clear that the signal of the disk increases with increasing wavelength, just as the signal after applying ADI does. The disk signal being positive at longer wavelengths and negative at shorter wavelengths is an artefact of the classical SDI routine. {\parfillskip0pt\par}
+From Figure \ref{fig:SDIcolor} it becomes clear that the signal of the disk increases with increasing wavelength, just as the signal after applying ADI does. The disk signal being positive at longer wavelengths and negative at shorter wavelengths is an artefact of the classical SDI routine. Taking just the median over wavelength per pixel leaves some signal {\parfillskip0pt\par}
 
 \begin{figure}[htb]
 \centering
-\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = \textwidth]{SDIwavelplot}
+\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = 1.01\textwidth]{SDIwavelplot}
 \caption{Reduction of IFS SDI data. From left to right: \textbf{a:} median of the first 13 channels (0.96-1.07$\mu m$) \textbf{b:} median of 13 channels (1.08-1.21 $\mu m$) \textbf{c:} median of 13 channels (1.22-1.33 $\mu m$) \textbf{d:} median of the entire YJ range}
 \label{fig:SDIcolor}
 \end{figure}
 
 \noindent
-Taking just the median over wavelength per pixel leaves some signal of the disk in the model of the PSF, causing some areas to be over-subtracted and other areas to be under-subtracted. This changes over wavelength since the signal of the disk in the model for the PSF in the SDI routine is rescaled corresponding to the wavelength.
+ of the disk in the model of the PSF, causing some areas to be over-subtracted and other areas to be under-subtracted. This changes over wavelength since the signal of the disk in the model for the PSF in the SDI routine is rescaled corresponding to the wavelength.
 \clearpage
 
 \section{RDI}
 \begin{wrapfigure}{R}{0.5\textwidth}
 \vspace{-6mm}
 \centering
-\includegraphics[width=\linewidth]{RDI_tot_smallimcon}
+\includegraphics[width=1.02\linewidth]{RDI_tot_smallimcon}
 \caption{The median RDI image of all exposures over the whole Y-J wavelength range of RX J1615}
 \label{fig:RDI_tot}
 \vspace{-4mm}
@@ -619,14 +632,13 @@ The variations in the disk surface brightness over wavelength are illustrated in
 
 \begin{figure}[htb]
 \centering
-\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = \textwidth]{RDI_color_imcon}
+\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width = 1.01\textwidth]{RDI_color_imcon}
 \caption{Reduction of IFS RDI data. From left to right: \textbf{a:} median of 13 channels (0.96-1.07$\mu m$) \textbf{b:} median of 13 channels (1.08-1.21 $\mu m$) \textbf{c:} median of 13 channels (1.22-1.33 $\mu m$) \textbf{d:} median of the entire YJ range}
 \label{fig:RDIcolor}
 \end{figure}
 
 \chapter{Spectral analysis}
-\section{Morphology changes in the disk}
-
+\section{Morphology changes of the disk}
 The resulting morphology of the disk in the data is different, depending on the post-processing techniques that are used. In the ADI image, illustrated in \ref{fig:aditot}, there is a clear dip in the signal visible at the point where the ring approaches the minor axis of the fitted ellipse. To quantify this change in flux throughout the ring, we measured the flux in a circular aperture with a radius of 0.067", the FWHM of the ring, and dragged it over the whole ring. This analysis is shown in Figure \ref{fig:coloroverangle}. This figure illustrates that the ring in the ADI image approaches zero at an azimuthal angle of about $50^o$ in the different wavelength bins. The signal in the SDI image is much more constant throughout the ring. 
 \bigskip
 
@@ -648,8 +660,9 @@ The flux of the signal in the RDI reduction has also a clear dip at about the sa
 The innermost disk structure is much better recovered in the SDI image. On small radii from the center of rotation, the signal has not moved enough over the detector if the field rotates with $4^o$ per exposure to do ADI, which means that the signal is distorted. Since this structure is not that large, it does not show up too much in the model in the SDI prodecedure, which means that it looks cleaner in the final SDI image.
 \bigskip
 
-\section{Brightness changes throughout disk}
-As already visible in Figure \ref{fig:coloroverangle} and worked out further in Figure \ref{fig:coloroverpos}, where the amount of disk signal is plotted against wavelength in the three different regions as defined in Figure \ref{fig:regions}, the amount of signal does change over wavelength. A linear trend is visible in all three reductions. The signal in the SDI image fluctuates much over wavelength in region 1, {\parfillskip0pt\par}
+\section{Brightness changes throughout the disk}
+As already visible in Figure \ref{fig:coloroverangle} and worked out further in Figure \ref{fig:coloroverpos}, where the amount of disk signal is plotted against wavelength in the three different regions as defined in Figure \ref{fig:regions}, the amount of signal does change over wavelength. A linear trend is visible in all three reductions. The signal in the SDI image fluctuates much over wavelength in region 1, which probably is because of edge effects and the unexpected negative values at shorter wavelengths, as shown in Figure \ref{fig:SDIcolor}. The RDI data shows multiple times a peculiar bump at short wavelengths. This is probably because of degrading weather condition during the aquiring of reference star data, which makes the shape of the PSF of the reference star less stable. Since shorter wavelengths have a lower Strehl ratio, the degrading weather condition will affect the end result more at the lower end of the spectrum.
+\bigskip
 
 \begin{figure}[!t]
 \centering
@@ -660,36 +673,39 @@ As already visible in Figure \ref{fig:coloroverangle} and worked out further in 
 \vspace{-0.5cm}
 \end{figure}
 
-\begin{wrapfigure}{R}{0.5\textwidth}
-\vspace{-0mm}
+
+It is unclear whether or not we could trust this wavelength dependence of the disk brightness. The guide star is faint (R = 11.21 mag) \citep{Makarov2007}, which means that the Strehl ratio in the R-band was very poor ($SR_R < 3$\%\citep{DeBoer2016}). A poor Strehl ratio means that the performance of SAXO is not optimal, meaning that structures can be smoothed out. Since the performance of SAXO gets better for longer wavelengths and signal is present close to R2, it is impossible to say if the increase in brightness over wavelength is partly astrophysical or just an increased SAXO performance. Some signal could be washed out of the disk signal due to the low resolution. If the wavelength dependence is astrophysical, it could be caused by variations in the grain size or the chemistry throughout the disk. %{\parfillskip0pt\par}
+\bigskip
+
+\begin{wrapfigure}{L}{0.6\textwidth}
+\vspace{-2mm}
 \centering
-\includegraphics[width=1\linewidth]{ADIregions}
+\includegraphics[width=0.9\linewidth]{ADIregions}
 \caption{The ADI image over the whole YJ range, with the three marked regions between respectively -$10^o$ and $30^o$ for region 1, $30^o$ and $70^o$ for region 2 and $70^o$ and $110^o$ for region 3, that are used to compare the local features in the ring}
 \label{fig:regions}
 \vspace{-9mm}
 \end{wrapfigure}
 
-\noindent
-which probably is because of edge effects and the unexpected negative values at shorter wavelengths, as shown in Figure \ref{fig:SDIcolor}. The RDI data shows multiple times a peculiar bump at short wavelengths. This is probably because of degrading weather condition during the aquiring of reference star data, which makes the shape of the PSF of the reference star less stable. Since shorter wavelengths have a lower Strehl ratio, the degrading weather condition will affect the end result more at the lower end of the spectrum.
+A better analysis of A2 and the innermost disk component could indicate if this change in surface brightness is astrophysical, since the surface brightness of these structures should change as well if the mechanism behind this is the increase in performance of SAXO at longer wavelengths. Radiative transfer models could be used as well to find an answer whether we are looking at a true astrophysical change in surface brightness with increasing wavelength or a result of the bad Strehl ratio, but that is beyond the scope of this project. 
 \bigskip
 
-It is unclear whether or not we could trust this wavelength dependence of the disk brightness. The guide star is faint (R = 11.21 mag) \citep{Makarov2007}, which means that the Strehl ratio in the R-band was very poor ($SR_R < 3$\%\citep{DeBoer2016}). A poor Strehl ratio means that the performance of SAXO is not optimal, meaning that structures can be smoothed out. Since the performance of SAXO gets better for longer wavelengths and signal is present close to R2, it is impossible to say if the increase in brightness over wavelength is partly astrophysical or just an increased SAXO performance. Some signal could be washed out of the disk signal due to the low resolution. If the wavelength dependence is astrophysical, it could be caused by variations in the grain size or the chemistry throughout the disk. %{\parfillskip0pt\par}
-\bigskip
+Calculating the exact error on the data points is difficult, since it is hard to determine how much of the signal is smoothed out due to the poor Strehl ratio and how much self-subtraction is going on during the different procedures. This{\parfillskip0pt\par}
 
 \begin{wrapfigure}{R}{0.6\textwidth}
 \vspace{-6mm}
 \centering
-\includegraphics[width=1\linewidth]{totflux}
+\includegraphics[width=0.85\linewidth]{totflux}
 \caption{The expected disk brightness over wavelength, together with the results after applying the different post-processing methods, which gives a measure for the error.}
 \label{fig:totflux}
-\vspace{-4mm}
+\vspace*{-6mm}
 \end{wrapfigure}
 
-%\noindent
-A better analysis of A2 and the innermost disk component could indicate if this change in surface brightness is astrophysical, since the surface brightness of these structures should change as well if the mechanism behind this is the increase in performance of SAXO at longer wavelengths. Radiative transfer models could be used as well to find an answer whether we are looking at a true astrophysical change in surface brightness with increasing wavelength or a result of the bad Strehl ratio, but that is beyond the scope of this project.
+\noindent
+ is why error bars are not included in the figures. We know that all the data comes from the same dataset, which means that the signal of the disk is always the same no matter what reduction method is used. The error on the astrophysical brightness over wavelength is hence at least as much as the difference between the different reduction methods, as illustrated in Figure \ref{fig:totflux}. As gets clear in this image, the disk in the RDI image seems much more blue than in the ADI and SDI image. This is probably{\parfillskip0pt\par}
 \bigskip
 
-Calculating the exact error on the data points is difficult, since it is hard to determine how much of the signal is smoothed out due to the poor Strehl ratio and how much self-subtraction is going on during the different procedures. This is why error bars are not included in the figures. We know that all the data comes from the same dataset, which means that the signal of the disk is always the same no matter what reduction method is used. The error on the astrophysical brightness over wavelength is hence at least as much as the difference between the different reduction methods, as illustrated in Figure \ref{fig:totflux}. As gets clear in this image, the disk in the RDI image seems much more blue than in the ADI and SDI image. This is probably due to the degrading weather conditions during the reference star run, meaning that the PSF is less comparable with the stellar PSF of the object. This change is much more drastic in shorter wavelength, since the Strehl ratio is worse at lower wavelength, which means that the disk signal there is locally stronger contaminated with residual stellar signal which makes it appear to be blue.
+\noindent
+due to the degrading weather conditions during the reference star run, meaning that the PSF is less comparable with the stellar PSF of the object. This change is much more drastic in shorter wavelength, since the Strehl ratio is worse at lower wavelength, which means that the disk signal there is locally stronger contaminated with residual stellar signal, which makes it appear to be blue.
 \bigskip
 
 \begin{wrapfigure}{R}{0.6\textwidth}
@@ -700,6 +716,7 @@ Calculating the exact error on the data points is difficult, since it is hard to
 \label{fig:slopedifreg}
 \vspace{-4mm}
 \end{wrapfigure}
+
 A difference in the color in different regions of the outermost ring could be a sign that the grain properties are not the same in the whole disk. To measure the exact slope of the increase in surface brightness over wavelength throughout the ring, which is an indication of the color, we should discard the data that suffers from over subtraction and self-subtraction and use only the data that we can trust in the different regions. As mentioned earlier, the ADI image has much self-subtraction where the ring approaches the minor axis and the RDI image has more over subtraction close to the center where small differences between the PSF of the reference star and the object affect the end results much more drastically. In the SDI procedure however, the signal moves perpendicular to the ring on the minor axis by scaling the image, meaning that the SDI result has the least amount of self-subtraction in this region. This means that we can trust the SDI image the best in region 2. SDI has to deal with more self-subtraction on the edges and is plagued by edge effects due to the fact that after scaling the images, the edges have significantly less data, which gives a lower SNR in the resulting image. This means that we could better discard the SDI data out of the analysis of region 1 and region 3. The RDI data does behave different in region 3 than both the other regions and the ADI and SDI data, probably due to a combination of a lower SNR ratio in that region in all the data and the degrading weather conditions during the aquiring of the reference star data, which affects short wavelengths significantly more.
 \bigskip
 
@@ -715,10 +732,10 @@ As illustrated in Figure \ref{fig:slopedifreg}, the slope of flux against wavele
 \vspace{-8mm}
 \end{wrapfigure}
 
-After we got good results on the dataset of RXJ1615, we ran the same program over a dataset of HD97048. HD97048 is a Herbig Ae star, which means that it is a young intermediate mass star. It harbors a well known transition disk that has been previously resolved by \citep{Ginski2016} with SPHERE IRDIS. The disk is highly structured showing multiple rings out to ~340. The rings of this object that were best visible in IRDIS data are mostly located outside the FOV of the IFS, but the IFS classical ADI reduction appears to have higher signal-to-noise in the detected disk structures, as illustrated in Figure \ref{fig:hdadi}.
+After we got good results on the dataset of RXJ1615, we ran the same program over a dataset of HD97048. HD97048 is a Herbig Ae star, which means that it is a young intermediate mass star. It harbors a well known transition disk that has been previously resolved by \citep{Ginski2016} with SPHERE IRDIS. The disk is highly structured showing multiple rings out to $\sim$340 AU. The rings of this object that were best visible in IRDIS data are mostly located outside the FOV of the IFS, but the IFS classical ADI reduction appears to have higher signal-to-noise in the detected disk structures, as illustrated in Figure \ref{fig:hdadi}.
 \bigskip
 
-In the IFS classical ADI reduction, the inner disk looks very similar to the polarimetric IRDIS image in \citep{Ginski2016}, which has basically no self subtraction, which means that we can trust the morphology of the disk in the IFS ADI reduction. In the IFS data, an additional feature is noticeable, that is not described in the initial paper. A spiral arm is visible, launching in the west and extending toward the south, as highlighted in Figure \ref{fig:hdadi}. This spiral arm could be a sign of ongoing planet formation in the disk, since the spiral arm is probably created by interactions between the inner disk and a planet.
+In the IFS classical ADI reduction, the inner disk looks very similar to the polarimetric IRDIS image in \citep{Ginski2016}, which has basically no self subtraction. This means that we can trust the morphology of the disk in the IFS ADI reduction. In the IFS data, an additional feature is noticeable, that is not described in the initial paper. A spiral arm is visible, launching in the west and extending toward the south, as highlighted in Figure \ref{fig:hdadi}. This spiral arm could be a sign of ongoing planet formation in the disk, since the spiral arm is probably created by interactions between the inner disk and a planet.
 \bigskip
 
 One of the reasons why this feature is better visible in IFS data than in IRDIS data could be that IFS uses a broader wavelength range than IRDIS, since this data was taken in the narrow H band filter, so the IFS may overall have received more light. Another reason could be that the scattering efficiency of the grains in the spiral arm is higher at shorter wavelength, which are included in IFS data, but not in IRDIS data. This could also be the reason that the inner disk also seems to be stronger in the IFS data than in IRDIS. It is also possible that the centering routine was better than the standard recipe from the ESO pipeline, which is used to center the IRDIS data, since for a tenuous structure like this, centering is very important. 
